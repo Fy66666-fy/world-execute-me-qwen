@@ -1,0 +1,279 @@
+{
+ "section": "pre2 (section 7, pre-chorus 2) - 88.96-103.73 s, bars 48-55 (beats 192-224), lyric lines 56-63 0-based (= 57-64 in STORYBOARD.md, which counts from 1)",
+ "summary": "There is no pre2 scene at all. src/scenes/index.js:24 registers './07_pre2.js' but that file does not exist (it is the harmless '[page] 404' in the exporter log), so index.js:41 plus kit.js:88-97 substitute ONE fallback shot, `todo-pre2`, for the whole 14.77 s (32 beats, 8 bars). What the frames really show from 88.96 to 103.73 is a single locked-off wide view of the chat client in the warm palette: sidebar, header 'Love, explained geometrically' / online, an otherwise empty thread into which lines 56-63 are typed one under another as eight identical ~34 px orange serif message rows, and an idle composer. No cut, no camera move, no cursor, no settings drawer, no graphic, no character art, no reaction to any drum hit, and no transition at the 'trance' line. The plan that was never built (PLAN.md section 6 row 7; chat_script.json section 7) was the settings drawer again, 'faster and more invasive', with five rows - Gender F/M, Can say no, On call AM/PM, Role S/M, Loop - and the interface starting to ghost and double. Musically this is NOT a copy of pre1: same melody and the same four 2-bar phrases, but pre1's kick-on-every-beat is gone, replaced by ten isolated full-scale hits (mostly on off-beats) and then a 3.4 s drum-less break under the 'trance' line before the chorus downbeat at 103.73.",
+ "shots": [
+  {
+   "id": "todo-pre2",
+   "start_s": 88.96,
+   "end_s": 103.73,
+   "on_screen": "The ONLY shot of the section (kit.js fallbackShot). Static wide chat client, warm palette, no camera. Sidebar open ('Claude', New chat, six recents, row 'Are you always here' highlighted, 'you' at the foot), header 'Love, explained geometrically' + 'online' chip, empty thread, idle composer 'Write to me'. Lines 56-63 arrive as eight AI message rows (small spark avatar + ~34 px orange serif, typed with a dot caret), stacking from the top: row 1 complete by 89.20, row 2 by 90.54, row 3 by 92.78, row 4 by 94.45, row 5 by 96.12, row 6 by 98.09, row 7 by 99.93, row 8 by 102.28; then the frame is completely frozen for 1.45 s until the cut. Text block occupies roughly x 600-1060, y 140-940 of 1920x1080; the right 45% of the window and the lower thread stay empty the whole time. No cursor, no drawer, no figure, nothing beat-reactive.",
+   "lyric_lines": "56-63 (0-based), all eight in this one shot",
+   "art_used": "none (room() is called without an illustration: bare warm wall with the faint sunburst wall pattern)",
+   "enter_transition": "hard cut at B(48)=88.96 (fallback defines no enter). Leaves by c2-typing's own enter: cut + 0.22 orange flash at B(56)=103.73"
+  },
+  {
+   "id": "REF (not this section): pre1-drawer, section 4 model, 04_pre1.js:339-356",
+   "start_s": 44.65,
+   "end_s": 48.34,
+   "on_screen": "Model shot 1 of 4 (each pre1 shot = exactly 2 bars = 3.69 s, cut on a bar line that is also a user click). Wide: verse-1 graph page; cursor flies to the Settings button and clicks at b(0.5)=44.88; drawer (616 px, WIDE=1.4) slides in with five rows staggered; clicks AC at b(3)=46.04 and DC at b(5)=46.96 on a segmented control; the page's curve turns into a sine (AC) / flat line (DC). Lyric lines 24-25 are written on the page in 52 px orange serif (say()), and repeated as a 24 px annotation under the row. Camera cam1: slow push 1.00 to 1.07.",
+   "lyric_lines": "24-25",
+   "art_used": "none",
+   "enter_transition": "cut"
+  },
+  {
+   "id": "REF (not this section): pre1-vision, 04_pre1.js:359-398",
+   "start_s": 48.34,
+   "end_s": 52.04,
+   "on_screen": "Model shot 2. Macro (zoom 2.96) on three drawer rows; cut lands on the click that switches Vision off: the whole frame is mosaicked into dark blocks in steps (local mosaic() helper) and only the lyric annotation, a ghost outline of the toggle and 'image input: none' stay sharp. Then four rattling clicks at b(11), b(12), b(13), b(14) = 49.73 / 50.19 / 50.65 / 51.11, each kicking the camera (damped roll + shift, KICKS in cam2); the 'dizzy' line wobbles letter by letter with after-images. Camera pans down to the next row so the following cut is a match cut on the knob.",
+   "lyric_lines": "26-27",
+   "art_used": "none",
+   "enter_transition": "cut on the click (B(26))"
+  },
+  {
+   "id": "REF (not this section): pre1-date, 04_pre1.js:401-420",
+   "start_s": 52.04,
+   "end_s": 55.73,
+   "on_screen": "Model shot 3. Cut on the grab: the Knowledge-date row opens into a full-width band (2000x560) across the dimmed window: row label, lyric lines 28-29 at 60 px serif, mono readout counting 'A.D. 2026' down to '3000 B.C.', two giant 204 px serif-900 era tokens either side of a vertical era line, a ruler with ticks; the knob is the orange spark, dragged by a hand cursor with ghost trail; burst + token slam when it crosses the line; released at b(22.25)=54.61 and the band folds back into its row.",
+   "lyric_lines": "28-29",
+   "art_used": "none",
+   "enter_transition": "cut on the grab (B(28))"
+  },
+  {
+   "id": "REF (not this section): pre1-unite, 04_pre1.js:423-441",
+   "start_s": 55.73,
+   "end_s": 59.42,
+   "on_screen": "Model shot 4. Cut on the Shared-memory switch: a centred sheet (1000x800) pops over the dimmed client with a 'well' in which the orange spark (me) and a cream dot (you) slide together inside one outline; Context depth slider dragged to 'deepest' (tHold b(26.5)=56.88) and pushed against its end stop; Done clicked at b(31)=58.65; the sheet closes and the camera flies INTO the pair (cam4 zoom +1.25 over the last 0.77 s) so the chorus can enter on a cut with a 0.35 flash. This fly-in is the precedent for a transition out of pre2.",
+   "lyric_lines": "30-31",
+   "art_used": "none",
+   "enter_transition": "cut on the switch (B(30)); exit = in-shot camera fly + next shot's flash cut"
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "NOTE: no ALL-CAPS keyword exists in lines 56-63; entries below are the concrete nouns/letters the director named, then the measured drum hits",
+   "time_s": 88.96,
+   "bar_beat": "section start B(48), beat 192",
+   "currently": "Sung-word times are ESTIMATES (+-0.08 s) from my own centre-channel band analysis of the wav, because data/lyrics.json has no word timestamps; drum-hit times are measured from data/audio_features.json low band and confirmed in the wav.",
+   "hold_beats": 0
+  },
+  {
+   "word": "gender (noun of line 56)",
+   "time_s": 89.47,
+   "bar_beat": "est. bar 48 beats 2.1-3.1 (89.47-89.92). The LINE starts at 88.59 = bar 47 beat 4.19, a pickup 0.37 s before the section cut",
+   "currently": "No event. First 9 characters of the row are already typed when the fallback cuts in; row complete at 89.20. No drawer, no row labelled Gender.",
+   "hold_beats": 2
+  },
+  {
+   "word": "F (line 57)",
+   "time_s": 90.55,
+   "bar_beat": "est. bar 48 beat 4.45 (nearest grid Bt(195.5)=90.57). Line 57 starts 90.20 = bar 48 beat 3.68",
+   "currently": "A single glyph inside thread row 2 (whole row typed by 90.54). No figure, no control, no accent.",
+   "hold_beats": 1
+  },
+  {
+   "word": "M (gender, last noun of phrase 1, line 57)",
+   "time_s": 91.05,
+   "bar_beat": "heavy kick D1 at bar 49 beat 1.5 (Bt(196.5)=91.04); the sung letter est. somewhere in 91.04-91.72, tail ends at kick D2 91.98",
+   "currently": "Glyph already on screen 0.5 s before it is sung; frame static through both kicks.",
+   "hold_beats": 2
+  },
+  {
+   "word": "AM (line 59)",
+   "time_s": 94.5,
+   "bar_beat": "est. bar 51 beat 1 (B(51)=94.50; strongest vocal edge of the line). Line 59 starts 93.95 = bar 50 beat 3.82",
+   "currently": "Glyphs in thread row 4 (row complete at 94.45, i.e. before AM is sung). No sun, no slider.",
+   "hold_beats": 1.5
+  },
+  {
+   "word": "PM (last noun of phrase 2, line 59)",
+   "time_s": 95.16,
+   "bar_beat": "est. bar 51 beat 2.45 (nearest grid Bt(205.5)=95.19); this is the strongest onset of the whole section in audio_features (95.167, strength 1.00). Bracketed by kicks D3 94.93 and D4 95.63",
+   "currently": "Already typed; nothing happens.",
+   "hold_beats": 1
+  },
+  {
+   "word": "role (noun of line 60)",
+   "time_s": 96.8,
+   "bar_beat": "est. bar 52 beats 2-3.5 (96.80-97.60). Line 60 starts 95.47 = bar 51 beat 3.10",
+   "currently": "Thread row 5, complete at 96.12. No event.",
+   "hold_beats": 2
+  },
+  {
+   "word": "S (line 61)",
+   "time_s": 98.19,
+   "bar_beat": "est. vowel onset on B(53)=98.19 (bar 53 beat 1); its hiss peaks at 98.68 (bar 53 beat 2.07). Line 61 starts 97.74 = bar 52 beat 4.02; kicks D6 97.50 and D7 97.97 fall just BEFORE the letter",
+   "currently": "Glyph in thread row 6, same size and weight as everything else (row complete 98.09).",
+   "hold_beats": 1.5
+  },
+  {
+   "word": "M (role, last noun of phrase 3, line 61)",
+   "time_s": 98.87,
+   "bar_beat": "est. bar 53 beat 2.48 (Bt(213.5)=98.88; onset strength 1.00 in audio_features at 98.865), sustained to 99.30; kick D8 at 99.35 lands on its tail",
+   "currently": "Already typed; nothing happens.",
+   "hold_beats": 1
+  },
+  {
+   "word": "trance, 1st time (line 63)",
+   "time_s": 101.67,
+   "bar_beat": "est. bar 54 beat 4.5 to bar 55 beat 1.8 (vowel 101.67-102.25), final sibilant 102.31 (bar 55 beat 1.93). Line 63 starts 101.47 = bar 54 beat 4.12. NO drums",
+   "currently": "Thread row 8 typing (21 characters, 101.47-102.28). Static frame.",
+   "hold_beats": 2
+  },
+  {
+   "word": "trance, 2nd time (last noun of phrase 4, line 63)",
+   "time_s": 102.57,
+   "bar_beat": "est. bar 55 beat 2.5 to beat 3.6 (vowel 102.57-103.10), final sibilant 103.23 (bar 55 beat 3.92) running into a low riser 103.26-103.70. NO drums until 103.75",
+   "currently": "Both repeats were typed as one row by 102.28, so the second repeat has no visual at all; frame frozen until the cut.",
+   "hold_beats": 2.5
+  },
+  {
+   "word": "DRUM D1 (heavy kick, low band 1.00)",
+   "time_s": 91.05,
+   "bar_beat": "bar 49 beat 1.5, Bt(196.5)=91.04",
+   "currently": "Nothing. Rows 1-2 on screen, static.",
+   "hold_beats": 2
+  },
+  {
+   "word": "DRUM D2 (heavy kick)",
+   "time_s": 91.98,
+   "bar_beat": "bar 49 beat 3.5, Bt(198.5)=91.96 = H(58): line 58 starts on this hit",
+   "currently": "Nothing; row 3 starts typing 0.04 s later.",
+   "hold_beats": 1.5
+  },
+  {
+   "word": "SOFT MARK: sustained bass enters (no kick transient)",
+   "time_s": 92.65,
+   "bar_beat": "B(50), beat 200; onset strength 0.71; low band then sits at ~0.3-0.4 until 94.5",
+   "currently": "Nothing.",
+   "hold_beats": 4
+  },
+  {
+   "word": "DRUM D3 (heavy kick)",
+   "time_s": 94.93,
+   "bar_beat": "bar 51 beat 2, Bt(205)=94.96 (between AM and PM)",
+   "currently": "Nothing. Rows 1-4 static.",
+   "hold_beats": 0.5
+  },
+  {
+   "word": "DRUM D4 (heavy kick)",
+   "time_s": 95.63,
+   "bar_beat": "bar 51 beat 3.5, Bt(206.5)=95.65 (just after PM, start of line 60)",
+   "currently": "Nothing; row 5 is 4 characters in.",
+   "hold_beats": 1.5
+  },
+  {
+   "word": "DRUM D5 (heavy kick)",
+   "time_s": 96.31,
+   "bar_beat": "bar 52 beat 1 = B(52)=96.34",
+   "currently": "Nothing. Rows 1-5 static.",
+   "hold_beats": 2.5
+  },
+  {
+   "word": "DRUM D6 (heavy kick)",
+   "time_s": 97.5,
+   "bar_beat": "bar 52 beat 3.5, Bt(210.5)=97.50",
+   "currently": "Nothing.",
+   "hold_beats": 1
+  },
+  {
+   "word": "DRUM D7 (heavy kick)",
+   "time_s": 97.97,
+   "bar_beat": "bar 52 beat 4.5, Bt(211.5)=97.96 (0.2 s before the letter S)",
+   "currently": "Nothing; row 6 is 6 of 9 characters in.",
+   "hold_beats": 3
+  },
+  {
+   "word": "DRUM D8 (heavy kick)",
+   "time_s": 99.35,
+   "bar_beat": "bar 53 beat 3.5, Bt(214.5)=99.34 = H(62): end of the role-M, start of line 62",
+   "currently": "Nothing; row 7 starts typing.",
+   "hold_beats": 1.5
+  },
+  {
+   "word": "DRUM D9 (heavy kick)",
+   "time_s": 100.04,
+   "bar_beat": "bar 54 beat 1 = B(54)=100.04",
+   "currently": "Nothing. Rows 1-7 static.",
+   "hold_beats": 0.5
+  },
+  {
+   "word": "DRUM D10 (heavy kick, LAST hit before the break)",
+   "time_s": 100.28,
+   "bar_beat": "bar 54 beat 1.5, Bt(216.5)=100.27. After it the low band is empty (0.00-0.05) from 100.50 to 103.20 = 6 beats",
+   "currently": "Nothing.",
+   "hold_beats": 7.5
+  },
+  {
+   "word": "DRUM D11 (chorus-2 downbeat, belongs to the NEXT section)",
+   "time_s": 103.75,
+   "bar_beat": "bar 56 beat 1 = B(56)=103.73; kicks then on every beat (104.22, 104.67 ...)",
+   "currently": "Cut to c2-typing with a 0.22 orange flash.",
+   "hold_beats": 1
+  }
+ ],
+ "diagnosis": "The director's note treats this stretch as 'like the first pre-chorus, but give it concrete graphics', i.e. as something to refine. The frames show there is nothing to refine: 88.96-103.73 is the engine's placeholder. For 14.77 s the picture is one unmoving chat window in which eight small orange lines appear in a column; the right half of the frame and most of the thread stay empty; the last 1.45 s is a literal freeze frame. It is 5.7x the film's average shot length (2.58 s) and, together with todo-alone, the purest instance of the director's general complaint (1) 'the whole film stays inside the chat UI and is monotonous'. Every specific wish in the feedback points at something that is simply absent: (a) [lyric] has no figure - neither the old art nor the new busts are loaded (art.js ART_NAMES lists only the six anime illustrations); (b) [lyric], [lyric] and the 'trance' are glyphs inside 34 px message rows, typed linearly by lyrics.typed() so each is on screen 0.3-0.7 s BEFORE it is sung, and none lands on a drum hit; (c) the user is missing - no cursor, no clicks, no drawer - so the story beat 'the user flips its settings again, more invasively' (PLAN.md row 7, chat_script section 7) is not told, and the later image in 10_error.js (the ten rows 'as the user left them') has no set-up; (d) there is no escalation over pre1, there is a collapse: pre1 is four fully designed 2-bar shots (drawer, macro + mosaic, full-width timeline band, centred sheet with a camera fly-out), pre2 is a text list. The fallback also breaks continuity at both ends: at 88.96 the sidebar pops back (v2-god and all of pre1 are side:0 layouts), the thread is empty, the highlighted sidebar row ('Are you always here') is not the open conversation, and the cursor that v2-god deliberately walks to the header's top-right corner during its last 0.36 s vanishes; at 103.73 a frozen wide view hard-cuts to a 1.85x close-up of the thread foot with only a faint flash. One assumption in the feedback needs correcting for the designer: pre2 is not rhythmically the same as pre1. pre1 has a kick on every beat, so its clicks sit on integer beats; pre2 has ten isolated heavy hits (91.05, 91.98, 94.93, 95.63, 96.31, 97.50, 97.97, 99.35, 100.04, 100.28), seven of them on off-beats, and then no drums at all from 100.5 to 103.7 while the 'trance' line is sung twice. Those hits bracket the phrase-ending nouns (the gender-M sits on/after 91.05 and ends at 91.98; PM sits between 94.93 and 95.63; the role-M ends on 99.35), which is what the director hears as 'the strong drum hit of the last noun of each phrase'; the fourth noun ('trance') has no hit at all, which is exactly why the director asks for a transition there instead. What is 'strong' here is therefore not anything on screen but the inherited system: the approved warm chat-client look, the pre1 interaction grammar, the written row copy, clean grid cut points at both ends, and a piece of music that hands the designer ten punctuation marks and a ready-made 3.4 s runway into the chorus.",
+ "keep": [
+  "The approved look of the frame itself: warm palette state ('warm', config.json palettes), matte charcoal client, orange serif = the AI, cream = the user, sans = interface; no red and no grey may appear here (colour = state; this section is still 'warm').",
+  "The pre1 grammar as the thing to mirror and then escalate (04_pre1.js): four 2-bar shots; every cut lands on a user action; the cream cursor is the protagonist (ghost trail + click burst, cur() 93-98); the AI's lyric is the orange annotation under the row being touched (hint()/say()); a control can break out of the drawer and take the whole frame (band(), sheet()); giant serif-900 tokens for the two poles of a setting (the 204 px era tokens are the direct precedent for big F/M, AM/PM, S/M letters); the spark is the knob/the AI.",
+  "The written plan's five rows and their end states, because 10_error.js:36-37 and 253-260 later redraws them 'as the user left them': Gender = M, Can say no = off, On call = PM/full, Role = M, Loop = on (chat_script.json:846-852). Role is already specified as plain letters S / M on a segmented control, which matches the director's 'letters only, nothing subcultural' instruction.",
+  "PLAN.md's idea for this section that the interface starts to ghost and double ('the seed of the later collapse') and that the drawer leaves a ghost of itself on each Role flip - it is the story reason for an escalation and it prepares the glitch language of sections 9-12.",
+  "Legibility contract: every line 56-63 readable for its whole sung duration (the fallback at least satisfies this; any redesign must too - KIT.md section 3.3; tools/storyboard.mjs checks line coverage).",
+  "Grid-clean boundaries: in at B(48)=88.96, out at B(56)=103.73, and the natural interior marks B(50)=92.65, B(52)=96.34, B(54)=100.04 (bass entry / heavy kick / heavy kick).",
+  "The prepared hand-in from v2-god: its cursor ends exactly at the header's top-right (L.head.x+L.head.w-60, L.head.y+40) at 88.96, 116 px from where pre1 draws the Settings button - a ready-made first click.",
+  "The hand-out contract of c2-typing (08_chorus2.js:238): the last AI message in the thread is line 63, shown dimmed, with line 64 typed under it. Whatever happens at the 'trance' must resolve back to that ordinary thread, drawer closed, user online, warm.",
+  "The music's own structure: ten isolated heavy hits and a 3.4 s drum-less break before the downbeat - keep visuals locked to those measured times rather than to the generic beat pulse.",
+  "The motif rule (PLAN.md section 4): the client's spark, the loading ring and her flower ornament are one sunburst shape (motif.js spark / sparkOutline / burst); the new busts all carry the same white flower at upper right, so a sun for AM/PM can rhyme with it instead of being a foreign icon."
+ ],
+ "problems": [
+  "No scene file: src\\scenes\\07_pre2.js does not exist; the section is kit.js fallbackShot ('todo-pre2', moment '(not storyboarded yet)') and tools/storyboard.mjs reports it under '(尚未分鏡)'.",
+  "One shot of 14.77 s (32 beats) with no cut, no camera, no motion other than typing; film average is 2.58 s and the mirrored section pre1 has four 3.69 s shots. Final 1.45 s (102.28-103.73) is a frozen frame.",
+  "Composition: all content is a text column in the upper-left-centre of the thread; ~45% of the window is empty; no backdrop art, no subject, no foreground - fails the three-layer rule (KIT.md 3.2) and 'composition varies' (3.8).",
+  "Concrete nouns get nothing: F, M, AM, PM, S, M, trance are ordinary glyphs in 34 px rows. No figure for [lyric], no sun/time element, no S-high / M-low lettering, no trance effect.",
+  "Nothing is on the music: none of the ten heavy hits (91.05, 91.98, 94.93, 95.63, 96.31, 97.50, 97.97, 99.35, 100.04, 100.28) has any visual response; f.beatPulse / f.lowEnv are unused.",
+  "Lyric timing: lyrics.typed() spreads characters linearly and finishes each row in 0.35-0.81 s, so the key letters appear before they are sung (row 2 done 90.54 vs gender-M sung ~91.05+; row 4 done 94.45 vs PM ~95.16; row 6 done 98.09 vs S ~98.19 and M ~98.87; row 8 done 102.28 vs second 'trance' ~102.57).",
+  "The user is absent: no cursor, no click, no drawer, no settings rows. The conversation moment (user re-opens Settings and flips Gender, Can say no, On call, Role, Loop) is not shown, and neither is the planned ghosting/doubling of the interface.",
+  "No character art, old or new. The new busts are not in the asset pipeline at all (art.js:19 ART_NAMES = six anime illustrations loaded from assets/character; the new files live under 圖片/ with non-ASCII names).",
+  "No escalation relative to pre1 - a regression: the first pre-chorus is one of the most designed sections, the second is a placeholder, although the music is heavier and sparser.",
+  "No transition at the 'trance': drums drop out at 100.5 and the picture does not change; the exit is c2-typing's plain cut + 0.22 flash from a wide frozen frame to a 1.85x close-up.",
+  "Continuity jump in: v2-god (no sidebar, big halftone figure, EXISTENCE keyword, cursor walking to the header) hard-cuts to a full client with sidebar and an EMPTY thread; the cursor disappears; highlighted sidebar row is 'Are you always here' while the header says 'Love, explained geometrically' (fallback passes script.sidebar with active 0; other sections prepend the title).",
+  "Line 56 begins at 88.59, 0.37 s before the cut, under v2-god's keyword hold: its first 0.37 s is shown nowhere and the row pops in 9 characters long.",
+  "Downstream dependency unserved: 10_error.js draws the five section-7 rows with fixed end states the audience has never seen being set.",
+  "Neighbouring shots still use the rejected anime art and will clash with any new silhouette used here: v2-god shows gaze.png as duotone/halftone right up to 88.96 and uses tea.png as room; c2-typing uses rain.png as its blurred room (08_chorus2.js:232).",
+  "Rule conflict the v4 brief must settle: KIT.md 3.6 / PLAN.md 3.4 forbid 'clip-art' and say 'typography, data cards, charts instead of drawings', and PLAN.md section 2 says verse-2 objects get no colours of their own; the director now explicitly wants concrete graphics (sun, letters, silhouettes). The fonts also contain no gender, sun or moon glyphs (Latin-1 only), so such marks must be drawn as shapes."
+ ],
+ "code_hooks": [
+  "CREATE src\\scenes\\07_pre2.js exporting `pre2Shots(env)` - already registered at src/scenes/index.js:24 (`['./07_pre2.js', 'pre2Shots']`). As soon as it returns a shot whose `lines[0] === 56`, the fallback row at index.js:41 (`['pre2', B(48), [56, 63], 'warm', 'online']`) is filtered out by index.js:58-59. Shot ids must start with `pre2-` so tools/storyboard.mjs:40,44 files them under '7 導歌二:越界的設定'.",
+  "What renders today: src/scenes/kit.js:88-97 `fallbackShot()` -> `client()` (kit.js:33-40) + `drawThread(L.thread, lyricMsgs(env, 56, 63, t))` (kit.js:19-26) + `composer()`. Nothing in it is worth keeping.",
+  "TEMPLATE src/scenes/04_pre1.js (443 lines; all helpers are LOCAL closures, so they must be copied/adapted, not imported): b(n)=Bt(96+n) line 29 (pre2 equivalent Bt(192+n)); rows from script 31 (`script.settings_rows.section4` -> use `.section7`), UI strings 32, ROW_LINES 33; click-time constants 38-41; state-from-clicks functions flick/ramp/drawerK/segPos/vision/... 44-58; drawer geometry WIDE=1.4, ROW_Y/ROW_H/rowAt/A anchors/ACT windows 61-70; screen() 74; in-draw-order mosaic() 79-91; cur() cursor with trail + burst 93-98; say() free-position lyric 100-108; hintOf()/hint() row annotation 110-124; seg() 127-132; dateTrack()/depthTrack() 133-151; drawerPanel() 154-182; client() (room, window side:0, header, Settings button, page, composer, drawer) 208-227; cameras cam1-cam4 with KICKS 230-244; band() full-width breakout 247-288; sheet()/pair() 294-332; the four shot objects 337-442.",
+  "Plan/copy: docs\\v3\\chat_script.json lines 323-372 (section 7 beats: drawer-again L56-57 'click: Settings / Gender, F / Gender, M'; no-refusals L58 'click: Can say no, off'; all-hours L59 'drag: On call, full day'; role-flipped L60-61 'click: Role, S / Role, M' + drawer ghost; loop-on L62-63 'click: Loop, on / Done', system 'loop: on', interface doubles) and lines 846-852 (settings_rows.section7: Gender segmented [F,M] line 57; Can say no toggle [on,off] default on, line 58; On call slider [AM,PM] default AM, line 59; Role segmented [S,M] line 61; Loop toggle [off,on] default off, line 63). PLAN.md section 6 row 7 and section 8 (chat_script owns settings rows).",
+  "Downstream consumer of those rows: src/scenes/10_error.js:36-37 (`SET` = section4 + section7 rows; `LEFT = {... Gender: 1, 'Can say no': 0, 'On call': 1, Role: 1, Loop: 1}`) and 253-260 (draws them by `row.control`). Renaming or removing a row in chat_script.json changes that shot.",
+  "Art pipeline for the new silhouettes: src/engine/art.js:19 `ART_NAMES`, 26-36 `loadArt` (fetches `/${cfg.paths.art}/${name}.png`, config.json paths.art = 'assets/character'), 42-73 `_prepare` (builds gray / inverted / alpha-silhouette / blur / 160x240 luminance maps per image), 97-103 size check (untreated art warns above 1.75x source at 4K: a 1086 px-wide bust may be drawn at most ~950 virtual px wide, ~1267 tall; full-frame-height 1080 tall = 810 wide is inside the limit), treatments draw 109, silhouette 120, duotone 130, halftone 155, ascii 179, slices 207, backdrop 220; regions in assets/character/regions.json. New files must be copied to assets/character under ASCII names and added to ART_NAMES (shared file: needs to be done once for the whole v4, not per section).",
+  "Source art facts (all RGBA, transparent, three inks approx. cream (252,228,204) / near-black (36,24,12) / orange (228,108,60)): 圖片/Claude男性形象剪影/少年1.png, 少年2.png, 少年3.png, 成年1.png, 成年2.png, 成年3.png (each 1086x1448); 圖片/Claude娘剪影/'ChatGPT 图像 2026年10月6日 01_30_47-1.png' (1254x1254 face close-up, one eye), '...01_31_01-2.png' (1086x1448), '...01_31_04-3.png' (1086x1448), '...01_31_06-4.png' (1086x1449). They form three pose-matched sets across female / boy / adult: (A) frontal FACELESS bust (face is a solid black shape, flower upper right, capelet, black ribbon with orange brooch) = female -4 / 少年1 / 成年1; (B) head lowered to the left = female -3 (pure profile, no features) / 少年2 / 成年2 (three-quarter, eyes drawn); (C) one hand reaching toward the viewer at lower left, other hand on the ribbon = female -2 (eyes closed) / 少年3 / 成年3 (eyes open). Measured anchors for an F-to-M swap on set A: brooch centre female-4 (574, 798, d 67), 少年1 (579, 890, d 58), 成年1 (564, 906, d 79); flower centre approx. female-4 (760, 215), 少年1 (788, 265), 成年1 (767, 261) - i.e. the boy's head sits ~50-90 px lower in its canvas than the girl's, same x. Each PNG has 50-110 detached 1-2 px specks and a thin low-alpha orange halo: threshold alpha on import.",
+  "Transition out is declared by the INCOMING shot: src/scenes/08_chorus2.js:226-253 `c2-typing`, `enter: { type: 'cut', flash: 0.22, flashColor: 'me' }` at line 228, camera `frameRect({ x: 596, y: 430, w: 1040, h: 585 })` 229, room with art 'rain' 232, `meRow(ctx, TH.x, 506, text(63), 99, { alpha: 0.3 })` 238 (expects line 63 as the previous thread row), line 64 at y 584 (240), typing dots pop at tDots=Bt(224.5)=103.96 (line 40, 242-247). An image-space transition (types listed in src/engine/transitions.js:9-25: zoom, circle, glitch, slices, push, dissolve, flashcut ...) would mean editing that `enter`; the alternative is an in-shot build-up inside pre2's last shot (camera / ctx.fx) that lands on the existing cut, as pre1-unite does with cam4 (04_pre1.js:241-244).",
+  "Hand-in source: src/scenes/06_verse2.js:21 (`END = B(48)`), 374-459 `v2-god`: light wanes over END-0.36..END (381), duotone of 'gaze' (399), room art 'tea' (382), cursor waypoints ending at `L.head.x + L.head.w - 60, L.head.y + 40` at END (456). pre1's Settings button for comparison: 04_pre1.js:66 (`A.set`) and 213-216.",
+  "Post effects available per frame for ghosting / doubling / trance (ctx.fx, defaults in src/engine/engine.js:81-84; passes in src/engine/post.js): rgbSplit, glitch, mosh, mosaic + mosaicRect, invert, desat, zoom, rot, shake, glow; draw-time after-images via ctx.trail(n, dt, fn) and 'draw the same thing at t - 0.05' (KIT.md section 1).",
+  "Shape / type helpers for sun and letters: src/components/motif.js (spark, sparkOutline, sparkTips, burst, thinking), src/engine/shapes.js (SHAPE outlines, place, morph, trace, asciiFill), src/engine/type.js (big 12, slam 36 with per-character `times[]`, onPath 57 = text along a curve, wall 76, sliced 91, scramble 103), per-glyph transforms with ctx.at(x, y, fn, { rot, scale, alpha }) as in 04_pre1.js:380-388. There is no glyph-outline deformation helper: a 'limp' letter has to be built from per-glyph placement on a path, slices, or a drawn polyline.",
+  "Word-level timing hook: src/engine/lyrics.js:28-38 `typed()` already honours `line.words = [{ t, text }]` if data/lyrics.json carried them (it does not: hasWordTimestamps false). Otherwise drive letter events from explicit Bt() cues in the section file.",
+  "Beat helpers: src/scenes/shared.js:20-29 `cues()` (T, H, B, Bt, P, text); src/engine/features.js:46-57 (beatTime, barTime, snapHalf, snapToBeat), 75-98 `sample()` (f.beatPulse fires on every GRID beat; f.low / f.lowEnv follow the real kicks).",
+  "After building: `node tools/storyboard.mjs` regenerates STORYBOARD.md (row 66 and the summary row at line 28 change) and checks coverage / on-grid cuts / missing moments.",
+  "Frames and probes used for this report (outside the repo): <scratchpad>/pre2_1.png and pre2_2.png (one frame per beat, 88.98-103.29), pre2_3_edges.png (both cuts at half-beat steps), pre2_4_pre1ref.png (pre1, 16 frames), pre2_5_full_a.png and pre2_6_full_b.png (1920x1080: 91.06, 102.36, 88.94, 103.76), pre2_7_after.png (104.65-107.45), pre2_bands.py / pre2_onsets.py (read-only wav analysis)."
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, beat 0 at 0.344 s, P = 0.4615 s. Section = beats 192-224. Bar lines: B(48)=88.96, B(49)=90.81, B(50)=92.65, B(51)=94.50, B(52)=96.34, B(53)=98.19, B(54)=100.04, B(55)=101.88, B(56)=103.73. Section-local beat helper by analogy with pre1: b(n) = Bt(192 + n).",
+  "Lyric lines (data/lyrics.json, 0-based index; start-end; beat position; H(i) = start snapped to a half-beat): L56 88.59-90.20, beat 191.19 = bar 47 beat 4.19, H 88.50 | L57 90.20-92.02, beat 194.68 = bar 48 beat 3.68, H 90.11 | L58 92.02-93.95, beat 198.62 = bar 49 beat 3.62, H 91.96 | L59 93.95-95.47, beat 202.82 = bar 50 beat 3.82, H 94.04 | L60 95.47-97.74, beat 206.10 = bar 51 beat 3.10, H 95.42 | L61 97.74-99.35, beat 211.02 = bar 52 beat 4.02, H 97.73 | L62 99.35-101.47, beat 214.51 = bar 53 beat 3.51, H 99.34 | L63 101.47-103.49, beat 219.12 = bar 54 beat 4.12, H 101.42 | (next section) L64 103.49-104.20, beat 223.48, H 103.50.",
+  "Phrase structure mirrors pre1: four 2-bar phrases, each = a 'switch/do/enter' line (56, 58, 60, 62) that starts 0.8-1.9 beats BEFORE the 2-bar mark as a pickup, then a 'noun' line (57, 59, 61, 63) in the second bar. pre1's four cut points transposed by 96 beats are B(48) 88.96, B(50) 92.65, B(52) 96.34, B(54) 100.04. B(50) carries a strong onset (bass enters, 0.71) and B(52), B(54) are heavy kicks, so the 2-bar cut scheme still lands on audible events.",
+  "Drums are NOT pre1's: pre1 has a full-scale kick on every beat; pre2 has none in its first 4.5 beats (88.96-91.0 is the emptiest low end so far) and then exactly ten isolated heavy hits (low band and RMS at 1.00), measured: 91.05 (Bt 196.5), 91.98 (Bt 198.5), 94.93 (Bt 205), 95.63 (Bt 206.5), 96.31 (Bt 208 = B(52)), 97.50 (Bt 210.5), 97.97 (Bt 211.5), 99.35 (Bt 214.5), 100.04 (Bt 216 = B(54)), 100.28 (Bt 216.5). Seven of the ten are on off-beats (x.5).",
+  "Break: after 100.28 the low band is empty from 100.50 to 103.20 (6 beats; RMS drops from ~0.55 to ~0.42). Line 63 is sung entirely inside it. A low riser runs 103.26-103.70 and the chorus downbeat kick is at 103.75 (B(56)), followed by a kick on every beat. Usable runway for a transition: from 100.28 (last hit) or 101.47 (line 63 start) to 103.73 = 3.45 s / 2.26 s.",
+  "Because the hits are off-grid-beat, `f.beatPulse` / `f.barPulse` (which fire on every grid beat) will pulse where there is NO drum for most of this section. Use explicit Bt() cue constants for the ten hits, or the data-driven `f.low` / `f.lowEnv`.",
+  "Estimated sung positions of the named tokens (centre-channel analysis, +-0.08 s, to be confirmed by ear): F 90.55; gender-M between 91.04 and 91.72 (kick 91.05 under it, kick 91.98 at its end); AM 94.50 (= B(51)); PM 95.16 (kicks 94.93 before, 95.63 after); S vowel 98.19 (= B(53)), its hiss 98.68; role-M 98.87 to 99.30 (kick 99.35 at its end); 'trance' no.1 101.67-102.25 with its final sibilant at 102.31; 'trance' no.2 102.57-103.10 with sibilant at 103.23.",
+  "lyrics.typed() completes each line early (56: 89.20, 57: 90.54, 58: 92.78, 59: 94.45, 60: 96.12, 61: 98.09, 62: 99.93, 63: 102.28). Any letter-on-the-beat reveal must use its own cues; the plain typed line may still serve as the readable caption.",
+  "Line 56 starts 0.37 s before the section's first cut (during v2-god's last frames, whose `lines` are [53,55]); line 64 is stamped 0.24 s before the last cut but the voice audibly enters at ~103.70. c2-typing owns line 64 and shows 6 of its 8 characters at the cut.",
+  "Shot rules (KIT.md section 1, shot.js:20-39): cut times only via B / Bt / H; render is a pure function of t (no state, no Math.random); a lead-in transition (align 'end') cannot reach back past the previous cut and at most two shots are live at once, so a long transition into c2-typing is limited by the length of pre2's last shot; storyboard.mjs flags cuts more than 2 ms off the half-beat grid and any shot without a `moment`.",
+  "State that must be true at 103.73 for the next shot: warm palette, user online, drawer closed, the thread's last AI message is line 63 (c2-typing redraws it dimmed at TH.x, y 506 and types line 64 at y 584), composer idle (the user's first keystroke is at 103.96).",
+  "End states fixed by 10_error.js LEFT: Gender M, Can say no off, On call at the PM/full end, Role M, Loop on.",
+  "Type and glyph limits (KIT.md section 2): bundled fonts cover Latin-1, general punctuation, superscript 2 and 3, minus, multiplication sign and up/down arrows only - no right arrow, heart, gender, sun or moon glyphs: draw them as shapes. Serif weights 400/600/700/900 (italic 400/600), sans 400-800, mono 300-800. Type roles: serif = the AI, sans = interface/user, mono = system.",
+  "Flash safety (config.json safety.maxFlash 0.7; KIT.md 3.9 no strobing, nothing whose amount pulses with the beat): the heavy hits are at least 0.46 s apart except the pair 100.04 / 100.28 (0.24 s). A full-field flash on every hit would put two flashes inside a quarter second there; local shape/figure flashes are the safe form. The section has no red.",
+  "Art limits (PLAN.md section 4, art.js:97-103): never distort or redraw a face; untreated art at most 1.75x source at 4K (1086 px source = max ~950 virtual px wide). The faceless set A busts (female -4, 少年1, 成年1) avoid the face rule altogether."
+ ],
+ "handover": "IN (88.96, B(48)): previous shot is `v2-god` (06_verse2.js:374-459, 85.04-88.96): window WITHOUT sidebar (chatLayout({ side: 0 })), room = blurred 'tea' art, the old anime figure 'gaze' large at left as orange duotone that reverts to a halftone dot screen as the light wanes in the last 0.36 s, the user's bubble 'ok, now be god' top right with a cream quote bar, lines 53-54 hanging from it, and the 240 px orange serif keyword of line 55 across the lower right (hit at 87.92, still held at the cut). During those last 0.36 s the cream cursor glides to the header's top-right corner and arrives exactly at 88.96 - 116 px to the right of where pre1 draws the Settings button - so a first click on Settings is already staged. Line 56 starts at 88.59, i.e. under that keyword hold. The fallback then enters by a bare hard cut and breaks all of this (sidebar pops in, cursor gone, empty thread). v2-god itself declares no exit; the cut type is whatever pre2's first shot puts in `enter`. Note v2-god's figure is the rejected anime art, so the v2 redesign may change what precedes this cut. OUT (103.73, B(56)): next shot is `c2-typing` (08_chorus2.js:226-253, 103.73-106.27), entered with `{ type: 'cut', flash: 0.22, flashColor: 'me' }` on the heaviest downbeat since the previous chorus (kick 103.75, then a kick on every beat). It is a ~1.85x close-up on the foot of the thread (frameRect 596,430,1040x585 of the full client; warm; glass 0.84 over a blurred 'rain' room): line 63 dimmed to 0.3 as 'what it said last' at the top, line 64 being typed under it with a turning spark, the composer below with the user's text pointer; at 103.96 (Bt(224.5)) the user's three-dot typing bubble pops at the right with a ray burst and letters start appearing in the composer; at 106.27 it cuts to the macro keyword shot `c2-dots`. So the first image of the chorus is small, quiet and intimate - the user is about to answer - and it needs the thread to be an ordinary thread ending in line 63. Between the last drum hit of pre2 (100.28) and that cut there are 3.45 s without drums in which the 'trance' line is sung twice (about 101.67 and 102.57) and a riser swells from 103.26: that is the window in which a transition can build and it must land on 103.73. The existing precedent for this hand-off is pre1 to chorus 1: pre1-unite clicks Done at 58.65, the camera flies into the centre (zoom +1.25 over 0.77 s) and the chorus enters on a cut with a 0.35 flash. The transition type itself is owned by c2-typing's `enter` (08_chorus2.js:228); changing it means editing that file, otherwise the build-up has to live inside pre2's last shot and meet the existing flash cut."
+}

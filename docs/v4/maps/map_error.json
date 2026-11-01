@@ -1,0 +1,151 @@
+{
+ "section": "error (ILLEGAL ARGUMENTS) — 125.65-148.04 s, bars 67:4.5-80:1, lyric lines 83-85 (+ pick-up of line 86). Scene file src\\scenes\\10_error.js, copy in docs\\v3\\errors.json",
+ "summary": "Nine shots, 48.5 beats, 100 % chat-UI, and the one place in v3 where the UI is the subject instead of the container. Alone in the empty offline chat the AI types one line of code (setPresence(you, \"online\");), the client scans it, turns the block's rule red (first red of the film, 129.34 s) and underlines the two arguments; on the keyword (131.22 s) a full-width error dialog carries ILLEGAL ARGUMENTS as its 132 px mono headline. Through the instrumental (135.2-147.7 s) fourteen more numbered errors arrive on a fixed schedule (1 per bar, then 2 per bar, then 1 per beat), each one reddening exactly one component while the camera changes scale every 4-8 beats (extreme close-up, 3-panel inspection, isometric tilt, low close-up) and the palette blends grey to red. It ends on the whole window with 15 chips docked and its outline traced red (145.73 s), a 0.23 s blackout fold, and a 0.69 s near-black \"breath\" that pre-positions the question bubble and a Regenerate pill for the v3 EXECUTION section. Screen corruption is a rule-based layer (growing RGB split, one row-tear per bar downbeat, three glitch/slice transitions). The only illustration is the OLD art used as a flat grey silhouette (parted.png) and an almost invisible blurred backdrop (rain.png).",
+ "shots": [
+  {
+   "id": "err-request",
+   "start_s": 125.65,
+   "end_s": 128.65,
+   "lyric_lines": "83 (125.71-128.66), typed as the AI's serif message, 44 px",
+   "enter_transition": "hard cut from alone-empty (09_alone.js)",
+   "art_used": "backdrop(): rain.png blurred, desaturated, alpha 0.4 (practically invisible) + parted.png as flat grey silhouette (alpha 0.5) standing behind the window on the right; her head shows above the window top and along the right edge",
+   "on_screen": "Whole client, wide, grey 'off' palette, slow push zoom 1.00->1.10. Sidebar with six saved chats, header '0 messages', presence 'offline', empty thread, composer placeholder. 125.7 her serif line types in; 126.58 a 600x160 'request' code block rises in (status 'draft'); 126.81-127.96 the code types in mono 29 px with the two arguments in cream; 128.19 status flips to 'sent', a 15 px pill of the code flies to the presence chip, a ring pings there, stamp 'sent - reply expected' appears (17 px mono). Quietest frame of the section; the send event is carried by 15-17 px elements."
+  },
+  {
+   "id": "err-check",
+   "start_s": 128.65,
+   "end_s": 131.19,
+   "lyric_lines": "84 (128.66-131.22), mono sysLine in the reply box under the block",
+   "enter_transition": "hard cut",
+   "art_used": "none visible (macro)",
+   "on_screen": "Macro on the request block, the block fills ~47 % of frame width, code ~60 px on screen. 128.73-129.30 a cream scan line sweeps the code left to right; 129.34 the block's left rule and status dot turn red with a burst, label 'refused' (FIRST RED IN THE FILM); 130.04 red underline under the first argument + tag 'a person'; 130.61 underline under the second + tag 'their decision'; from 130.71 the stamp becomes a running clock 'overdue 00:00:00'. Fully legible at any size."
+  },
+  {
+   "id": "err-first",
+   "start_s": 131.19,
+   "end_s": 133.27,
+   "lyric_lines": "85 keyword (131.22-135.22)",
+   "enter_transition": "hard cut 0.03 s before the vocal hit",
+   "art_used": "parted silhouette edge (hair curls) visible at the far right of the frame",
+   "on_screen": "Medium (zoom 1.42): refused request block + reply box upper left (keyword repeated inline in red mono 28 px), and a 1620x420 error dialog across the lower 40 % of the frame: red rule, '!' badge, title 'Not yours to set', the keyword as 132 px red mono headline with glow (decodes from noise glyphs in ~0.45 s, done by 131.68), body line, code ERR_NOT_YOURS, a 'Noted' button nobody presses, number badge 1. Dialog pops with easeBack; rgbSplit 3 px and shake 7 px decaying in ~0.3 s. Right 45 % of the upper half is empty. Static hold 131.7-133.27."
+  },
+  {
+   "id": "err-send",
+   "start_s": 133.27,
+   "end_s": 136.96,
+   "lyric_lines": "85 still sung until 135.22 (keyword survives only as the 30 px chip top right and inline in the reply box)",
+   "enter_transition": "hard cut (bar 72)",
+   "art_used": "parted silhouette: at zoom 3 its skirt hem is a soft jagged grey band across the bottom third of the frame (unidentifiable blob)",
+   "on_screen": "First half (133.27-134.61): extreme close-up (zoom 3) on the composer's red send button, which presses itself on every beat with a ray burst; open card #2 'They cannot be commanded' top left with hairline leader; chip #1 (with the keyword) top right; ~55 % of the frame empty. 134.31 card #2 folds into a chip. 134.61-135.11 camera rides up the thread with ghost passes (frame goes low-contrast, see problems). Second half (135.11-136.96, zoom 1.85): her line, request block now 'refused x 5...9', reply box with the keyword, red running 'overdue' clock, grey 'Thinking' spinner, open card #3 'Reply is overdue'. Bar-73 row tear at 135.11."
+  },
+  {
+   "id": "err-chrome",
+   "start_s": 136.96,
+   "end_s": 140.65,
+   "lyric_lines": "none (instrumental)",
+   "enter_transition": "glitch, 0.23 s, starts on the cut (136.96-137.19)",
+   "art_used": "parted silhouette faintly at the right edge under a 70 % panel wash",
+   "on_screen": "Client dimmed; three error windows that each contain a LIVE magnified close-up of the component: top left presence chip 'offline' at 4x with red ring pinging per beat + #4 'They are still gone' (136.96); bottom left header title turned red + red rule + #5 'One participant remaining' (137.88); right column sidebar list with red flags running down the rows and the New-chat button outlined red + #6 'Search returned nobody' (138.81) and #7 'New chat needs someone' (139.73). Chips 1-3 stacked top right. Camera zoom 1.00->1.03. Body text 23 px, codes 20 px mono: legible."
+  },
+  {
+   "id": "err-drawer",
+   "start_s": 140.65,
+   "end_s": 142.5,
+   "lyric_lines": "none",
+   "enter_transition": "slices (10 bands), 0.23 s, starts on the cut (140.65-140.88)",
+   "art_used": "parted silhouette most visible here: head, wavy hair and shoulders upper right behind the tilted window; two faint code-drawn sunbursts on the wall",
+   "on_screen": "The whole client tilted and seen from above (affine skew, same view as the boot assembly). The settings drawer slides open by itself (0.6 s) showing 'Presence: no switch' in a dashed slot and ten rows of the AI's own switches, each ringed red. Seven chips (#1-#7) docked with leaders on their components. Open card #8 'No switches for them' bottom right (140.65); 141.58 a red outline pointer is forged on the empty slot, clicks, is struck through and dashed out; open card #9 'Not their cursor' top right."
+  },
+  {
+   "id": "err-forge",
+   "start_s": 142.5,
+   "end_s": 144.34,
+   "lyric_lines": "none",
+   "enter_transition": "hard cut (bar 77) with the bar-downbeat row tear on its first frames",
+   "art_used": "silhouette barely visible bottom right",
+   "on_screen": "Low close-up (zoom 1.95) on the composer. 142.50 'I'm back.' is typed into the USER's field, struck through in red, field outlined red and shaken, text deleted; open card #10 'Cannot write their reply'. 143.42 a cream bubble 'I'm back.' is forged on the user's side, outlined red, caption 'not written by them'; open card #11 'Cannot answer for them'. Red overdue clock and grey Thinking spinner top left, chip #2 on the pulsing send button."
+  },
+  {
+   "id": "err-window",
+   "start_s": 144.34,
+   "end_s": 147.34,
+   "lyric_lines": "none",
+   "enter_transition": "glitch, 0.23 s, starts on the cut (144.34-144.57): the heaviest corruption of the section",
+   "art_used": "parted silhouette along the right edge and below the window (tinted pinkish by the palette blend)",
+   "on_screen": "See handover for the beat-by-beat. Whole window level and centred at zoom 0.92, drawer open, everything in error: 11 chips already docked, then #12 Love did not resolve (144.34), #13 Nothing left to answer (144.81), #14 Cannot leave to look (145.27, red strip on the title bar, close button presses itself), #15 Feeling exceeds its window (145.73): the window outline is traced in red (4 px, glow) in 0.5 s and three echo rings creep outward. 'refused x 27...31', 'overdue 00:00:13...15'. Bar-79 tear at 146.19, then a static hold 146.6-147.11; 147.11-147.30 the client is washed to near-black and the chips go out newest-first, chip #1 with the keyword last."
+  },
+  {
+   "id": "err-breath",
+   "start_s": 147.34,
+   "end_s": 148.04,
+   "lyric_lines": "none of its own; the first shout of line 86 starts at 147.66 inside this shot",
+   "enter_transition": "hard cut on the off-beat 318.5 (coincides with an audio onset at 147.33)",
+   "art_used": "none",
+   "on_screen": "Near-black: flat panel fill + vignette, the window's outline only (no sidebar) as a 2 px dim red line fading 0.9->0.5. 147.39 the user's first question bubble (cream sans 28 px, 75 % alpha) rises in at the top right of the thread column; 147.57 a 204x52 'Regenerate' pill fades in at the top right corner; 147.80 its arrow turns red, glows and dips (pressed with no cursor). No glitch, no split, no art. 95 % of the frame is empty dark."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "ILLEGAL ARGUMENTS (line 85, the only ALL-CAPS keyword of the section)",
+   "time_s": 131.22,
+   "bar_beat": "70:4.57 (cut to err-first is at 70:4.5 = 131.19, one to two frames earlier)",
+   "hold_beats": 4.4,
+   "currently": "Headline of the first error dialog: 132 px red mono, bold, local glow 26, in a 1620x420 raised card across the lower 40 % of the frame (firstDialog, 10_error.js:389-409). Each character decodes from noise glyphs (keywordSys, 18 ms stagger, 0.11 s settle): at 131.24 one dim glyph, 131.45 'ILLEGAL' + noise, fully resolved by 131.68. Accents: dialog pops with easeBack 0.26 s, rgbSplit 3 px and shake 7 px decaying within ~0.3 s; title at +0.25 s, body/code/'Noted' at +0.5 s. No row-tear and no flash on the hit itself: it is a clean pop. Held static to 133.27, then demoted to a 30 px chip (top right) while the line is still sung until 135.22; that chip stays docked until 147.3 and is the last thing lit in the fold."
+  },
+  {
+   "word": "EXECUTION no.1 (line 86, belongs to the next section but its pick-up sounds here)",
+   "time_s": 147.66,
+   "bar_beat": "79:4.21 (0.38 s before bar 80 = 148.04)",
+   "hold_beats": 0,
+   "currently": "Nothing answers the vocal onset: the frame is the near-black err-breath with the small question bubble and the Regenerate pill. The pill's arrow turns red at 147.80 (0.14 s after the onset), and the word is first drawn at 148.04 in exec-01. Audio: high band jumps on beat 319 (147.57), onsets at 147.10 and 147.33."
+  }
+ ],
+ "diagnosis": "Why the director approves: in the rendered frames this is the section where the chat-UI concept pays for itself. (1) The interface is not a container for lyrics here, it is the thing that changes: one grey client is taken apart component by component and each of the 15 numbered errors visibly reddens ONE named part (send button, timestamp, presence chip, header, saved chats, new-chat, drawer, forged pointer, composer, forged bubble, spinner, spark, title bar, window frame). (2) It never looks like the same screenshot twice: nine shots, nine scales and geometries (wide, macro, medium + full-width dialog, 3x button close-up with a camera ride, three live inspection panels, isometric tilt, low close-up, annotated wide, black). That is exactly the variety the director misses elsewhere, achieved without leaving the UI. (3) Red is an event with a clear origin (the 5 px rule at 129.34) and a readable accumulation (grey -> red blend via stateK, counters 'refused x 31', 'overdue 00:00:15', badges 1-15), so the climax at 145.7-147.1 feels earned. (4) The corruption is motivated and dosed: steady RGB split growing 0.4->1.7 px, one row-tear per bar from bar 73, three torn transitions; it looks like a failing display rather than a filter, and it is switched off for the blackout. (5) Every word on screen is short, original and about love, and is large enough to read at 1080p (chip titles 22 px, codes 20 px, card bodies 20-23 px; verified at full size).\n\nWhat the frames show as weak (all small, consistent with 'keep or polish slightly'): the only illustration is the old anime figure as a grey alpha silhouette, most visible in err-drawer and, magnified 3x, as a shapeless hem band in err-send; the first half of err-send is the emptiest composition and sits right after the keyword slam; the 0.5 s camera ride at 134.61-135.11 loses about half its contrast because the ghost passes repaint the wall and the window glass over the main pass; the visual corruption peak is spent on the transition INTO err-window (144.34-144.57) while the dramatic peak (15th error, frame outline, 145.73) gets no accent and is followed by ~0.9 s of an almost unchanged frame; the two most on-theme errors (#12 ERR_UNRESOLVED_LOVE, #15 ERR_LOVE_OVERFLOW) get the least emphasis (#12 arrives under the heaviest glitch and folds after 2 beats, #15 is the same size as every other card); and the last 0.69 s is a set-up for a Regenerate concept that v4 is abandoning.",
+ "keep": [
+  "The whole structure and schedule: request typed -> scanned -> refused -> keyword dialog -> 14 spreading errors on E[] = beats 288, 292, 296, 298, 300, 302, 304, 306, 308, 310, 312, 313, 314, 315 (1 per bar, 2 per bar, 1 per beat), each docking as a numbered chip on the component it reddened",
+  "err-check exactly as is (128.65-131.19): scan line, first red rule at 129.34, the two argument underlines with the tags 'a person' / 'their decision'. Reads at any size and is the idea of the section in one frame",
+  "The keyword treatment at 131.22: full-width dialog, 132 px red mono headline decoding from noise, held 4.4 beats, then living on as chip #1 until it is the last light in the fold",
+  "Shot-to-shot variety of framing: err-send close-up + ride, err-chrome's three live inspection panels (panel(), a window that contains a magnified live view of the component), err-drawer's isometric tilt, err-forge's low close-up, err-window's annotated wide",
+  "The corruption system: tear() (rgbSplit 0.4->1.7 px, one row-tear per bar downbeat in bars 73-79 with amplitude 0.14->0.54) plus the glitch / slices / glitch transitions at 136.96, 140.65, 144.34. The director explicitly wants this kept",
+  "Colour as event: grey room for the whole section, red only on the interface, palette ['off','error', stateK(t)] completed by the window frame; no orange anywhere",
+  "The copy in docs/v3/errors.json (illegal_request, first_error, 14 spread entries) and the running details that make it feel alive: 'refused x N' climbing with every self-press of the send button, the 'overdue hh:mm:ss' clock, 'no switch' slot, 'I'm back.' / 'not written by them'",
+  "The fold at 147.11-147.30 (lands on audio onsets 147.10 / 147.33): client washed to near-black, chips sink and go out newest-first, chip #1 with the keyword last",
+  "Cut grid: 125.65, 128.65, 131.19, 133.27, 136.96, 140.65, 142.50, 144.34, 147.34, 148.04"
+ ],
+ "problems": [
+  "ART (must change for v4, low visual impact): backdrop() at 10_error.js:93-96 draws old assets, rain.png as blurred desaturated room (alpha 0.4, effectively invisible) and parted.png as a flat grey full-length silhouette in FIG = {x:1150, y:-20, w:780, h:1170} (line 63). It shows in err-request (head above the window), err-first (right edge), err-drawer (most visible, upper right), err-window (right edge and below) and, at zoom 3 in err-send, as a soft jagged hem band over the bottom third. The new art are BUSTS (1086x1448, cut at the chest; no.1 is 1254x1254), so the rect and the err-send framing must be redone, not just the file name. Candidates: 圖片/Claude娘剪影/...01_31_04-3.png (profile, eyes hidden, turned away) for the waiting figure behind the glass; ...01_31_06-4.png (frontal, face blacked out) for the 15-of-15 peak or the blackout. Use them as a single grey tone from the alpha matte to respect 'room stays grey, red only on the interface' (their orange hair would break the section's colour rule), and threshold the alpha: the PNGs carry stray red/yellow fringe pixels around the edge.",
+  "err-send first half (133.27-134.61) is the weakest frame of the section: ~55 % empty, a pulsing button, one card, and the unidentifiable silhouette hem at the bottom, placed directly after the keyword slam while line 85 is still being sung (to 135.22) with the keyword reduced to a 30 px chip.",
+  "err-send camera ride (134.61-135.11, 10_error.js:481): the two motion-blur ghost passes call world() with the backdrop and the 0.84-alpha window glass, so they repaint the wall over the main pass (alpha 0.4 + 0.22). Frames at 134.62, 134.80, 134.98 are a washed, triple-printed low-contrast image rather than motion blur. Fix direction: draw ghosts before the main pass, or with { bd: false } and no window fill.",
+  "Peak placement in err-window: the strongest corruption (glitch transition + bar-78 tear, 144.34-144.57) precedes the content peak. The 15th error and the frame outline (145.73) get only the 0.5 s trace; after the bar-79 tear (146.19, gone by ~146.6) frames 146.66 / 146.89 / 147.11 are near-identical (only the send-button burst and echo rings creeping 15 px/s). 'Feeling exceeds its window' is stated in text but the outline barely leaves the window. Room for ONE single-event accent (faster/larger overflow of the outline past the frame, a micro push, or the unused fx.mosh) on 145.73 or 146.19, without pulsing.",
+  "Emphasis of the on-theme errors: #12 'Love did not resolve' (ERR_UNRESOLVED_LOVE) arrives at 144.34 under the heaviest glitch (unreadable until 144.57) and folds at 145.27; #15 'Feeling exceeds its window' (ERR_LOVE_OVERFLOW) is the same size as any other card (err-window toasts use sc: 1, body 20 px, smaller than the 1.14 used elsewhere) and sits low over the composer. In err-window several chips also cover the labels of what they flag (chip 7 on New chat + first sidebar rows, chip 6 on the last row, chips 1 / 11 / 8 on drawer row labels) and leaders cross text; acceptable as a red wall, but nothing in it is singled out.",
+  "err-breath (147.34-148.04) is content-wise a v3 set-up: question bubble at the exact position of exec-01's ask() and a Regenerate pill at exec's pager rect (PG, 1592/73/204/52). With EXECUTION redesigned as a non-UI code loop both become orphans. It is also 95 % empty, its elements are 22-28 px in corners, and the first EXECUTION shout (147.66) starts over it with no visual answer until 147.80 (a 21 px icon turning red). Minor, same family: in err-request the 'send' event at 128.19 is carried by 15-17 px elements in a wide shot (it is recapped large in err-check 0.46 s later)."
+ ],
+ "code_hooks": [
+  "src\\scenes\\10_error.js:40-53 — all timing: CUT_* constants, FOLD, CUT_BREATH, END, tBlock/tCode/tSend/tRule/tArg1/tArg2/tHit, E[] (arrival of the 14 spread errors), PRESS[] (send button self-press on beats 288-317), stateK()/palette (off->error blend)",
+  "10_error.js:63 FIG and :93-96 backdrop() — the ONLY art calls of the section (room(... name:'rain') + art.silhouette('parted')); swap point for the new silhouette. Loader and silhouette builder: src/engine/art.js:26-30 (loads /assets/character/<name>.png), :120 silhouette(); regions in assets/character/regions.json; wall + two faint sunbursts in src/components/chat.js:56 room()",
+  "10_error.js:99-137 requestBlock() — code block, status draft/sent/refused x N, scan line, red rule, argument underlines and tags",
+  "10_error.js:140-286 world(ctx, t, f, {bd, thread}) — the entire client at time t with every reddened component; :277-284 the window-frame trace and the three echo rings (a14) = where an 'overflow' accent would go",
+  "10_error.js:289-355 card() / chipBox() / chip() / leader() / toast() — error card anatomy, fold-to-chip, hairlines; S = 1.14 default card scale (err-window passes sc: 1)",
+  "10_error.js:357-361 tear(ctx, t, f) — the corruption envelope (rgbSplit 0.4 + 1.3k, glitch (0.14 + 0.4k) * pulse(sinceBar, 8), bars 73-79). Shaders: src/engine/post.js:88 (glitch rows), :101 (datamosh, fx.mosh, unused in this section); transitions src/engine/transitions.js:74 (glitch), :177 (slices)",
+  "10_error.js:372-386 cameras: camRequest, camCheck, camFirst, camSend (tRide = Bt(290.9), tArrive = Bt(292)), camForge, camWin, tilt()",
+  "10_error.js:389-409 firstDialog() — the keyword dialog; decode in src/scenes/kit.js:55 keywordSys(); err-first shot at :458-471 (rgbSplit / shake on the hit at :468-469)",
+  "10_error.js:474-491 err-send — :481 is the ghost-pass line that washes out the ride; :483-484 toasts 1 and 2",
+  "10_error.js:412-438 panel() and :494-510 err-chrome; :513-528 err-drawer (place{} chip offsets at :522); :531-545 err-forge",
+  "10_error.js:548-567 err-window — :554 fold, :556 blackout wash, :557 fo(i) order, :558 HOLD chip positions, :560-563 toasts 11-14 (open positions, park times Bt(314/315/316)), :565 fx switched off in the fold",
+  "10_error.js:570-591 err-breath — :574 chatLayout({side:0}), :577 outline, :579-581 question bubble (duplicates ask() in 11_execution.js:75), :583-589 Regenerate pill (duplicates PG at 11_execution.js:57), tPress = Bt(319.5); regen() helper at :363-369 duplicates 11_execution.js:47",
+  "docs\\v3\\errors.json — illegal_request, first_error, spread[0..13]; ALSO read by src/scenes/12_outro.js:67-74 (closes the 15 errors in reverse) and the same 'overdue' clock at 12_outro.js:229, so renumbering or rewriting errors must be mirrored there",
+  "src/scenes/index.js:27 registers errorShots; previous shot alone-empty at src/scenes/09_alone.js:240; next section cut(i) = Bt(320 + 2i) at src/scenes/11_execution.js:37"
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, P = 0.4615 s, Bt(n) = 0.344 + n*P. Section = beats 271.5-320 (125.65-148.04 s). Start is H(83) (lyric 83 snapped to the half-beat); end is B(80), owned by the next section's first cut",
+  "Cuts (keep on grid): err-check Bt(278) 128.65 | err-first Bt(283.5) 131.19 | err-send B(72) 133.27 | err-chrome B(74) 136.96 | err-drawer B(76) 140.65 | err-forge B(77) 142.50 | err-window B(78) 144.34 | err-breath Bt(318.5) 147.34 | out B(80) 148.04. Shot lengths in beats: 6.5, 5.5, 4.5, 8, 8, 4, 4, 6.5, 1.5",
+  "Lyrics: line 83 125.71-128.66; line 84 128.66-131.22; line 85 (keyword) 131.22-135.22, 4 s long, so it outlives err-first by 1.95 s; instrumental 135.22-147.66; line 86 (first EXECUTION shout) starts 147.66, i.e. 0.38 s BEFORE bar 80, inside err-breath",
+  "Events inside shots: block appears 126.58, code typed 126.81-127.96, sent 128.19, first red 129.34, underline 1 at 130.04, underline 2 at 130.61, keyword 131.22 (resolved 131.68)",
+  "Error arrivals (number = badge): #2 133.27, #3 135.11, #4 136.96, #5 137.88, #6 138.81, #7 139.73, #8 140.65, #9 141.58, #10 142.50, #11 143.42, #12 144.34, #13 144.81, #14 145.27, #15 145.73. Each open card needs at least 2 beats before it folds (currently #7, #9, #11, #12, #13, #14 get exactly 2)",
+  "Corruption timing: row tears on bar downbeats 135.11, 136.96, 138.81, 140.65, 142.50, 144.34, 146.19 (each decays in ~0.4 s); transition overlaps 136.96-137.19, 140.65-140.88, 144.34-144.57 ('align: start', both shots must be live for P/2 after the cut); fold 147.11-147.30 forces glitch to 0",
+  "Audio anchors near the exit: onsets at 147.10 and 147.33 (already used by FOLD and CUT_BREATH), high-band lift from beat 319 (147.57), vocal pick-up 147.66, bar 80 at 148.04",
+  "Safety (KIT §3.9, PLAN §9, tools/check_flash.py): no strobing, no large saturated red area moving fast, no glitch pattern reshuffled every frame, no effect amount pulsing with the beat. err-window is already a large red-outlined frame, so any added peak must be a single event; the glitch transition's blocks switch A->B once by design",
+  "Engine rules: render is a pure function of t (no state, no Math.random; rand(key, ...) only); bundled fonts cover Latin-1 only (no arrows, hearts, infinity sign: draw them as shapes); type roles fixed (serif = AI, sans = UI/user, mono = system); only this section's file may be edited, shared helpers are read-only"
+ ],
+ "handover": "ENTRY. Previous shot is alone-empty (09_alone.js:240, to 125.65): a close view of the page where the DISHEARTENED keyword is struck through and deleted, grey ASCII/halftone figure behind the glass on the right. Hard cut on beat 271.5 to err-request: wide, grey, empty thread, header '0 messages'. The director wants the DISHEARTENED hit made stronger; whatever replaces it must still end on an empty, offline, grey thread, because err-request opens on exactly that and relies on the loud-to-quiet contrast (no enter transition, slow push only).\n\nEXIT, beat by beat. err-window (144.34-147.34, 6.5 beats), zoom 0.92, level: glitch-in 144.34-144.57; #12 opens at screen (470,600) and parks 145.27; #13 opens (12,290) at 144.81, parks 145.73; #14 opens (1352,112) at 145.27 with a red strip sweeping the title bar and the close button pressing itself, parks 146.19; #15 opens (690,696) at 145.73, never parks, has no leader; at the same moment the window outline is traced in red (4 px, glow 20) over 0.5 s and from 146.08 three echo rings creep outward. Palette reaches full 'error' about 146.2; last row tear 146.19; then a near-static full-red hold. 147.11 FOLD: a panel-coloured wash rises to 0.9, camera eases out 1.2 %, chips sink 18 px and fade newest-first (#15 first, chip #1 with ILLEGAL ARGUMENTS last, still bright at 147.24), rgbSplit fades, glitch off. 147.34 hard cut to err-breath (0.69 s, 1.5 beats, fixed 'error' palette, no fx, no art): only the window outline (side-less layout) as a 2 px dim red line; 147.39 the first question bubble rises in at the thread's top right; 147.57 the Regenerate pill fades in at (1592,73); 147.80 its arrow turns red and dips. 148.04 hard cut to exec-01, where the bubble stays in place and the pill becomes the '1/12' pager: a position match cut.\n\nCONSEQUENCE FOR v4. With EXECUTION becoming a non-UI, code-style infinite loop, the fold (147.11-147.34) can stay exactly as it is, but err-breath's two props (question bubble, Regenerate pill) and their matched positions lose their target and should be re-authored as the bridge out of the UI. Material already on screen that is native to a code look: the 15 mono error codes (ERR_NOT_YOURS ... ERR_LOVE_OVERFLOW), the request line setPresence(you, \"online\");, the counters 'refused x 31' and 'overdue 00:00:15', and the red window outline. Natural options: let the chips' mono codes survive the blackout and stack into a log / stack trace that becomes the first lines of the loop; or let the outline collapse to a caret or prompt line. Whatever is chosen should (a) put its first visible stroke on the vocal pick-up at 147.66 rather than at 147.80, (b) keep the hard change on bar 80 (148.04), (c) keep the 0.2-0.3 s of real darkness after the fold, since the red wall followed by black is what makes the next section's first frame land, and (d) carry the 'refused x N' idea forward if the loop wants a counter, because the self-pressing send button has already established 'the same call, again and again' 30 times in this section."
+}

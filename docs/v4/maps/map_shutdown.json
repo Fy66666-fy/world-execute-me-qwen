@@ -1,0 +1,136 @@
+{
+ "section": "shutdown — 192.34-211.96 s (bars 104-114), src/scenes/13_shutdown.js, five shots down-world / down-params / down-layout / down-power / down-last + credit note in src/scenes/overlay.js",
+ "summary": "The section is the boot (01_boot.js) played backwards in the system's mono voice: the same four set-ups in reverse order (whole client -> persona card -> tilted exploded view -> dark room with the window closing to a hairline), then a fifth close-up where the launch command is typed once more, the spark flares orange for one beat and everything collapses to a line, a dot and black exactly when the music stops (207.11). Palette is ash drifting 25 % towards dead, so the picture is near-monochrome dark grey; orange appears only in the docked LO-O-OVE (to 195.58), the persona card's love field (196.04-197.93), the command caret (205.73-206.19) and the spark flare (206.19-207.06). The anime illustration `parted` is on screen in colour for the first second (192.34-193.36) and then as a grey full-figure matte shadow until 194.97; no character art after that. The entry at 192.34 is not a visible transition at all: down-world redraws out-frame's last picture pixel for pixel and cross-fades to it, so for the viewer one shot runs from 188.42 to 196.04. After black (208.41) three lines of 19 px grey credit text fade in 208.71-209.51 and out 211.36-211.86. Rendered sheets: <scratchpad>/shutdown_01..05.png and shutdown_full_a..f.png.",
+ "shots": [
+  {
+   "id": "down-world",
+   "start_s": 192.34,
+   "end_s": 196.04,
+   "lyric_lines": "none declared (storyboard shows '-'), but it carries the tail of line 127 LO-O-OVE (sung 191.36-195.36) and fades out lines 124-126",
+   "enter_transition": "fade, 1 beat, align start (192.34-192.80) from out-frame; invisible because both shots draw the identical picture (frames 192.11 / 192.34 / 192.57 are the same). Camera continues out-frame's pull-back: zoom 1.00 -> 0.935 by 196.04",
+   "art_used": "assets/character/parted.png: art.draw at OUT.fig {172,138,580x870}, sat 0.6, clipped to the window, full until 192.81 and faded out by 193.36 (line 60); art.silhouette('parted', colour 'mute', alpha 0.85) from 192.81, sliding 193.22-194.14 from the left position to FIG {1150,-20,780x1170} behind the glass on the right, gone 194.33-194.97 (line 54)",
+   "on_screen": "Opens on out-frame's wide: sidebar-less window with a second 'seal' outline, colour anime figure standing inside the frame at left, three serif lyric lines at right, LO-O-OVE at ~220 px orange serif, composer below, header label 'Closed by you' and window controls. First beat is static except the label being deleted letter by letter (192.67-192.99). Then 192.81-193.45: the three lines drift up and fade, LO-O-OVE shrinks to a 62 px message with a small spark icon docked just above the composer, the figure cross-fades to a very dark grey shadow, mono log '> presence: nobody' types in. 193.27-194.14: sidebar slides back in with its six chat titles, the column re-centres, pill 'simulation · ended' appears top right, the shadow slides to the right and becomes a large mid-grey frilly full-body matte that overflows the window top and bottom (clearest 193.7-194.7). 194.07-195.11: sidebar titles and header title degrade to skeleton bars, shadow fades, log adds 'room: empty' (194.61) and 'last message: unread' (194.97). 195.11-195.58: LO-O-OVE lifts 46 px and fades. Composer and placeholder 'Write to me' stay."
+  },
+  {
+   "id": "down-params",
+   "start_s": 196.04,
+   "end_s": 199.73,
+   "lyric_lines": "none (the keyword of line 127 reappears as the value of the 'love' field)",
+   "enter_transition": "scan, 1 beat, dir 1 (wipe travelling upward, 195.58-196.04, ends on the bar line); its cream hot edge with stripes is the brightest thing in the section before the final flare",
+   "art_used": "none",
+   "on_screen": "Close-up (zoom 1.20 -> 1.16) of the skeleton client with the 'persona' card: orange serif title, mono sub-line 'settings: as you left them', five rows name / voice / warmth slider / memory / love. The love field has an orange 2.5 px outline and holds LO-O-OVE in 31 px orange serif. Right of the card a large 12-petal loader in cream at 100 % un-lights petal by petal 196.38-197.31 with a mono percentage counting down to 0 %. Camera pans to centre the card 197.10-197.61. 197.70-197.93 the love value is backspaced, outline turns grey, 198.00-198.34 mono 'undefined' is typed in its place. Loader fades 198.44-198.90. Rows then clear bottom-up half a beat apart (love 198.57, memory 198.81, warmth 199.04, voice 199.27, name 199.50), each value backspaced first; the card closes 199.54-199.73. The last two rows clear underneath the outgoing zoom transition and are hardly seen. Composer with caret sits under the card throughout."
+  },
+  {
+   "id": "down-layout",
+   "start_s": 199.73,
+   "end_s": 203.42,
+   "lyric_lines": "none",
+   "enter_transition": "zoom, 1 beat, out: true (199.27-199.73): params shrinks to a small tile while a radially blurred layout frame comes up; frame 199.70 is a soft smear",
+   "art_used": "none",
+   "on_screen": "Flat grey block-out of the client (window, sidebar bars, header bar, four empty bubble outlines, composer) that tilts 199.96-200.51 into the boot's isometric exploded view at 0.6 scale, pieces floating at different heights with small mono labels sidebar / header / thread / composer and a slight bob. Mono counter top-left 'pieces left: 4' from 200.42. Thread flies up and out 200.65-201.25 (counter 3), header 201.58-202.18 (2), sidebar 202.50-203.10 (1), each with a three-sample motion trail and leaving a dashed socket on the base. 202.68-203.28 the composer slides to the middle of the empty base. All of it is 1-2 px grey outlines on near-black with faint wall sunbursts; no orange, no figure."
+  },
+  {
+   "id": "down-power",
+   "start_s": 203.42,
+   "end_s": 205.73,
+   "lyric_lines": "none",
+   "enter_transition": "push, half a beat, dir 3 (both pictures slide down, 203.19-203.42)",
+   "art_used": "none",
+   "on_screen": "Wide, straight-on, darker room. Empty window with a cream second outline round it, composer centred in it, below it a small card 'protection layer' with a toggle; mono log top-left of the window 'composer: waiting for input' (from 203.51). Toggle flips off 203.74-203.95, the second outline is un-drawn along its perimeter 203.93-204.48, the toggle card drops away 204.30-204.53, then the window's height collapses 204.57-205.45 into a thin cream-edged slot and finally a full-width hairline through the composer, which pulses once at 205.45. Wall sunbursts fade with the close."
+  },
+  {
+   "id": "down-last",
+   "start_s": 205.73,
+   "end_s": 208.41,
+   "lyric_lines": "128 (EXECUTION), T = 205.81",
+   "enter_transition": "hard cut on beat 445 (205.73, the strongest onset of the outro) to a punch-in, zoom 1.22 drifting to 1.32",
+   "art_used": "none",
+   "on_screen": "Close on the composer sitting on the hairline, nothing else. Below it a command line in 82 px bold cream mono: '> ' with an orange block caret at the cut; the word is typed 205.81-206.13. At 206.19 (beat 446) the line is 'entered': for 0.10 s it inverts to dark text on a cream rounded box, a 0.3 orange flash warms the whole frame, and above the composer the 12-petal spark (r 104) lights orange with glow and a soft orange radial, peaking about 206.35-206.45. Small mono log under the command: 'run: nothing loaded' (206.35), 'caret: blinking' (206.70). From 206.65 the petals go out one by one, all grey by 207.06. Music stops 207.11: spark fades by 207.41, command fades by 207.51, composer squashes vertically into the line 207.26-207.61, the line brightens then contracts to the centre 207.61-207.99, a 3.5 px dot fades 208.01-208.31, black from 208.41."
+  },
+  {
+   "id": "credit-note (overlay scene, not a shot of this file)",
+   "start_s": 208.71,
+   "end_s": 211.86,
+   "lyric_lines": "none",
+   "enter_transition": "alpha fade on the overlay layer, 208.71-209.51 in, 211.36-211.86 out; file ends 211.96",
+   "art_used": "none",
+   "on_screen": "Three centred lines of 19 px sans in literal greys (#b8b6ae, #7d7b73) at y 516-584 on pure black: unofficial fan video / not affiliated with Anthropic or Mili; trademark and music credit; character illustrations supplied by the maker, interface drawn in code. At full opacity for only 1.85 s. No logo, no title, no motif."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "LO-O-OVE (line 127, carried over the section boundary)",
+   "time_s": 191.36,
+   "bar_beat": "103:3 (beat 413.9); still sung until 195.36 = bar 105:3.5",
+   "hold_beats": 9.1,
+   "currently": "Slammed by out-frame at ~220 px orange serif with glow (12_outro.js line 425). The shutdown inherits it at full size for one beat (192.34-192.81), shrinks it to a 62 px thread message above the composer by 193.45 and lifts it out 195.11-195.58, so it stays readable for the whole sung note. It is the only saturated element in down-world."
+  },
+  {
+   "word": "LO-O-OVE (echo, not sung: value of the persona card's love field)",
+   "time_s": 196.04,
+   "bar_beat": "106:1",
+   "hold_beats": 3.6,
+   "currently": "31 px orange serif in an orange-outlined form field (about 37 px on screen at zoom 1.2), intact 196.04-197.70, backspaced in 0.23 s, replaced by mono 'undefined' 198.00-198.34. This is the story pay-off of the whole ending and it is the size of a form value."
+  },
+  {
+   "word": "EXECUTION (line 128)",
+   "time_s": 205.81,
+   "bar_beat": "111:2 + 0.18 beat (beat 445.18); 'entered' on 111:3 = 206.19",
+   "hold_beats": 3.7,
+   "currently": "Typed as '> EXECUTION' in 82 px bold cream mono under the composer, 205.81-206.13, orange block caret. The visual peak is one beat late relative to the shout: invert box 206.19-206.29, 0.3 orange flash, spark flare orange 206.19-206.65, petals out by 207.06, text gone by 207.51. It is the smallest and least coloured keyword in the film (title command is 92 px in a panel with a 0.5 flash; chorus keywords are 160-220 px orange)."
+  }
+ ],
+ "diagnosis": "The director has no specific complaint here: the section is read as the calm close it is meant to be, and the frames confirm it works. It is coherent, on the grid, and its ideas land (reverse boot, love field going back to undefined, the composer that never unloads, power-off on the music stop). The one explicit worry, the join with the chorus, is justified by what the code and frames show: there is currently no transition at 192.34. down-world copies out-frame's final picture number for number (the OUT constant, line 27) and dissolves between two identical images, and its first beat is static; the band drops from about 0.60 to 0.40 RMS exactly on bar 104 and the picture does not mark it. That only works because out-frame is already a dim, ash, pulled-back UI wide. If 163-193 s becomes the brightest, glitchiest, non-UI part of the film, bar 104 becomes the largest luminance and energy step in the whole video and this file has nothing to absorb it: no ctx.fx use anywhere, a palette that assumes it starts in pure ash, and a first shot whose every element (figure position, three lyric lines, word position, 'Closed by you' label, window controls, seal outline, folded sidebar) is defined by a picture that will no longer exist. Second, the director's global art complaint is present in the first 2.6 s: the colour anime figure stands in the frame until 193.36 and its frilly full-body alpha matte is the grey shadow until 194.97; the supplied replacements are busts in 3:4 and 1:1, so 'standing on the frame's bottom edge' and 'whole figure behind the glass' cannot be swapped one for one, and the boot uses the same shadow (01_boot.js line 22), so both ends must change together. Third, measured against the director's global 'all UI is monotonous' note: this section is five client set-ups in a row, and from 197.93 to 205.73 (7.8 s) there is no orange, no figure and no lyric, only thin grey outlines on near-black; after a much brighter climax that stretch will read darker and longer than it does now. Because the director approved the boot and this is its mirror, the structure is not what is at risk; the risks are the join, the art, the low visual floor of the middle, and the fact that the two emotional beats (love field, last EXECUTION) are staged small.",
+ "keep": [
+  "The reverse-boot structure and its mirrored grammar: four set-ups in the opposite order with mirrored transitions (boot: push up, zoom in, scan down; shutdown: scan up, zoom out, push down), same projection code (plane(), lines 156-162) and same switch, card, loader and hairline as 01_boot.js. The director approved 0-59 s, and this bookend is what makes the ending read as an ending.",
+  "The love field pay-off in down-params (lines 111-119): the field that was 'undefined' at boot holds LO-O-OVE, is backspaced, and 'undefined' is typed back (196.04-198.34). Strongest story idea of the section; keep and stage it larger.",
+  "The composer and blinking caret as the one thing that never unloads, ending on the hairline with the log 'composer: waiting for input', then 'run: nothing loaded' / 'caret: blinking'.",
+  "The last command: '> EXECUTION' typed in the system's mono with the orange caret, enter-invert, a single orange spark flare that goes out petal by petal, then composer -> hairline -> dot -> black starting exactly on the music stop at 207.11, followed by 4.4 s of silence. Calm, final, flash-safe (0.3).",
+  "Colour discipline: ash drifting to dead (DRAIN 0.25 then full dead over 207.11-207.91), orange reserved for her word, the love field, the caret and the spark.",
+  "Timing discipline: all cuts on bar lines (192.34, 196.04, 199.73, 203.42) plus beat 445; piece removals and row clears on beats and half-beats; ctx.trail on the lifted pieces.",
+  "Docking the last sung word into the thread as her last, unread message (lines 77-82) so that it stays readable through the held note to 195.36 and sets up the love field.",
+  "Original short system copy in the boot-log voice: presence: nobody / room: empty / last message: unread / settings: as you left them / pieces left: N."
+ ],
+ "problems": [
+  "Entry depends entirely on out-frame: OUT (line 27), CLOSED (28), seal (29, 56, 175), the label deletion and window controls (65-67), the three lyric lines (71-76), the word's start position (77-80) and the folded-sidebar layout all reproduce 12_outro.js lines 400-454 (its HANDOVER comment, lines 10-13). Redesigning 163-193 s breaks the first 2.5 beats of down-world.",
+  "No bridge exists: enter is an invisible 1-beat dissolve, the first beat (192.34-192.81) is a static hold, there is no ctx.fx (glitch, rgbSplit, mosh, glow) anywhere in the file, and palette ash(t) (line 34) starts at pure ash. The audio drop on bar 104 is not marked visually.",
+  "Anime art still in use: parted.png in colour 192.34-193.36 (line 60) and as a grey full-figure matte 192.81-194.97 (line 54). The shadow at 193.7-194.7 is a large mid-grey frilled silhouette overflowing the window, unmistakably the old illustration's outline.",
+  "The new art cannot be dropped in: all ten supplied PNGs are busts (nine 1086x1448, one 1254x1254), not standing figures, and art.js only loads the six names in ART_NAMES from assets/character with ASCII file names (the new files have CJK names with spaces). Their black ink (median rgb about 36,25,22) is almost the page colour in ash (#1c1b1a), so black areas such as ties or the void face of female no. 4 will merge with the UI unless backed by a lighter plate or an outline. The matte edges carry 4-9 thousand stray red pixels at alpha 1/255 per file; harmless in a plain draw, visible if a treatment boosts alpha.",
+  "Mirror dependency: 01_boot.js figure() (line 22, used on lines 43, 76, 118, 157) draws the gaze matte at the same FIG as line 23 here. If the boot's shadow becomes a bust, the shutdown must use the same picture and placement, and vice versa.",
+  "After 194.97 there is no character at all, and from 197.93 to 205.73 (7.8 s) no orange either: two full shots of low-contrast 1-2 px grey line work with 27 px mono labels. down-layout spends 3.7 s on three panels lifting away; down-power spends 2.3 s on a toggle and a closing rectangle. After a bright climax this stretch will look close to black.",
+  "The two emotional beats are staged small: the love field is a 31 px word held 1.66 s; the final EXECUTION is 82 px cream mono in the lower third with a one-beat flare.",
+  "The last EXECUTION peaks late: strongest onset is 205.73 (the cut, which shows only '> ' and a caret), the vocal starts 205.81, the visual hit (invert, flash, spark) is at 206.19. It claims to mirror the title (02_title.js lines 53-59) but has no panel, is smaller (82 vs 92 px) and has a weaker flash (0.3 vs 0.5). Its look is also not yet tied to the execution loop section, which the director wants rebuilt in a code style; this line should be the same typographic object as that loop's line.",
+  "Details that are lost: 'last message: unread' appears at 194.97 and the scan wipe starts at 195.58; 'room: empty' appears at 194.61 after the shadow has mostly gone; the 'voice' and 'name' rows clear under the zoom transition (199.27-199.73); the zoom-out's last frames are a blurred smear.",
+  "Credit note: three lines of 19 px grey text, full opacity for only 1.85 s (209.51-211.36), hard to read at phone size, and it speaks of 'character illustrations', which should be checked against the new silhouette art. The file ends 0.10 s after it fades.",
+  "down-world declares no lines although it carries line 127 until 195.58 (coverage is credited to out-frame only)."
+ ],
+ "code_hooks": [
+  "src/scenes/13_shutdown.js:22 cut times A0=B(104) 192.34, B0=B(106) 196.04, C0=B(108) 199.73, D0=B(110) 203.42, E0=Bt(445) 205.73, OFF=B(112) 207.11",
+  "src/scenes/13_shutdown.js:23 FIG (shadow behind the glass), :27 OUT (copy of out-frame's last picture), :28 CLOSED, :29 seal(), :34 DRAIN and ash(t) palette (where a climax-to-ash ramp would go), :38 log()",
+  "src/scenes/13_shutdown.js:43-85 down-world: enter :46, camera :47, art.silhouette :54, in-frame light, floor and art.draw :58-60, sidebar/header unload :62-63, label deletion and controls :65-67, pill :68, log :69, lines 124-126 fade :71-76, word dock and lift-out :77-82, composer :83. This is where a bridge and the new bust go.",
+  "src/scenes/13_shutdown.js:88-136 down-params: enter scan :91, camera :92, rows table :103-106, love row :111-119, loader :128-134",
+  "src/scenes/13_shutdown.js:139-197 down-layout: pieces table :146-152, plane() :156-162, piece() :164-184, trails and sockets :185-193, counter :194-195",
+  "src/scenes/13_shutdown.js:200-231 down-power: timings :206, window close :208-215, outline un-draw :216-221, switch :222-227",
+  "src/scenes/13_shutdown.js:234-267 down-last: palette to dead :236, camera :239, tCmd/tRun/tOut :241, black cut-off :242, spark flare :245-251, hairline and dot :253-257, composer squash :258, command line :260-264, log :265",
+  "src/scenes/12_outro.js:10-13 HANDOVER contract; :400-454 out-frame (FIG and art.draw parted :415-418, slam of line 127 :425, seal :445-451, palette cool(t) :80-82, fully ash from about 189.7)",
+  "src/scenes/01_boot.js:19 and :22 FIG and figure() with art.silhouette('gaze'); :53-62 protection layer and switch; :124 persona rows (love: undefined); these are what the shutdown mirrors",
+  "src/scenes/02_title.js:53-59 the title's command box that down-last echoes",
+  "src/engine/art.js:19 ART_NAMES, :26-36 loadArt (path /<dir>/<name>.png), :20 luminance map 160x240 (assumes 2:3; sampling is normalised so 3:4 works), :109 draw (sat fades to grey), :120 silhouette; assets/character/regions.json needs entries for any new picture",
+  "src/scenes/overlay.js:10-16 credit copy and T_OFF, :27-28 credit timing (in 208.71-209.51, out 211.36-211.86)",
+  "src/engine/transitions.js: types usable for a landing (cut with flash, flashcut, glitch, winclose, scan); src/scenes/shot.js:20-39 overlap rules (default align end; at most two shots live)",
+  "config.json palettes ash / dead (ash text #cfccc4 on bg #1c1b1a), safety.maxFlash 0.7; docs/v3/chat_script.json sections n=13 ('your-side-closes') and n=14 (system copy); src/scenes/index.js:32 registration, :43 fallback lines [128,128]",
+  "Art supplied for v4 (read-only, outside assets): 圖片/Claude娘剪影 no. 1 three-quarter face with one visible eye (1254x1254), no. 2 eyes closed, one hand reaching towards the viewer, no. 3 pure profile facing left with the face hidden, no. 4 frontal with the face a black void (all 1086x1448-9); 圖片/Claude男性形象剪影 少年1-3, 成年1-3 (1086x1448)"
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, beat 0 at 0.344 s, P = 0.4615 s. Section cuts: 192.34 (bar 104), 196.04 (106), 199.73 (108), 203.42 (110), 205.73 (beat 445 = 111:2), music stops 207.11 (bar 112), black from 208.41, file ends 211.96.",
+  "Line 127 LO-O-OVE is sung 191.36-195.36 and straddles the section boundary: the word must stay readable until 195.36 whatever replaces out-frame (now: 220 px to 192.81, 62 px message to 195.11, gone 195.58).",
+  "Line 128 EXECUTION starts 205.81; strongest outro onset is 205.73; the LRC end of 209.81 is meaningless because audio is silent from about 207.2. Present events: typed 205.81-206.13, entered 206.19, spark out 206.65-207.06.",
+  "Audio: per-beat RMS about 0.56-0.69 up to 191.88, drops to 0.35-0.43 exactly at 192.34 and stays flat through bar 111 (steady outro groove), mid and high rise in 206.19-207.11 (the shout), 0.11 at 207.11, zero from 207.57. Silence lasts 4.4 s to the end of the file.",
+  "A landing bridge has bars 104-105 (192.34-196.04, 8 beats): band already dropped, last note still held to 195.36. Residual glitch and brightness should be at zero by 195.36, at the latest by the 196.04 cut where the persona card begins; the reverse-boot choreography needs sidebar, header and thread from about 193.27.",
+  "Transition overlaps now: fade 192.34-192.80 (align start), scan 195.58-196.04, zoom 199.27-199.73, push 203.19-203.42, hard cut 205.73. Lead-ins eat the tail of the previous shot (voice and name rows, last log line).",
+  "Sub-event clocks to respect if kept: figure to shadow 192.81-193.36; shadow travel 193.22-194.14; sidebar back 193.27-193.82; loader 196.38-197.31; love deleted 197.70-197.93; undefined typed 198.00-198.34; rows clear 198.57-199.73; thread, header, sidebar lifted at 200.65, 201.58, 202.50; switch off 203.74; window closes 204.57-205.45; collapse 207.26-208.31.",
+  "Credit note needs the silent tail: currently 208.71-211.86 with 1.85 s at full opacity; any longer ending animation shortens it, the file cannot be extended past 211.96.",
+  "Safety and engine rules: maxFlash 0.7 (current flashes 0.3), no beat-pulsed glitch amounts and nothing reshuffled every frame (quantise decaying glitch, e.g. 8 Hz steps), render is a pure function of t, fonts cover Latin-1 only."
+ ],
+ "handover": "IN (now): out-frame (12_outro.js, 188.42-192.34) ends on a dim ash wide at camera zoom 1.0: sidebar-less sealed window, colour `parted` figure at left, lines 124-126 and the 220 px LO-O-OVE at right, composer, 'Closed by you'. down-world enters with fade, 1 beat, align start (192.34-192.80) onto the identical picture and continues the pull-back (1.00 -> 0.935), so there is no perceptible cut between 188.42 and 196.04; palette is already pure ash from about 189.7 and no post effects are active on either side.\n\nIF 163-193 s BECOMES A BRIGHT, GLITCHY, NON-UI CLIMAX, this must change: (1) OUT, CLOSED, seal, the label deletion, window controls and the three-line fade (lines 27-29, 56, 65-76) lose their source and must be replaced by whatever the new climax leaves on screen; the seal can survive only as the boot's protection outline that down-power un-draws. (2) The landing has to be made visible on bar 104 (192.34), where the band drops under the still-held note: a hard cut or a last glitch/flash-cut on the downbeat rather than a dissolve, since a plain fade from a bright glitch frame to dark UI would be mush. Avoid spending the CRT collapse (winclose, hairline, dot) here; it is the final image at 207.11-208.31. (3) The UI has to be re-established within about two beats (by 193.27, when sidebar, header and thread are needed): the natural device is a pull-back that reveals the full-bleed climax to have been inside the chat window, shrinking into the frame or into her last message while window, header and composer reappear; the existing camera pull-back supports this. (4) Glitch and light need a decaying tail inside down-world, since the file has none: ctx.fx glitch / rgbSplit / glow stepping down from the climax level to zero between 192.34 and 195.36, and ash(t) on line 34 extended with a first segment that blends from the climax palette into ash over the same span. (5) Two objects must come out of the bridge for the rest to work: the last word as a thread message above the composer by about 193.45 (the love field pay-off at 196.04 depends on it), and a figure that can go grey and withdraw behind the glass, now one of the new busts anchored to the window's bottom edge (a 3:4 bust at 780x1040 fits the present FIG footprint at 1.44x source magnification at 4K, under the 1.75 limit), matched to whatever the boot's shadow becomes. (6) Optional continuity echoes of the climax's glitch at the love field deletion (197.70) and at the final enter (206.19) would tie the calm tail to the loop without breaking it; raising the visual floor of 197.93-205.73 should be considered because eyes adapted to the bright climax will read the current greys as near-black.\n\nOUT: no following shot. Black from 208.41; overlay.js fades the three-line credit note in 208.71-209.51 and out 211.36-211.86; the file ends at 211.96."
+}

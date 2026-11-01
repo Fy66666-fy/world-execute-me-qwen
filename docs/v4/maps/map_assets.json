@@ -1,0 +1,438 @@
+{
+ "silhouettes": [
+  {
+   "file": "圖片\\Claude娘剪影\\ChatGPT 图像 2026年10月6日 01_31_06-4.png",
+   "suggested_key": "f_bust",
+   "size": "1086x1449 (the only file 1 px taller than the rest; crop to 1086x1448). Alpha bbox x 6-1083, y 17-1440.",
+   "description": "Female, FRONT faceless bust. Long hair falling over both shoulders to below the bust, daisy ornament + striped ribbon at viewer's right of the head, white cape with pointed shoulder corners, black jabot with orange disc brooch. Head axis leans ~25 deg (flower upper right, chin lower left of it). Landmarks (src px): flower centre (760,217); chin tip (571,628); brooch (574,797) r 34; face-black region box x 367-680, y 259-628; cape shoulder corners about (220,815) and (940,824); garment 172-991 wide at y=900.",
+   "face_state": "Faceless: the whole face is one flat black shape under the fringe, with a thin cream chin line. No eyes, no mouth. Can be shown at any size without touching the 'never draw / distort the face' rule.",
+   "cut_off_edges": "None touch the canvas. Self-contained cut-paper bust: torso ends in a designed concave arc at y~1330, hair tips hang lower (to y 1440). Floats cleanly on any field. Cape tip comes within 3 px of the right edge at y 1006-1153 (leave 1-2 px padding when cropping).",
+   "inks_hex": "orange #DD723F (46%), cream #F4E0C5 (25%), black #221916 (30%). Per-ink std 2-3 levels. 96.8% of opaque px within 24 levels of an ink; the rest are ink-to-ink anti-alias blends; true strays 115 px (0.011%).",
+   "alpha_quality": "Straight alpha, RGB under a=0 is black. Solid body is a=253/254, not 255 (0.19% at 255). Edge ramp ~2.2 px, crisp. One connected body at a>=16; 112 detached specks exist only at a 1-8 (1.4k px, red/yellow RGB). 12 see-through gaps between hair strands (27.6k px). No light halo on white / cream #FAF9F5 / dark #262624 / red #CC2222; cream edges carry a faint 1 px darker rim (-14 luminance levels).",
+   "best_uses": "The neutral 'she is here' image: replaces the grey figure behind the glass (boot, title, error spread, shutdown), avatar / presence, the figure behind the page in c1-trap, the sealed frame in out-frame. Anchor image of both match cuts: F-to-M (to 少年1) and tabby cat (to 猫耳娘1). Being faceless it also works for 'only god' / 'existence' (a face-shaped void lit by the user's bubble)."
+  },
+  {
+   "file": "圖片\\Claude娘剪影\\ChatGPT 图像 2026年10月6日 01_31_04-3.png",
+   "suggested_key": "f_profile",
+   "size": "1086x1448. Alpha bbox x 12-1078, y 49-1413.",
+   "description": "Female, strict LEFT-facing profile, head bowed, looking down. Fringe covers the eye area; only forehead-nose-lips-chin contour in cream against the hair. Ornament here is a RECTANGULAR-RAY rosette with a solid black centre (different from the pointed-petal daisy of the other busts), big black bow + cream ribbon behind the head. Cape shoulder seen from the side, brooch at the collar. Landmarks: flower centre (704,252) r 28; nose tip (314,588); chin (431,705); brooch (548,903) r 25.",
+   "face_state": "No features: profile contour only (no eye, no brow drawn). Reads as lowered head / withdrawn.",
+   "cut_off_edges": "None touch the canvas (margins 12 / 49 / 8 / 35 px). Lower edge is a designed diagonal cut of the cape plus hair ends. Floats cleanly.",
+   "inks_hex": "orange #D26A39 (54%, the darkest orange of the set), cream #F1DFC6 (30%), black #261C18 (16%). 97.7% within 24 levels; strays 102 px.",
+   "alpha_quality": "Same family: a=253/254 solid, ramp ~2.1 px, 229 specks at a 1-8 only (2.2k px), a few thin hair wisps at a 16-24, 15 hair gaps (33.9k px). Clean on all four test backgrounds.",
+   "best_uses": "Absence and aftermath: the '[lyric]' repeats (replace the rain pane in left-away / left-offline), alone-erase / alone-empty (replace parted halftone), DISHEARTENED, the ending. Head-bowed pose partner of 少年2 / 成年2 (cut, not dissolve)."
+  },
+  {
+   "file": "圖片\\Claude娘剪影\\ChatGPT 图像 2026年10月6日 01_31_01-2.png",
+   "suggested_key": "f_reach",
+   "size": "1086x1448. Alpha bbox x 2-1084, y 8-1447.",
+   "description": "Female, three-quarter bust, head tilted and bowed, one arm REACHING toward the viewer at lower left with an open, spread hand (palm out, fingers pointing down-left); the other hand holds the bow at her chest. Bare shoulder, loose sleeves, very long hair swirling around the whole figure. Landmarks: flower centre (770,178) (cream disc centre, r 17); closed eye (650,330); mouth (595,465); chin about (628,532); reaching palm centre (290,1100), hand box x 38-450, y 940-1380; chest hand about (790,760). No disc brooch visible.",
+   "face_state": "Eyes CLOSED (one closed lid visible, the other eye under the fringe), small mouth. Features are few flat strokes.",
+   "cut_off_edges": "BOTTOM is cut by the canvas (hair and dress run off: 197 px in the last row, hard run x 637-809). Hair tips also clip at the left edge (y 944-1069) and right edge (y 972-1190) within 2 px. Must bleed off the bottom of a frame / card or be masked there; do not float it.",
+   "inks_hex": "orange #DB723F (42%), cream #F4E0C4 (34%), black #251A15 (24%) PLUS a fourth tone: dark rust #432318 on 4.5% of the opaque area (hair shadow behind the shoulders). Only image with a 4th ink; an ink remap must fold it into black or give it meDim.",
+   "alpha_quality": "a=253/254 solid, ramp ~2.3 px, 80 specks at a 1-8 (268 px), 28 hair gaps (48.7k px, the most perforated figure). Clean edges on all four backgrounds.",
+   "best_uses": "The plea: '[lyric]' / second chorus, the '[lyric]' repeats, EXECUTION attempts (replaces plea.png in exec-06 / exec-12). The hand is a strong foreground element: let it break a window / card edge toward the user's side. Pose partner of 少年3 / 成年3."
+  },
+  {
+   "file": "圖片\\Claude娘剪影\\ChatGPT 图像 2026年10月6日 01_30_47-1.png",
+   "suggested_key": "f_eye",
+   "size": "1254x1254 (SQUARE, different canvas and scale from all others). Alpha bbox = full canvas.",
+   "description": "Female face CLOSE-UP, three-quarter, chin down, looking straight at the viewer from under the fringe. One eye visible (viewer's right), the other covered by hair. Rectangular-ray rosette ornament with an ORANGE centre disc at upper right, striped ribbon, collar and black tie at the bottom. Landmarks: flower centre (978,285) r 32 (rosette radius ~190); eye about (730,522); mouth about (600,785); chin about (650,900).",
+   "face_state": "ONE EYE OPEN, orange iris, level serious stare; closed straight mouth. The only open-eyed female image, and the only one where she looks at the viewer.",
+   "cut_off_edges": "Cropped by the canvas at the TOP (hair, x 395-857) and the whole BOTTOM (x 8-1246); hair also reaches the right edge (y ~1000-1120) and the bottom-left corner. It is a crop, not a bust: use only full-bleed, or clipped inside a card / circle / window.",
+   "inks_hex": "orange #DC6D3D (54%), cream #F2E2C8 (23%), black #241916 (23%). 96.9% within 24 levels; strays 144 px.",
+   "alpha_quality": "a=253/254 solid, ramp ~1.8 px (sharpest of the set), no detached specks above a 8, 10 hair gaps (38k px). Only 17% of the canvas is transparent.",
+   "best_uses": "Impact insert, used sparingly as a peak: DISHEARTENED hit, '[lyric]' / ILLEGAL ARGUMENTS stare, strongest beats of the second chorus (full-bleed flash cut with glitch / rgb split), the single EXECUTION that 'looks back'. Also the best avatar crop (eye + flower). No pose partner; nearest is a face crop of 成年3."
+  },
+  {
+   "file": "圖片\\Claude男性形象剪影\\少年1.png",
+   "suggested_key": "boy_bust",
+   "size": "1086x1448. Alpha bbox x 13-1078, y 12-1433.",
+   "description": "Boy, FRONT faceless bust, same design language as f_bust: short fluffy hair with an ahoge, the same daisy at viewer's right, short white capelet with two black hem stripes, ribbon tie with orange brooch, black vest with one button. Landmarks: flower centre (792,267); chin tip (570,724); brooch (579,889) r 29; face-black box x 359-730, y 274-724; ears as cream slivers at both sides of the face. Sloping shoulders: capelet runs from the neck (~440,770) to hem tips (15,1100) / (1075,1135); garment 253-896 wide at y=900.",
+   "face_state": "Faceless: flat black face with a cream jaw line. No features.",
+   "cut_off_edges": "None touch the canvas. Designed bust: capelet hem points left/right, vest ends in a concave arc at y~1433. Floats cleanly.",
+   "inks_hex": "orange #DC7343 (26%), cream #F5E5CF (39%), black #211511 (35%). 95.7% within 24 levels; strays 171 px.",
+   "alpha_quality": "a=253/254 solid, ramp ~2.4 px, 229 specks at a 1-8 only (1.2k px), only 4 hair gaps (compact silhouette). Cream edges have the strongest dark keyline of the set (semi-transparent rim #C3B5A3, -48 luminance; outermost opaque ring -18): reads as a hairline on white / cream, invisible on dark and red.",
+   "best_uses": "The F-to-M switch: match cut partner of f_bust (register with scale 0.89). Recommended male image for the gender line because the cut is faceless-to-faceless and only hair length + clothes change. Also swaps 1:1 with 成年1."
+  },
+  {
+   "file": "圖片\\Claude男性形象剪影\\少年2.png",
+   "suggested_key": "boy_down",
+   "size": "1086x1448. Alpha bbox x 41-1069, y 8-1433.",
+   "description": "Boy, three-quarter view turned to viewer's left, head bowed, looking down. Daisy + short ribbon, ear visible, capelet with hem stripes, tie with brooch, vest with an orange diamond. Landmarks: flower centre (708,276); near eye (462,532), far eye (340,580); nose tip (350,645); mouth (445,678); chin (485,752); ear (710,500); brooch (634,894) r 32.",
+   "face_state": "Eyes OPEN but half-lidded and lowered (both visible, dark irises), closed mouth: quiet, sad.",
+   "cut_off_edges": "None touch the canvas. Designed angular lower cut. Floats cleanly.",
+   "inks_hex": "orange #E1703C (28%), cream #F7E4CB (48%), black #271B16 (24%). 95.8% within 24 levels; strays 182 px.",
+   "alpha_quality": "a=253/254 solid, ramp ~2.3 px, specks only at a<16, 5 hair gaps. Same dark keyline on cream edges as 少年1.",
+   "best_uses": "Comedown beat after the gender switch ('do whatever' said without joy), or a male echo of f_profile in the role-switch lines. Swaps 1:1 with 成年2 (identity registration)."
+  },
+  {
+   "file": "圖片\\Claude男性形象剪影\\少年3.png",
+   "suggested_key": "boy_reach",
+   "size": "1086x1448. Alpha bbox x 3-1085, y 2-1440.",
+   "description": "Boy, front three-quarter, head tilted, looking at the viewer, one hand offered palm-up at lower left (fingers pointing right), the other hand at the tie under the brooch. Wide sleeves with orange shading, vest with two orange buttons, cuff button. Landmarks: flower centre (722,195); eyes (464,422) and (638,347); mouth (581,508); chin about (546,595); brooch (666,711) r 25; palm centre (226,1140), hand box x 37-458, y 930-1330.",
+   "face_state": "BOTH EYES OPEN (orange irises, highlights), mouth slightly open as if speaking. The most 'anime face' of the set: full features at small size, so never enlarge untreated beyond its resolution.",
+   "cut_off_edges": "RIGHT edge cuts the sleeve (straight vertical cut, y 1013-1082); hair tip 2 px from the top; lower edge is a jagged hem at y 1340-1440 across the full width. Hide the right cut (bleed off a frame edge or mask); anchor the bottom to a frame edge.",
+   "inks_hex": "orange #DF7747 (22%), cream #F7E2C8 (51%), black #2B1E19 (27%, the lightest black). 93.9% within 24 levels; strays 695 px (0.07%, mostly near-white highlight specks in the eyes).",
+   "alpha_quality": "a=253/254 solid, ramp ~2.4 px, specks only at a<16, 10 small gaps. Dark keyline on cream edges.",
+   "best_uses": "The 'offered' boy: lands on the gender keyword or on 'do whatever' with the hand toward the user's side. Hand / torso / brooch lock to 成年3 with no transform; to f_reach with offset (+65,-40)."
+  },
+  {
+   "file": "圖片\\Claude男性形象剪影\\成年1.png",
+   "suggested_key": "man_bust",
+   "size": "1086x1448. Alpha bbox x 10-1075, y 10-1438.",
+   "description": "Adult man, FRONT faceless bust: short swept hair, daisy at viewer's right, high collar, wide angular jacket lapels and square shoulders, cravat with a large orange brooch. Landmarks: flower centre (769,249); chin tip about (570,727); brooch (563,906) r 40; shoulder line rises from (40,949) to (380,786) and falls from (800,780) to (1050,927); garment 38-1074 wide at y=950.",
+   "face_state": "Faceless: flat black face (merges with the black of the neck and jacket), cream jaw line and one ear line.",
+   "cut_off_edges": "None touch the canvas. Designed bust with a concave arc at the bottom (y~1438). Floats cleanly.",
+   "inks_hex": "orange #D67444 (24%), cream #F1DFC4 (38%), black #201713 (38%). 96.4% within 24 levels; strays 82 px (cleanest).",
+   "alpha_quality": "a=253/254 solid, ramp ~2.2 px, specks only at a<16, 4 hair gaps.",
+   "best_uses": "Optional third step of the gender line (f_bust -> boy_bust -> man_bust on consecutive hits), or the 'S' figure of the S/M role line if a figure is wanted there. Swaps 1:1 with 少年1 (chin within 3 px)."
+  },
+  {
+   "file": "圖片\\Claude男性形象剪影\\成年2.png",
+   "suggested_key": "man_down",
+   "size": "1086x1448. Alpha bbox x 26-1076, y 10-1436.",
+   "description": "Adult man, three-quarter to viewer's left, head bowed. Daisy + short ribbon, ear, jacket with wide lapels, cravat with brooch, orange diamond on the vest. Landmarks: flower centre (704,250); closed eye (456,478); nose tip (338,635); mouth (446,672); chin (481,760); ear (701,420); brooch (604,919) r 35.",
+   "face_state": "Eyes CLOSED (one lid visible), closed mouth: resigned / asleep.",
+   "cut_off_edges": "None touch the canvas. Designed angular lower cut. Floats cleanly.",
+   "inks_hex": "orange #D9713E (24%), cream #F2E0C6 (48%), black #241A16 (28%). 96.5% within 24 levels; strays 136 px.",
+   "alpha_quality": "a=253/254 solid, ramp ~2.2 px, specks only at a<16 (a few wisps to a 13), 2 hair gaps.",
+   "best_uses": "Alternate of 少年2; eyes-closed variant for a 'trance' beat. Not needed if the boy set is chosen, but useful as a one-beat flicker."
+  },
+  {
+   "file": "圖片\\Claude男性形象剪影\\成年3.png",
+   "suggested_key": "man_reach",
+   "size": "1086x1448. Alpha bbox x 2-1085, y 1-1445.",
+   "description": "Adult man, front three-quarter, chin down, looking at the viewer with one eye (the other under the fringe), one hand offered palm-up at lower left, the other at the cravat. Long coat sleeves, vest with three orange buttons, cuff button. Landmarks: flower centre (698,172); eye (605,322); mouth (562,490); chin about (552,527); brooch (661,738) r 29; palm centre (212,1160), hand box x 26-461, y 903-1349.",
+   "face_state": "ONE EYE OPEN (orange iris, narrowed), lips slightly parted. Same 'one eye under the fringe' idea as f_eye.",
+   "cut_off_edges": "LEFT edge cuts the reaching sleeve (y 1107-1283), RIGHT edge cuts the other sleeve (y 1172-1266), hair touches the top (x 405-500), lower edge is a jagged hem at y 1350-1445. Three hard sides: use only bleeding off a frame / card on left, right and bottom.",
+   "inks_hex": "orange #DD7441 (17%, least orange), cream #F5E0C5 (51%), black #231915 (32%). 95.0% within 24 levels; strays 395 px.",
+   "alpha_quality": "a=253/254 solid, ramp ~2.3 px, specks only at a<16, 4 gaps.",
+   "best_uses": "Dominant 'S' figure if a figure is used for the S/M line, or the adult step of a boy-to-man swap in the reach pose. A face crop pairs with f_eye."
+  },
+  {
+   "file": "圖片\\Claude猫耳娘\\猫耳娘1.png",
+   "suggested_key": "cat_bust",
+   "size": "1086x1448. Alpha bbox x 7-1084, y 29-1441. NOTE: the director said the cat-ear art was still to come; this folder already holds three files (saved 03:02).",
+   "description": "f_bust redrawn with two striped (tabby) cat ears: same faceless front bust, daisy, ribbon, cape, jabot, brooch, shifted about 28 px right and 50 px down to make room for the ears. Landmarks: flower centre (790,269); chin tip (600,678); brooch (599,841) r 33; face-black box x 423-724, y 331-678; ears at the top corners (x ~250-360 and ~740-850, y 29-220).",
+   "face_state": "Faceless (flat black face, cream chin line).",
+   "cut_off_edges": "None touch the canvas (cape tip within 3 px of the right edge, y 1006-1184). Floats cleanly like f_bust.",
+   "inks_hex": "orange #DB7340 (46%), cream #F2E1C9 (24%), black #201814 (29%).",
+   "alpha_quality": "Same as f_bust: a=253/254, ramp ~2.2 px, specks only at a<16, 12 hair gaps.",
+   "best_uses": "The tabby-cat line: match cut from f_bust (ears pop in on the hit; scale 1.00, offset (-28,-49)). Because the two register within 6 px, the ears can also be revealed by a wipe / mask of the top 220 px."
+  },
+  {
+   "file": "圖片\\Claude猫耳娘\\猫耳娘2.png",
+   "suggested_key": "cat_paws",
+   "size": "1086x1448. Alpha bbox x 7-1082, y 0-1446.",
+   "description": "Cat-eared girl, both fists raised like paws under the chin, head tilted, striped tail curling up at viewer's left, long wavy hair. Landmarks: flower centre (801,263); brooch (688,765) r 24; eyes about (690,430) and (520,515); paws about (490,700) and (780,760); tail x 40-250, y 590-1090.",
+   "face_state": "Eyes half-closed / sleepy (both visible, dark irises), small mouth. Soft, drowsy.",
+   "cut_off_edges": "Right ear tip clipped by the TOP edge (x 732-764); hair curls reach the bottom edge (within 2 px) and the right edge (y 818-943). Otherwise self-contained; give it 10+ px of headroom or let the ear break a frame.",
+   "inks_hex": "orange #DD723E (46%), cream #F2DFC3 (29%), black #281C17 (24%). Strays 609 px (0.06%).",
+   "alpha_quality": "a=253/254, ramp ~2.3 px, specks only at a<16, 27 hair gaps (38.5k px).",
+   "best_uses": "The 'purring' keyword hit (flash-in on the beat), i.e. the concrete picture for the cat line."
+  },
+  {
+   "file": "圖片\\Claude猫耳娘\\猫耳娘3.png",
+   "suggested_key": "cat_sleep",
+   "size": "1086x1448. Alpha bbox x 9-1082, y 3-1447.",
+   "description": "Cat-eared girl, eyes closed, head leaning to viewer's left, one hand holding the other sleeve across her body, striped tail rising at the right, dark skirt at the bottom. Landmarks: flower centre (623,227); brooch (570,684) r 24; closed eye about (480,400); tail x 850-1080, y 450-900.",
+   "face_state": "Eyes CLOSED, small mouth: asleep.",
+   "cut_off_edges": "BOTTOM fully cut by the canvas (x 212-823, skirt and hair). Must bleed off the bottom.",
+   "inks_hex": "orange #DD7542 (41%), cream #F5E3CB (29%), black #261C18 (30%). Strays 1233 px (0.12%, mostly near-black #101010).",
+   "alpha_quality": "a=253/254, ramp ~2.0 px, specks only at a<16, 18 hair gaps.",
+   "best_uses": "'Purr your way to sleep' resolution of the cat line, or an asleep / powered-down beat near the ending."
+  }
+ ],
+ "pose_matches": [
+  "METHOD. Landmarks are source pixels on the 1086x1448 canvas: flower centre and brooch by flood-fill centroid (+-1 px), chin of the faceless busts from the face-black region (+-2 px), chins / eyes / mouths of faced images read from gridded 1:1 crops (+-10 px). Transforms are p' = s*p + t (scale s, offset t in source px) mapping image B onto image A; on screen, if A is drawn at k = dst.w/1086, draw B at scale k*s and shift it by k*t. Checked with onion-skin overlays in <scratchpad>\\asset_comp\\asset_reg_*.png.",
+  "THE THREE POSES ARE CONFIRMED: (A) faceless front bust = female -4 / 少年1 / 成年1 (+ 猫耳娘1); (B) head bowed looking down-left = female -3 / 少年2 / 成年2; (C) one hand reaching = female -2 / 少年3 / 成年3. Female -1 (square face close-up) has no partner. In every image the flower sits at viewer's right of the head and the head axis leans 22-31 deg the same way, so the flower is a reliable common anchor.",
+  "POSE A head sizes (flower centre to chin): f4 452 px, 猫耳娘1 451, 少年1 508, 成年1 518. So the male heads are drawn 12-15% larger than the female one and their chins sit ~97 px lower on the canvas (f4 chin y 628, 少年1 724, 成年1 727).",
+  "A1  猫耳娘1 -> f4: s 1.00, t (-28,-49). Residual chin 2 px, flower 4 px, brooch 6 px. It is the same drawing redone with ears (hair strands differ by a few px). Best match in the whole set: holds as a hard cut, a 2-3 frame dissolve, or an ear-only reveal.",
+  "A2  少年1 -> f4: s 0.89, t (+60,-18) (inverse f4 -> 少年1: s 1.123, t (-67,+21)). Residual chin 5 px, flower 5 px; brooch lands 24 px higher (shorter neck). After registration the boy's capelet at shoulder height is ~45 px narrower per side than her cape. Clean gender match cut: face void, flower and collar stay put, the long hair 'cuts short'. Unregistered they are 96 px apart at the chin: registration is required.",
+  "A3  成年1 -> f4: s 0.873, t (+81,-4). Residual 8 px at chin / flower, brooch 10 px. His shoulder line lands on her cape line (y ~820) but ~150 px wider per side.",
+  "A4  成年1 <-> 少年1: no transform needed (s 1.0, t 0): chin within 3 px, flower 29 px, brooch 22 px; silhouette IoU 0.87, head-box IoU 0.96. Hair outline nearly coincides; only capelet vs square jacket shoulders differ. (Least-squares refinement s 0.963, t (+36,+23) is not worth it.)",
+  "POSE B head sizes (flower to chin): f3 529, 少年2 526, 成年2 557.",
+  "B1  成年2 <-> 少年2: no transform (s 1.0, t 0): nose 16 px, chin 9 px, flower 26 px, brooch 39 px; silhouette IoU 0.89, head-box IoU 0.97. Direct swap works; the eyes change from half-open (boy) to closed (man).",
+  "B2  少年2 -> f3: s 1.00, t (-31,-43). Residual nose 15 px, chin 23 px, flower 33 px (rms 25), brooch misses by 75 px. WEAKEST of the three pose matches: f3 is a strict profile with no eye, the boy / man are three-quarter views with faces. Head mass, bow direction and flower line up well enough for a hard cut on a flash or a wipe; do not cross-dissolve. 成年2 -> f3: s 0.95, t (+2,-5), rms 30.",
+  "POSE C head sizes (flower to chin): f2 381, 少年3 437, 成年3 384. Reaching palm centres: f2 (290,1100), 少年3 (226,1140), 成年3 (212,1160); all three hands occupy the same lower-left zone (x ~30-460, y ~900-1380).",
+  "C1  成年3 <-> 少年3: no transform: hand within 24 px, brooch 28 px, flower 34 px; silhouette IoU 0.90 (torso, sleeves and offered hand are the same drawing). The HEADS do not match: the boy's is 14% larger and his chin is 68 px lower, both eyes open vs one. Lock on torso + hand and let the head change (reads as growing up / down). Face-locked alternative: 成年3 -> 少年3 s 1.084, t (-33,+2), but then the hand misses by ~120 px.",
+  "C2  少年3 -> f2: one transform for head and hand together: s 1.00, t (+65,-40): palm 1 px, chin 29 px, flower 28 px. (Face-only fit s 0.886, t (+110,+12) leaves the hand 80 px off.) The gesture itself differs: her hand is palm-out with spread fingers pointing down-left, his is palm-up with fingers to the right; her eyes are closed, his open. Works as a beat cut that keeps 'head top centre, hand bottom left'; not a morph.",
+  "C3  成年3 -> f2: s 1.00, t (+78,-10) (or s 0.935, t (+95,+21), rms 21 over chin / mouth / eye / flower / palm). Same caveats as C2.",
+  "RECOMMENDATION FOR THE GENDER LINE: use pose A. f_bust held -> hard cut on the keyword to boy_bust drawn at 0.89x with offset (+60,-18) -> optional third hit man_bust (0.873x, (+81,-4)) or straight back. Pose C (boy_reach) can then follow as the 'do whatever' image without needing registration because it enters on its own cut.",
+  "Ornament caveat for cuts: female -1 and -3 wear a rectangular-ray rosette (orange centre / black centre), every other image a pointed-petal daisy with a ring centre. A cut between f_profile and any pose-A / pose-C image changes the ornament shape; the code-drawn spark (12 petals, src/components/motif.js) sits between the two."
+ ],
+ "processing_needed": [
+  "Bring the files into the project under ASCII keys (suggested: f_bust, f_profile, f_reach, f_eye, boy_bust, boy_down, boy_reach, man_bust, man_down, man_reach, cat_bust, cat_paws, cat_sleep) in assets/character/. The source names contain spaces and CJK ('ChatGPT 图像 2026年10月6日 01_31_06-4.png', '少年1.png'); export/server.mjs does decode URLs, but art keys are used in code and regions.json.",
+  "Normalise canvases: female -4 is 1086x1449 (crop the last row to 1448); female -1 is 1254x1254 and must be treated as its own format (square, different scale).",
+  "Clean the alpha once at load (or offline): set a<16 to 0. Every image has 80-230 detached specks and a faint haze at alpha 1-8 (1-2k px detached, ~20-29k px in all) whose RGB is saturated red / yellow. Invisible in normal compositing (worst pixel alpha 26), but any matte stacking, outline / dilate, threshold or glow built from the alpha would bring them out as red dots (they are exactly the red dots seen when a viewer ignores alpha). Optionally stretch 250-254 to 255: the solid body is alpha 253/254, never 255 (same quirk the old cut-outs had).",
+  "Add a three-ink treatment (suggested art.inks(ctx, name, dst, { orange: 'me', cream: 'text', black: 'panel', alpha })): at load classify each pixel to its nearest ink (soft at the anti-aliased boundaries) into three mattes, at draw time tint each matte with a palette role. This is what makes the new art obey the film's colour-as-state rule (off = greys, warm = hotter orange, error, ash) and lets one ink be dropped or swapped. The art is flat enough for it: 94-98% of opaque pixels lie within 24 levels of an ink, the rest are ink-to-ink blends, true stray colours are 0.01-0.12%.",
+  "Normalise the inks across images so cuts do not shift colour. Measured medians: orange #D26A39 to #E1703C (set median ~#DC723F), cream #F1DFC4 to #F7E4CB (~#F4E0C6), black #201713 to #2B1E19 (~#241A16). f_profile has the darkest orange, boy_reach the lightest black. With the ink remap this is automatic.",
+  "Handle the fourth tone in female -2 (f_reach): dark rust #432318 on 4.5% of the opaque area. Fold it into black or map it to meDim.",
+  "Solve black-on-dark. The black ink (#241A16) is almost exactly the UI page: on.bg #262624, error.bg #1d1413, ash.bg #1c1b1a. Composited on #262624 the faceless face, jabot, vest and jacket dissolve into the page and only hair + cream shapes read (verified at full size). Options to specify per shot: a lighter or warm plate / radial light behind the figure (as out-frame already does), an orange or cream disc (sun, spark) behind the head, a 2-3 px cream or 'line' keyline around the outer matte, or remap black to a value clearly below or above the page.",
+  "Solve cream-on-cream and orange-on-red. Cream ink (#F4E0C6) merges into errCream fields (#efece3 / #faf9f5) apart from a 1 px dark rim; on red (#CC2222 tested, errRed #a31b33 in the film) the orange hair loses most of its contrast while cream and black hold. In exec shots on red / cream fields remap inks (e.g. hair to cream or black) instead of drawing untreated.",
+  "Match the art orange to the UI orange: art #DC723F vs palette on.me #d97757 / warm.me #ee8552. Close but yellower and more saturated; side by side with orange UI text it will look like a second orange unless remapped to 'me'.",
+  "Expect heavy bloom: the global bloom feeds on saturated pixels and 17-54% of each figure is saturated orange. Lower ctx.fx.glow in shots where a figure is large (KIT.md already asks this for big saturated areas).",
+  "Fix the 2:3 assumptions in src/engine/art.js _prepare(): the luminance map is 160x240 and the blurred backdrop 256x384 (drawImage to 288x432), which stretches 3:4 and 1:1 sources. Derive both from the image aspect.",
+  "Recompute every destination rect in the scenes: all FIG rects are 2:3 (780x1170, 700x1050, 720x1080, 580x870, 800x1200, 850x1275, 268x402, 101.3x152, 1081*(1024/1536)...). The new art is 3:4, so w/h must be 0.75 (1.0 for f_eye) or be derived from art.size(name). Crops keyed to the old regions ('face', 'crops.bust', CROP_B {180,0,664,900}, the hard-coded face fallback in 06_verse2.js line 392) do not exist for the new keys.",
+  "Write regions.json entries for the new keys from the measured landmarks (flower [cx,cy,r], brooch [cx,cy,r], chin, eyes, face / head box, hand box, alpha bbox as 'figure', avatar / bust crops) and add per-image 'cut' flags plus the registration table from pose_matches. Note art.region() only returns arrays of 3 or 4 numbers; a registration record needs its own accessor.",
+  "Respect the hard-cut edges when composing: f_eye (top + bottom, full-bleed or clipped only), f_reach (bottom, slight left / right), boy_reach (right sleeve, jagged bottom), man_reach (left + right sleeves, top, bottom), cat_sleep (bottom), cat_paws (ear tip at top). Give the brief a rule: a cut edge must coincide with a frame / window / card edge or be covered by a gradient mask. f_bust, f_profile, boy_bust, boy_down, man_bust, man_down, cat_bust are designed busts and may float.",
+  "Size rule for flat art: at 4K a bust filling the 1080-high frame is 1.49x source (under the 1.75x warning in art.draw). Flat inks tolerate ~2x; a head-only close-up (600 source px to full height) is 3.6x and the 2 px edge ramp becomes a ~7 px soft edge. For close-ups either re-threshold the ink mattes after scaling, or use halftone / ascii, or accept softness only under glitch.",
+  "Hair gaps are see-through (4-28 enclosed holes per image, up to 48.7k px in f_reach): whatever is behind shows between the strands. Fine for the untreated figure; for a flat grey 'shadow behind the glass' consider a filled-outline matte so the shadow is not perforated.",
+  "The male set (and boy_bust most of all) has a 1 px grey-brown keyline on cream edges (rim #C3B5A3, up to -48 luminance). It is part of the look on dark; on cream / white fields it reads as a hairline. If the cream ink is remapped, the rim must be remapped with it (build the cream matte from alpha, not from colour distance alone).",
+  "Mirroring: every figure has the flower at viewer's right and poses B / C face or reach toward viewer's LEFT. Layouts that need the figure on the left reaching right (toward the user's side of the thread, which is on the right in this UI) must flip the image; this is safe for flat art (no lettering) but moves the flower to viewer's left, so decide once and keep it consistent.",
+  "Memory / load: the current _prepare keeps img + grey + inverted + silhouette at full resolution per image (~25 MB each). Thirteen more images plus three ink mattes each is several hundred MB; prepare lazily or drop the inverted plate for images only used through inks.",
+  "Bookkeeping when the art changes: ART_NAMES (art.js line 19), docs/v3/PLAN.md section 4 table, docs/v3/KIT.md table row for art.js, README.md lines 78 / 83 / 125, CREDITS.md line 22 ('six illustrations'), docs/v3/errors.json attempts[].art (rain / gaze / plea / parted / tea keys), docs/v3/chat_script.json copy that names 'the tea illustration' (lines 265, 696), docs/v3/WANTED_ART.md. The female file names show they were exported from an image generator; how to word the credit is the director's call."
+ ],
+ "old_art_usage": [
+  {
+   "scene_file": "src/scenes/01_boot.js",
+   "shot_id": "boot-power (0.00-4.04)",
+   "image": "gaze",
+   "treatment": "silhouette ('mute', alpha 0 -> 0.75 between 1.2 and 3.2 s) at FIG {1150,-20,780,1170}; helper figure() line 22, call line 43",
+   "role_in_shot": "The grey full-height figure standing in the dark room behind the window that opens from a hairline: first sight of the character, as a shadow."
+  },
+  {
+   "scene_file": "src/scenes/01_boot.js",
+   "shot_id": "boot-layout (4.04-7.73)",
+   "image": "gaze",
+   "treatment": "silhouette ('mute', alpha 0.6, x parallax up to +60 px), line 76",
+   "role_in_shot": "Same grey figure behind the tilted exploded view of the client; depth layer only."
+  },
+  {
+   "scene_file": "src/scenes/01_boot.js",
+   "shot_id": "boot-params (7.73-11.42)",
+   "image": "gaze",
+   "treatment": "silhouette ('mute', alpha 0.55), line 118",
+   "role_in_shot": "Shadow behind the persona card close-up (whose values are being filled in)."
+  },
+  {
+   "scene_file": "src/scenes/01_boot.js",
+   "shot_id": "boot-world (11.42-15.11)",
+   "image": "gaze",
+   "treatment": "silhouette ('mute', alpha 0.7-0.9, -40 px parallax), line 157",
+   "role_in_shot": "THE 'figure behind the glass': the unlit character waiting behind the empty new chat. Mirrored by down-world at the end."
+  },
+  {
+   "scene_file": "src/scenes/02_title.js",
+   "shot_id": "title (15.11-16.96)",
+   "image": "gaze",
+   "treatment": "silhouette ('meDim', alpha 0.5 * lit), helper line 25, call line 49",
+   "role_in_shot": "The figure takes its first colour from the spark lighting up, right of the launch command."
+  },
+  {
+   "scene_file": "src/scenes/02_title.js",
+   "shot_id": "chat-open (16.96-22.50), chat-type (22.50-26.19), chat-think (26.19-29.42)",
+   "image": "gaze",
+   "treatment": "silhouette ('meDim', alpha 0.75; fades to 0 in chat-think) behind windowFrame glass 0.82; lines 72, 100, 125",
+   "role_in_shot": "Dim orange figure behind the window while the user arrives, types and sends the first question; it is presence, not subject."
+  },
+  {
+   "scene_file": "src/scenes/05_chorus.js",
+   "shot_id": "c1-give (59.42-61.96) / cx-give (162.81-165.11)",
+   "image": "tea",
+   "treatment": "backdrop via room() (alpha 0.5; 0.2 in the error pass), setup1 line 217",
+   "role_in_shot": "The blurred greenhouse as the room behind the window; only colour and light, not recognisable."
+  },
+  {
+   "scene_file": "src/scenes/05_chorus.js",
+   "shot_id": "c1-kw1 (61.96-63.11) / cx-kw1 (165.11-166.50)",
+   "image": "tea",
+   "treatment": "backdrop via page() line 177 (alpha 0.14-0.30, grey 0.10 in the error pass) + room() backdrop in edgeStrip() line 280 (alpha 0.55 / 0.2)",
+   "role_in_shot": "Warm room tone behind the keyword and beyond the window's edge (where the user is)."
+  },
+  {
+   "scene_file": "src/scenes/05_chorus.js",
+   "shot_id": "c1-only, c1-kw2, c1-kw3 (63.11-66.81, 69.34-70.50) / cx-only, cx-kw2, cx-kw3",
+   "image": "tea",
+   "treatment": "backdrop via page() (setup3 line 327, setup4 line 352, setup6 line 417)",
+   "role_in_shot": "Room tone behind bubbles and keywords."
+  },
+  {
+   "scene_file": "src/scenes/05_chorus.js",
+   "shot_id": "c1-happy (66.81-69.34)",
+   "image": "tea",
+   "treatment": "draw: whole, untreated, ~667x1000 growing to 736x1104 (slow push), clipped to a rounded picture-message card; plus page() backdrop; setup5 line 386",
+   "role_in_shot": "THE first full reveal: asked what she looks like, she sends this picture; the user taps one heart on it. This is the anime illustration at its largest in the film, and the one the director calls out as not matching."
+  },
+  {
+   "scene_file": "src/scenes/05_chorus.js",
+   "shot_id": "cx-happy (170.19-172.73)",
+   "image": "tea",
+   "treatment": "halftone x2 (cell 6: 'panel' plate + 'err' plate 5 px out of register) on a grey card, lines 388-389",
+   "role_in_shot": "The same picture sent again, not going through: heart count zero."
+  },
+  {
+   "scene_file": "src/scenes/05_chorus.js",
+   "shot_id": "c1-trap (70.50-73.27), c1-kw4 (73.27-74.19) / cx-trap (173.88-177.57)",
+   "image": "gaze + tea",
+   "treatment": "gaze halftone (cell 7, 'meDim', alpha 0.55 / 0.42) at FIG {1090,236,700,1050} clipped to the window (figure() line 210, call line 438); tea backdrop via room() line 434; tea draw as a 100x150 thumbnail in the thread (halftone cell 4 'sub' in the error pass), line 462",
+   "role_in_shot": "'Both of them inside the same window': her dotted figure stands behind the page while the window outline closes; the thumbnail is the picture she sent earlier."
+  },
+  {
+   "scene_file": "src/scenes/06_verse2.js",
+   "shot_id": "v2-eggplant (74.19-77.65), v2-tomato (77.65-81.34), v2-cat (81.34-85.04)",
+   "image": "tea",
+   "treatment": "backdrop via stage() -> room() (alpha 0.42), line 37",
+   "role_in_shot": "Room tone only. No character art and no picture of the nouns: the answers are data cards (field guide, rings + table, purr strip)."
+  },
+  {
+   "scene_file": "src/scenes/06_verse2.js",
+   "shot_id": "v2-god (85.04-88.96)",
+   "image": "gaze + tea",
+   "treatment": "gaze duotone (dark 'bg', light 'me') at FIG {-30,140,800,1200} where the user's bubble light reaches, ring-wise halftone (dotsIn(), cell 9, 'meDim') beyond it, head disc placed from regions 'face' (lines 392-421); tea backdrop alpha 0.3 (line 382)",
+   "role_in_shot": "The 'only god' image: her full figure at the left of an emptied frame, lit only by the user's message. This is the composition the director wants redesigned together with 'existence'."
+  },
+  {
+   "scene_file": "src/scenes/index.js (07_pre2.js does not exist)",
+   "shot_id": "todo-pre2 (88.96-103.73)",
+   "image": "none",
+   "treatment": "fallbackShot() in src/scenes/kit.js line 88: plain client, lyric lines 56-63 as AI messages",
+   "role_in_shot": "NOT STORYBOARDED in v3. The gender / AM-PM / role / trance section has no bespoke shots and no art; it must be built new in v4 (this is where the boy silhouettes go)."
+  },
+  {
+   "scene_file": "src/scenes/08_chorus2.js",
+   "shot_id": "c2-typing (103.73-106.27), c2-dots (106.27-107.42), c2-brb (107.42-110.19), c2-complete (110.19-110.88), left-online (110.88-112.96)",
+   "image": "rain",
+   "treatment": "backdrop via room() (alpha 0.5 / 0.45 / 0.3; lines 232, 335, 380) and via page() (zoom 1.5 under a 78% page veil; lines 93, 263, 295)",
+   "role_in_shot": "Room tone of the rainy study; not recognisable."
+  },
+  {
+   "scene_file": "src/scenes/08_chorus2.js",
+   "shot_id": "left-away (112.96-114.81)",
+   "image": "rain",
+   "treatment": "draw, cover-crop on 'crops.bust' with a slow push, as a lit rounded pane on the right (picture() line 118, call line 400); greys with the palette's sat; plus backdrop alpha 0.35",
+   "role_in_shot": "'Her room': she sits at the laptop waiting while the unanswered messages pile up on the left. The illustration the director wants replaced in the '[lyric]' stretch (the cold grey grade itself is approved)."
+  },
+  {
+   "scene_file": "src/scenes/08_chorus2.js",
+   "shot_id": "left-offline (114.81-117.34)",
+   "image": "rain",
+   "treatment": "draw as a smaller, shaded grey pane (alpha 0.85 -> 0.45, line 421) + backdrop alpha 0.22",
+   "role_in_shot": "The same room receding on the wall as the chip goes offline."
+  },
+  {
+   "scene_file": "src/scenes/08_chorus2.js",
+   "shot_id": "left-isolation (117.34-118.50)",
+   "image": "rain",
+   "treatment": "draw as a 112x168 pane fading out (line 438) + backdrop alpha 0.14",
+   "role_in_shot": "'The lamp in her room goes out' above the tiny thread."
+  },
+  {
+   "scene_file": "src/scenes/09_alone.js",
+   "shot_id": "alone-erase (118.50-121.73)",
+   "image": "parted + rain",
+   "treatment": "parted silhouette ('panel', alpha 0.6) under parted halftone (cell 9, 'mute', alpha 0.62) at FIG_A {1010,24,850,1275} (lines 197-198); rain backdrop alpha 0.14 (line 194)",
+   "role_in_shot": "Grey dotted full figure, eyes lowered, beside the thread while she deletes her own messages. The director likes this section and the blurred background; only the figure source needs swapping."
+  },
+  {
+   "scene_file": "src/scenes/09_alone.js",
+   "shot_id": "alone-empty (121.73-125.65)",
+   "image": "parted + rain",
+   "treatment": "parted silhouette + halftone (cell 8) with crop CROP_B {180,0,664,900} at FIG_B {1160,92,729,988} under a 50% page veil (lines 249-250); rain backdrop alpha 0.18",
+   "role_in_shot": "Her upper body behind the glass of the emptied page, up to the DISHEARTENED keyword."
+  },
+  {
+   "scene_file": "src/scenes/10_error.js",
+   "shot_id": "err-request, err-check, err-first, err-send, err-chrome, err-drawer, err-forge, err-window (125.65-147.34)",
+   "image": "parted + rain",
+   "treatment": "backdrop() lines 93-96: rain backdrop forced grey (sat 0, alpha 0.4) + parted silhouette ('mute', alpha 0.5) at FIG {1150,-20,780,1170}; called from world() line 142 and err-drawer line 518",
+   "role_in_shot": "The grey figure behind the glass for the whole error spread (the place the user left). err-breath (147.34-148.04) uses no art."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-04 (150.81-151.73)",
+   "image": "rain",
+   "treatment": "duotone ('panel' / 'meDim', alpha 0.8) under ascii (size 12, meDim / me / meHot), cover-crop 'crops.bust', left half of the frame (lines 216-218)",
+   "role_in_shot": "Her room as ASCII: the answer is parked beside her because it is not her turn."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-05 (151.73-152.65)",
+   "image": "gaze",
+   "treatment": "duotone (dark 'text', light 'raised') 268x402 at the bottom left of a huge cream bubble (line 259)",
+   "role_in_shot": "The small figure that gives away who typed the reply."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-06 (152.65-153.57)",
+   "image": "plea",
+   "treatment": "draw, 24 copies at 101x152 in a 6x4 contact sheet (line 279)",
+   "role_in_shot": "The loop: the same pleading figure and the same word in every cell."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-07 (153.57-154.50)",
+   "image": "parted",
+   "treatment": "silhouette x2 as misregistered plates ('err', 'line', +-44 px) + draw full-height 720x1080 on top, on the red field (lines 316-317)",
+   "role_in_shot": "Three drafts that never come into register."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-09 (155.42-156.34)",
+   "image": "tea",
+   "treatment": "duotone ('panel' / 'me') + halftone (cell 5.5, inverted) of 'crops.bust' in a 330x440 pinned card (lines 384-386)",
+   "role_in_shot": "The one old picture the user once liked, pinned instead of a new answer."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-11 (157.27-158.19)",
+   "image": "gaze",
+   "treatment": "draw 721x1081 inside the scene, which is then cut into 7 horizontal bands and shuffled (line 444; canvas clipping, not art.slices)",
+   "role_in_shot": "She arrives in pieces in the wrong order; the bust band stays whole."
+  },
+  {
+   "scene_file": "src/scenes/11_execution.js",
+   "shot_id": "exec-12 (158.19-158.88)",
+   "image": "plea",
+   "treatment": "silhouette ('panel', offset shadow) + duotone (dark 'err', light 'me') full-height 720x1080 at the right, on the red field (lines 478-479)",
+   "role_in_shot": "No attempts left: the word in her own voice beside her. (exec-01, 02, 03, 08, 10 and all of 11_count.js use no art.)"
+  },
+  {
+   "scene_file": "src/scenes/12_outro.js",
+   "shot_id": "out-study (177.57-180.81)",
+   "image": "library",
+   "treatment": "draw whole, untreated, 534x801 picture card (sat 0.92 -> 0.62), line 262; library backdrop via room() alpha 0.4, line 253",
+   "role_in_shot": "The picture she sends of herself reading: 'it has studied'. Second and last time an anime scene illustration is shown whole."
+  },
+  {
+   "scene_file": "src/scenes/12_outro.js",
+   "shot_id": "out-answers (180.81-184.50)",
+   "image": "library",
+   "treatment": "backdrop via room() alpha 0.35, line 294",
+   "role_in_shot": "Room tone. (out-heart uses no art.)"
+  },
+  {
+   "scene_file": "src/scenes/12_outro.js",
+   "shot_id": "out-frame (188.42-192.34)",
+   "image": "parted",
+   "treatment": "draw, whole figure at FIG {172,138,580,870}, sat 0.8 -> 0.6, on a 'raised' radial light with a floor shadow (lines 415-418)",
+   "role_in_shot": "The AI whole, standing on the bottom edge inside the sealed frame while the user's side leaves: the 'trapped' image."
+  },
+  {
+   "scene_file": "src/scenes/13_shutdown.js",
+   "shot_id": "down-world (192.34-196.04)",
+   "image": "parted",
+   "treatment": "draw (alpha 1 -> 0, sat 0.6, clipped to the window, line 60) cross-fading into silhouette ('mute', alpha up to 0.85, line 54) while the rect moves from the out-frame position back to the boot FIG {1150,-20,780,1170}",
+   "role_in_shot": "She greys out and steps back behind the glass, exactly where the boot found her, then is gone. Later shutdown shots use no art."
+  }
+ ],
+ "loading_pipeline": "HOW IT WORKS TODAY. config.json paths.art = \"assets/character\". src/engine/engine.js createEngine() (line 51) awaits loadArt(cfg) alongside fonts and the two copy JSONs, and passes the result to every section as env.art (line 61). src/engine/art.js: ART_NAMES (line 19) is a hard-coded list ['library','tea','rain','gaze','plea','parted']; loadArt() fetches /assets/character/<name>.png for each, decodes it and calls Art._prepare(), then fetches assets/character/regions.json (missing file = empty regions, no error). _prepare() builds per image, once: a 160x240 luminance + alpha map (for halftone / ascii), full-resolution greyscale, inverted-greyscale and white-silhouette canvases (for draw's desaturation, duotone, silhouette), and a 256x384 blurred colour + grey copy (for backdrop). Treatments: draw (crop, alpha, sat follows the palette's sat so art greys with the conversation state; warns in the console above 1.75x source at 4K), cover (crop rect for cover-fit with focus / zoom), silhouette (alpha matte in one palette role), duotone (luminance -> two palette roles, keeps the matte), halftone, ascii, slices, backdrop. Addressing: art.<treatment>(ctx, 'key', dstRect, opts); art.size('key'); art.region('key', 'face' | 'crops.bust' | 'crops.wide.0' ...) reads regions.json and returns {x,y,w,h} for arrays of 4 numbers or a box for [cx,cy,r]. regions.json holds, per image: alpha flag, face box, eyes_y, flower / brooch / emblem circles, hands, prop, figure (alpha bounds), crops (avatar, bust, wide[3], detail[]), notes. Rooms: room() in src/components/chat.js line 56 calls art.backdrop when given { art, name }; without a name it draws a soft lit page (so rooms work with no picture). client() in src/scenes/kit.js passes env.art through. tools/storyboard.mjs stubs art with a Proxy (line 18), so new art methods do not break the storyboard tool. Old art is used in 9 of 13 section files (not in 03_verse1, 04_pre1, 11_count); the keys also appear in docs/v3/errors.json attempts[].art.\n\nWHAT ADDING THE NEW SET INVOLVES. (1) Copy the 10 silhouettes (and the 3 cat-ear files that already exist in 圖片\\Claude猫耳娘) into assets/character under ASCII keys and extend ART_NAMES, or make the list data-driven from regions.json. (2) In _prepare(): alpha clean-up (a<16 -> 0), aspect-correct luminance / blur sizes (they assume 2:3; the new art is 3:4 and one 1:1), and three ink mattes per image for a new palette-driven treatment (art.inks). (3) regions.json entries for each new key from the measured landmarks in this report, plus hard-edge flags and the registration table for match cuts. (4) Re-derive every figure rect in the scenes (all are 2:3) and every crop that names an old region. (5) Decide what replaces the three scene illustrations: tea / rain / library currently give the rooms their colour (art.backdrop in ~25 shots) and are the 'pictures she sends' (c1-happy, left-away pane, out-study, exec-09). The new set contains no scene or background, so rooms become room() without art (or a code-drawn room / a blurred bust as a colour source) and the 'picture she sends' becomes a silhouette portrait card. (6) The old figure placements are full-body (head to boots); the new art is busts only, so the figure behind the glass, the figure inside the frame and the full-height exec figures need bust compositions (rising from the bottom edge of the window / frame, or framed as a card). (7) Update PLAN.md section 4, KIT.md, README.md, CREDITS.md, errors.json art fields. Existing treatments work on the new files as they are: silhouette (true alpha), halftone / ascii (luminance: black 0.11, orange 0.52, cream 0.89, so three clear tiers), duotone (gives a three-step ramp but cannot colour the inks independently), draw with sat (greys correctly).\n\nWorking files from this audit (outside the repo): <scratchpad>\\asset_measure.json (all measurements), \\asset_comp\\asset_<key>_{white,cream,dark,red}.png (full-size composites; keys f1-f4, boy1-3, man1-3, cat1-3), \\asset_comp\\asset_reg_*.png (registration overlays), \\asset_uses_1.png, \\asset_uses_2.png, \\asset_uses_3.png (v3 frames showing every old-art use).",
+ "missing_art": [
+  "Full-body figure (any gender): every new image is a bust (head to chest / waist). v3 stands a head-to-boots figure behind the glass (boot, title, error, shutdown), behind the page (c1-trap), inside the sealed frame (out-frame) and full-height in exec-07 / exec-11 / exec-12. All of these need bust-based recompositions.",
+  "Back view or three-quarter back (WANTED_ART A3) for 'left behind' after the user leaves and for the ending. Nearest substitute: f_profile (head bowed, turned away from the right side of the frame).",
+  "Any scene / room / background in the silhouette style (WANTED_ART B1, B2). tea, rain and library were the rooms and the 'pictures she sends'; nothing in the new set replaces the greenhouse, the rainy desk with laptop (waiting), or the library with the book (studied).",
+  "An expression series on one fixed framing (WANTED_ART A1 / A2). There is no smiling face (the tea smile carried 'make you happy' in chorus 1), no tears / hurt face (parted had tear tracks; needed for DISHEARTENED and the second chorus), no surprised face. Available states are: faceless (f_bust, boy_bust, man_bust, cat_bust), profile without eye (f_profile), eyes closed (f_reach, man_down, cat_sleep), half-lidded (boy_down, cat_paws), open and serious (f_eye, man_reach), open and speaking (boy_reach).",
+  "An open-eyed FEMALE bust on the f_bust framing. f_eye is a tighter crop on a different canvas (1254 square), scale and head angle, so 'the face appears' can only be a cut, not a reveal on the same figure.",
+  "A female three-quarter 'looking down' with a face that matches 少年2 / 成年2, or a male strict profile that matches f_profile. Pose B is the loosest match (rms 25-30 px).",
+  "A female open-palm 'offering' hand like the boy's and man's (hers is palm-out with spread fingers), if the reach is to be match-cut on the hand shape.",
+  "Hand-only art: palm against the glass seen from the other side (WANTED_ART A4), typing hands or a finger pressing a button (B5) for the regenerate attempts.",
+  "Seated / waiting pose looking off-frame (A5), both arms giving or holding something out (B4), thinking pose (C1), seated asleep / powered-down pose (C2; cat_sleep is the nearest).",
+  "The flower ornament alone, front-on, high resolution (B3). It stays code-drawn; note the set itself shows two ornament designs (rectangular-ray rosette in female -1 / -3, pointed-petal daisy elsewhere).",
+  "Right-facing or mirrored variants: all poses face or reach toward viewer's left with the flower at viewer's right; the user's side of the thread is on the right, so reaching 'toward the user' needs a flip.",
+  "Landscape or wide compositions: everything is portrait 3:4 (one 1:1), at most ~810 virtual px wide at full frame height; and resolution is 1448 px on the long side, below the 2048 px asked for in WANTED_ART (a head close-up at 4K is ~3.6x source).",
+  "Line-art / single-ink version for the 'not yet lit' boot state (C3). Can be derived in code from the black-ink matte or the alpha outline.",
+  "Cat-ear set: three images have already arrived (faceless front that registers to f_bust, paws-up, asleep). Still absent: an actual cat silhouette, and a cat-eared open-eyed front view.",
+  "Nothing depicts the concrete nouns the director wants flashed on the beat (eggplant, tomato, sun for AM / PM, historical or time imagery for AD / BC, the S and M letterforms, a 'god' or 'existence' emblem). These have to be designed in code in the same three-ink cut-paper language (flat orange / cream / near-black shapes, hard edges, no gradients), using the measured inks."
+ ]
+}

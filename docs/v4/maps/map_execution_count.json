@@ -1,0 +1,373 @@
+{
+ "section": "execution_count — 148.04-162.81 s (beats 320-352, bars 80-87): twelve EXECUTION shouts (lines 86-97), six counts (lines 98-103), final shout (line 104). Files: src/scenes/11_execution.js, src/scenes/11_count.js, docs/v3/errors.json",
+ "summary": "v3 plays the twelve shouts as twelve presses of Regenerate on the user's first question: 12 hard-cut shots of 2 beats each (exec-01..12), every one a different failed answer with its own composition, its own micro-copy and one of three full-field palettes (dark error, flat red, cream). The only constants are a 204x52 px attempt pager in the top-right corner and the user's question bubble; the sung word changes place, size (40-349 px), typeface and colour in every shot, and 7 of the 12 shots carry the old anime illustrations (three of them untreated, in full colour). The counting is six full-frame dark cards (huge orange serif numeral in the centre, the number word in its own script on one side, a 'Reply language' chip on the other, chat-style chrome top and bottom), each arriving by a different 0.10-0.12 s wipe, then the six cards fold into tiles inside the chat window and the last shout is a serif bubble that hits the window edge and gets the film's first 'Reached no one' badge. Musically this is the most rigid passage of the song: 12 identical 2-beat cells at flat loudness, then a stop-time bar where the voice counts on six consecutive beats, then one last shout over near-silence into the loudest downbeat (162.81). Measured against the audio, the 12 shot cuts sit exactly on the sung onsets, but the six count cards and the end of exec-12 are half a beat early (v3 followed the LRC, which runs 0.2-0.5 s early here). No code, loop or run counter is shown anywhere, so the passage reads as twelve unrelated slides followed by a well-built counting gag in chat-UI skin.",
+ "shots": [
+  {
+   "id": "exec-01",
+   "start_s": 148.04,
+   "end_s": 148.96,
+   "lyric_lines": "86 (EXECUTION #1)",
+   "enter_transition": "hard cut from err-breath (position match: question bubble and pager rect); 2.2 % zoom kick on the cut, 3 % push over the shot",
+   "art_used": "none",
+   "on_screen": "DARK field (mean luminance 0.013). Whole chat window centred, no sidebar, dim-red outline, header title + offline chip, user's question bubble top right. Exact centre: a red thinking spark (r 100) inside a red open ring that keeps turning, red radial glow. Under it at y 756 a mono status line, chevron + the word in 92 px orange, typed in 0.1 s. Two 24 px mono labels below (the second arrives on beat 2). Composer with busy send button. Pager 1/12 top right."
+  },
+  {
+   "id": "exec-02",
+   "start_s": 148.96,
+   "end_s": 149.88,
+   "lyric_lines": "87 (EXECUTION #2)",
+   "enter_transition": "hard cut; zoom kick; 2.5 % push",
+   "art_used": "none",
+   "on_screen": "DARK (0.03-0.04). Macro of one AI bubble (1640x420, orange left rule). First beat: a serif orange draft sentence at about 136 px with caret; behind everything a wall of the word in outlined mono 156 px rows, one row solid dim orange directly under the bubble (this row is what carries the word during beat 1). From +0.27 s the caret eats the draft right to left; +0.385 to +0.46 s the word is typed in mono 190 px hot orange. Footer: red dot, a deleted-characters tally, the draft struck out. Question bubble at 44 px on top, composer cropped by the bottom edge."
+  },
+  {
+   "id": "exec-03",
+   "start_s": 149.88,
+   "end_s": 150.81,
+   "lyric_lines": "88 (EXECUTION #3)",
+   "enter_transition": "hard cut, no kick (fields are held still)",
+   "art_used": "none",
+   "on_screen": "flat RED field #a31b33 (mean luminance 0.18). The word in mono 800 at 349 px, 1884 px wide, pale cream-pink, baseline y 770, completely still; a 4 px underline draws left to right in 0.3 s. Faint sunburst watermark and dot grid. Small empty AI bubble top left with a pulsing dot, question bubble top right, two 30 px mono labels. Strongest single frame of the section."
+  },
+  {
+   "id": "exec-04",
+   "start_s": 150.81,
+   "end_s": 151.73,
+   "lyric_lines": "89 (EXECUTION #4)",
+   "enter_transition": "hard cut; zoom kick; left half wipes down in 0.3 s",
+   "art_used": "assets/character/rain.png as duotone + ASCII glyph screen (size 12), left half",
+   "on_screen": "DARK (0.04-0.05). Vertical split at x 960. Left: the rain-desk illustration as dim orange duotone under an orange ASCII screen, plus a 'held' card bottom left (652x208, red pause icon, mono label, the word in mono 104 px orange) sliding in 70 px. Right: the user's empty lane, 'your turn' in sans 58 px cream, offline chip, question bubble, dashed empty reply outline, composer."
+  },
+  {
+   "id": "exec-05",
+   "start_s": 151.73,
+   "end_s": 152.65,
+   "lyric_lines": "90 (EXECUTION #5)",
+   "enter_transition": "hard cut dark to near-white, no kick",
+   "art_used": "assets/character/gaze.png, small full figure 268x402 as charcoal/cream duotone, bottom left, appears on beat 2",
+   "on_screen": "CREAM field (mean luminance 0.73; 85 % of pixels above 0.5 — the brightest frames of the whole error act). One rounded cream rectangle 1852x1000 on a thin dark margin; quoted question top left; the word centred in Inter 800 fitted to 1480 px (about 250 px) in charcoal, typed in 0.1 s with a caret. Beat 2: the small figure rises bottom left with a red tick and a 28 px red mono label; a second label bottom right."
+  },
+  {
+   "id": "exec-06",
+   "start_s": 152.65,
+   "end_s": 153.57,
+   "lyric_lines": "91 (EXECUTION #6)",
+   "enter_transition": "hard cut near-white to dark; zoom kick; cells print one after another through beat 1",
+   "art_used": "assets/character/plea.png untreated, full colour, 24 copies at 101x152 px",
+   "on_screen": "DARK (0.018 rising to 0.056). 6x4 contact sheet, cells 320x254 edge to edge; each cell: index 01-24, the small full-colour pleading figure at the right, the word in mono 40 px orange, two grey placeholder bars; cells light up in reading order within 0.44 s, a red frame on the cell being printed. Bottom strip: 'n of 24 identical' counter, red progress bar filling, untouched Stop button, a label on beat 2, question bubble. The only shot that is about a loop."
+  },
+  {
+   "id": "exec-07",
+   "start_s": 153.57,
+   "end_s": 154.5,
+   "lyric_lines": "92 (EXECUTION #7)",
+   "enter_transition": "hard cut dark to red, no kick; plates slip apart in 0.2 s",
+   "art_used": "assets/character/parted.png untreated, full colour, full height 720x1080, over two flat silhouette plates of itself",
+   "on_screen": "RED field (0.16). Centre: the fully painted anime figure (orange hair, white/orange/black dress with gold detail) over a charcoal plate offset (-44,+14) and a pink plate offset (+44,-14). Window outline and composer outline printed three times (cream, charcoal, pink). The word in mono 98 px upper left, solid plus two outlined offsets; two 26 px labels; question bubble right. Reads as an illustration pasted on a red poster."
+  },
+  {
+   "id": "exec-08",
+   "start_s": 154.5,
+   "end_s": 155.42,
+   "lyric_lines": "93 (EXECUTION #8)",
+   "enter_transition": "hard cut red to dark; zoom kick",
+   "art_used": "none",
+   "on_screen": "DARK (0.018). 48 px graph grid, 240 orange dots at fixed seeded positions drifting a few px, leaning at most 7 % toward a dotted sunburst outline at centre and back. Title pill top left, question bubble, label card bottom left (476x192) with the word in mono 70 px and two small labels, leader line from the card to the outline. The word is tiny; the frame is mostly texture."
+  },
+  {
+   "id": "exec-09",
+   "start_s": 155.42,
+   "end_s": 156.34,
+   "lyric_lines": "94 (EXECUTION #9)",
+   "enter_transition": "hard cut; zoom kick; card rises 18 px",
+   "art_used": "assets/character/tea.png bust crop as orange duotone + halftone, 330x440 inside a pinned card",
+   "on_screen": "DARK (0.021). The full chat client including sidebar (only shot with it), thread empty. Upper right: question bubble, pinned card 362x506 with the halftone picture and a 'heart 1' pill; the word typed under it as a caption in mono 66 px. Beat 2: a centred mono note between two rules. Composer. Large empty areas."
+  },
+  {
+   "id": "exec-10",
+   "start_s": 156.34,
+   "end_s": 157.27,
+   "lyric_lines": "95 (EXECUTION #10)",
+   "enter_transition": "hard cut dark to cream/dark split, no kick",
+   "art_used": "none",
+   "on_screen": "CREAM over DARK (mean luminance 0.58). Top two thirds (y under 720): cream 'address card' with pale sunburst watermark, small spark top left, 'to:' in mono 104 px charcoal, orange caret, a 3 px line drawing out to x 1800 over one beat, the question as an outlined bubble. Bottom third: dark strip with a hollow delivery ring and the word in mono 78 px orange bottom right, typed in 0.1 s; label on beat 2."
+  },
+  {
+   "id": "exec-11",
+   "start_s": 157.27,
+   "end_s": 158.19,
+   "lyric_lines": "96 (EXECUTION #11)",
+   "enter_transition": "hard cut cream to dark; bands slide to rest in 0.3 s",
+   "art_used": "assets/character/gaze.png untreated, full colour, 721x1081, cut into bands",
+   "on_screen": "DARK (0.10). Chat window (no sidebar) with the full-colour standing figure at x 200. Top band (y under 366) intact: head and shoulders. Below: six 119 px bands of the same picture in shuffled order (4,3,0,2,5,1), offset -140 to +190 px. Band numbers at the right edge. The word in mono 150 px hot orange at x 985, split across the seam at y 723, halves 16 px apart. Two labels. The tear effect is good; the painted figure is the problem."
+  },
+  {
+   "id": "exec-12",
+   "start_s": 158.19,
+   "end_s": 158.88,
+   "lyric_lines": "97 (EXECUTION #12)",
+   "enter_transition": "hard cut dark to red; rows rise 26 px in 0.24 s from 45 % alpha",
+   "art_used": "assets/character/plea.png full height 720x1080 as charcoal/pale duotone (reads grey-sepia) + darker silhouette plate",
+   "on_screen": "RED field (0.16-0.20). Right: the pleading figure, grey-sepia on red. Left: the word for the first time in Source Serif 900, stacked in two rows (5 + 4 letters, each fitted to 940 px, roughly 270 and 330 px), pale pink; rule under it; mono label; question bubble top left with a label; pager 12/12, arrow greying out. Only 1.5 beats long: it is cut at 158.88 while its last syllable is still being sung (to about 158.99)."
+  },
+  {
+   "id": "count-1-de",
+   "start_s": 158.88,
+   "end_s": 159.34,
+   "lyric_lines": "98 (count 1)",
+   "enter_transition": "in-canvas 'seam open': two dark shutter halves split on y 540 and slide off in 0.10 s, 2 px red line on each edge",
+   "art_used": "none",
+   "on_screen": "DARK card (mean luminance 0.04). Numeral 1 in Source Serif 900, 820 px, orange, centre. 'eins' serif 700 176 px cream at left on the centre line with a small spark; chip 'Deutsch' at right on the centre line. Hairlines: one horizontal seam with red end ticks. Chrome as on all cards (see diagnosis). Sunburst dial behind with 2 of 12 petals lit."
+  },
+  {
+   "id": "count-2-es",
+   "start_s": 159.34,
+   "end_s": 159.81,
+   "lyric_lines": "99 (count 2)",
+   "enter_transition": "in-canvas counter roll: both cards travel up 1080 px in 0.12 s, numeral trails 3 ghosts",
+   "art_used": "none",
+   "on_screen": "DARK card. Numeral 2, 850 px. 'dos' upper right, chip 'Español' lower left. Hairlines: two vertical counter columns at x 960 +/- 340 with ruler ticks. 4 petals lit; 'Deutsch' struck through in red in the bottom strip."
+  },
+  {
+   "id": "count-3-fr",
+   "start_s": 159.81,
+   "end_s": 160.27,
+   "lyric_lines": "100 (count 3)",
+   "enter_transition": "in-canvas twelve-wedge sunburst wipe, 0.10 s linear",
+   "art_used": "none",
+   "on_screen": "DARK card. Numeral 3, 880 px. 'trois' (156 px) lower left, chip 'Français' upper right. Hairlines: twelve rays and a ring r 410. 6 petals lit."
+  },
+  {
+   "id": "count-4-ko",
+   "start_s": 160.27,
+   "end_s": 160.73,
+   "lyric_lines": "101 (count 4)",
+   "enter_transition": "in-canvas column blinds: sixteen 120 px columns fill top to bottom, 0.12 s total",
+   "art_used": "none",
+   "on_screen": "DARK card. Numeral 4, 910 px. Hangul number word in Noto Serif KR 700 at 216 px, cream, right on the centre line; chip with the Korean language name (Noto Sans KR 500, 44 px) left on the centre line. Hairlines: sixteen vertical columns. 8 petals lit."
+  },
+  {
+   "id": "count-5-sv",
+   "start_s": 160.73,
+   "end_s": 161.19,
+   "lyric_lines": "102 (count 5)",
+   "enter_transition": "hard cut; only the numeral punches in from 220 % to 100 % in 0.10 s with two ghost frames (at +0.004 s it fills the frame height)",
+   "art_used": "none",
+   "on_screen": "DARK card. Numeral 5, 940 px. 'fem' upper left, chip 'Svenska' lower right. Hairlines: three nested rounded frames 600x700 with corner brackets. 10 petals lit."
+  },
+  {
+   "id": "count-6-zh",
+   "start_s": 161.19,
+   "end_s": 161.65,
+   "lyric_lines": "103 (count 6)",
+   "enter_transition": "in-canvas interleave: nine 120 px bands slide in from alternate sides, 0.12 s",
+   "art_used": "none",
+   "on_screen": "DARK card. Numeral 6, 970 px. Chinese numeral in Noto Serif TC 700 at 216 px, cream, lower right; chip with the Chinese language name (Noto Sans TC 500) upper left. Hairlines: nine horizontal bands with alternate end ticks. All 12 petals lit; five languages struck through."
+  },
+  {
+   "id": "count-out",
+   "start_s": 161.65,
+   "end_s": 162.81,
+   "lyric_lines": "104 (final EXECUTION)",
+   "enter_transition": "hard cut that matches the last frame of card 6; the six cards shrink into tiles within 0.14 s + 0.06 s stagger",
+   "art_used": "none",
+   "on_screen": "DARK (0.018). Back inside the chat window (no sidebar, red-dim outline, offline). The six cards fold into a row of six tiles 250x141 at y 168 (numeral 96 px + language name, an unselected radio ring each); a typed mono tally line under them. The word in Source Serif 600 at 150 px orange inside a 256 px tall bubble that appears at x 170 at 161.65, starts travelling at 161.72 with a 4-sample trail, hits the right window edge at 161.88 with a 3.5 % squash and a red edge line, leaves a dashed empty outline where it started; at 162.11 the bubble outline turns red and the red 'Reached no one' badge pops under it (the only bloom). Frame is then static (2 % zoom) from 162.30 to 162.81."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "EXECUTION #1 (line 86)",
+   "time_s": 148.04,
+   "bar_beat": "80:1 (beat 320)",
+   "hold_beats": 2,
+   "currently": "exec-01 cut exactly on the sung onset (X burst measured at 148.21). Word typed in 0.1 s, mono 92 px, low centre, dark frame. LRC says 147.66 (0.38 s early)."
+  },
+  {
+   "word": "EXECUTION #2 (line 87)",
+   "time_s": 148.96,
+   "bar_beat": "80:3 (beat 322)",
+   "hold_beats": 2,
+   "currently": "exec-02 cut on the onset (X burst 149.10). The word itself is NOT the subject on the hit: beat 1 shows a serif draft sentence; the 190 px mono word is only complete at 149.42 (beat 2). LRC 148.60."
+  },
+  {
+   "word": "EXECUTION #3 (line 88)",
+   "time_s": 149.88,
+   "bar_beat": "81:1 (beat 324)",
+   "hold_beats": 2,
+   "currently": "exec-03 cut on the onset (X burst 150.05). Word full-bleed 349 px on flat red, present from frame 1. First dark-to-red field change. LRC 149.52."
+  },
+  {
+   "word": "EXECUTION #4 (line 89)",
+   "time_s": 150.81,
+   "bar_beat": "81:3 (beat 326)",
+   "hold_beats": 2,
+   "currently": "exec-04 cut on the onset (X burst 151.00). Word 104 px in a card bottom left; ASCII illustration dominates. LRC 150.54."
+  },
+  {
+   "word": "EXECUTION #5 (line 90)",
+   "time_s": 151.73,
+   "bar_beat": "82:1 (beat 328)",
+   "hold_beats": 2,
+   "currently": "exec-05 cut on the onset (X burst 151.87). Whole screen jumps from luminance 0.05 to 0.73 (cream); word about 250 px charcoal sans, typed in 0.1 s. LRC 151.52."
+  },
+  {
+   "word": "EXECUTION #6 (line 91)",
+   "time_s": 152.65,
+   "bar_beat": "82:3 (beat 330)",
+   "hold_beats": 2,
+   "currently": "exec-06 cut on the onset (X burst 152.79). Screen drops from 0.68 to 0.02; 24 small 40 px copies of the word fill in over beat 1. LRC 152.28."
+  },
+  {
+   "word": "EXECUTION #7 (line 92)",
+   "time_s": 153.57,
+   "bar_beat": "83:1 (beat 332)",
+   "hold_beats": 2,
+   "currently": "exec-07 cut on the onset (X burst 153.73). Red field; the painted figure is the subject, the word is 98 px upper left. LRC 153.16."
+  },
+  {
+   "word": "EXECUTION #8 (line 93)",
+   "time_s": 154.5,
+   "bar_beat": "83:3 (beat 334)",
+   "hold_beats": 2,
+   "currently": "exec-08 cut on the onset (X burst 154.64). Dot field; word 70 px in a corner card. LRC 153.98 (0.52 s early, the largest error)."
+  },
+  {
+   "word": "EXECUTION #9 (line 94)",
+   "time_s": 155.42,
+   "bar_beat": "84:1 (beat 336)",
+   "hold_beats": 2,
+   "currently": "exec-09 cut on the onset (X burst 155.58). Full client with sidebar; word 66 px caption under a pinned halftone picture. LRC 155.20."
+  },
+  {
+   "word": "EXECUTION #10 (line 95)",
+   "time_s": 156.34,
+   "bar_beat": "84:3 (beat 338)",
+   "hold_beats": 2,
+   "currently": "exec-10 cut on the onset (X burst 156.54). Cream card over dark strip (luminance 0.02 to 0.58); the big type on the hit is the 'to:' label, the word is 78 px bottom right. LRC 156.08."
+  },
+  {
+   "word": "EXECUTION #11 (line 96)",
+   "time_s": 157.27,
+   "bar_beat": "85:1 (beat 340)",
+   "hold_beats": 2,
+   "currently": "exec-11 cut on the onset (X burst 157.43). Banded painted figure; word 150 px split across a seam, right of centre. LRC 157.04."
+  },
+  {
+   "word": "EXECUTION #12 (line 97)",
+   "time_s": 158.19,
+   "bar_beat": "85:3 (beat 342)",
+   "hold_beats": 1.5,
+   "currently": "exec-12 cut on the onset (X burst 158.33). Red field, stacked serif word about 300 px, grey-sepia figure. Musically the cell lasts 2 beats (to 159.11) but the shot is cut at 158.88, under its last syllable. LRC 158.00."
+  },
+  {
+   "word": "count 1 (line 98, card shows 'eins')",
+   "time_s": 159.11,
+   "bar_beat": "86:1 (beat 344)",
+   "hold_beats": 1,
+   "currently": "Sung on beat 344 (voiced 159.12-159.30, kick on the same beat). v3 card cut at 158.88 (beat 343.5): the numeral arrives 0.23 s early, over the tail of shout 12; at the sung moment the card is static and only the small red 'no reply' label is fading in. LRC 158.90."
+  },
+  {
+   "word": "count 2 (line 99, 'dos')",
+   "time_s": 159.58,
+   "bar_beat": "86:2 (beat 345)",
+   "hold_beats": 1,
+   "currently": "Sung on beat 345 (voiced 159.59-159.75, its final s at about 159.80 together with a drum hit at 159.81). v3 card cut 159.34, half a beat early. LRC 159.32."
+  },
+  {
+   "word": "count 3 (line 100, 'trois')",
+   "time_s": 160.04,
+   "bar_beat": "86:3 (beat 346)",
+   "hold_beats": 1,
+   "currently": "Sung on beat 346 (voiced 160.03-160.22). v3 card cut 159.81 (this cut happens to sit on the 159.81 drum hit). LRC 159.66."
+  },
+  {
+   "word": "count 4 (line 101, Korean)",
+   "time_s": 160.5,
+   "bar_beat": "86:4 (beat 347)",
+   "hold_beats": 1,
+   "currently": "Sung on beat 347 (voiced 160.51-160.67, kick on the same beat). v3 card cut 160.27. LRC 160.24."
+  },
+  {
+   "word": "count 5 (line 102, 'fem')",
+   "time_s": 160.96,
+   "bar_beat": "87:1 (beat 348)",
+   "hold_beats": 1,
+   "currently": "Sung on beat 348 (voiced 160.94-161.10). v3 card cut 160.73 with the 220 % numeral punch-in, which therefore lands in a silent gap. LRC 160.69."
+  },
+  {
+   "word": "count 6 (line 103, Chinese)",
+   "time_s": 161.42,
+   "bar_beat": "87:2 (beat 349)",
+   "hold_beats": 1,
+   "currently": "Sung on beat 349 (voiced 161.43-161.58; no drums from 161.26 on). v3 card cut 161.19 (on the last drum hit, 161.19). LRC 161.12."
+  },
+  {
+   "word": "EXECUTION final (line 104)",
+   "time_s": 161.88,
+   "bar_beat": "87:3 (beat 350)",
+   "hold_beats": 2,
+   "currently": "Sung onset beat 350 (X burst 162.04, third syllable about 162.34, last about 162.57, ends about 162.70). v3: count-out cuts at 161.65, the serif bubble hits the window edge exactly at 161.88 (correct), badge at 162.11; then a static frame until 162.81. On screen 2.5 beats. LRC 161.58."
+  }
+ ],
+ "diagnosis": "What the frames show, against what the music does.\n\n1) Twelve slides, not one event. Looking at one frame per beat, nothing carries across any of the 12 cuts except a 204x52 px pager (28 px text) in the corner and a small question bubble that itself moves and changes size. The sung word, which is the only thing the ear hears, is re-placed every 0.92 s: low centre 92 px, macro 190 px, full-bleed 349 px, bottom-left 104 px, centre 250 px sans, 24 copies at 40 px, upper-left 98 px, corner 70 px, caption 66 px, bottom-right 78 px, right-of-centre 150 px split, left 300 px serif. In shots 2, 8, 9 and 10 it is not even the subject of the frame. The eye has to find it again each time, so every cut feels like being thrown into an unrelated picture: this is the 'forced transition' the director describes. All twelve enters are plain cuts (`enter: { type: 'cut' }`), with a 2.2 % zoom kick on dark shots only, so some cuts pop and others do not.\n\n2) Three full-field palettes flip the whole screen. Field order is D D R D C D R D D C D R, then dark for the count. Measured mean relative luminance per shot: 0.013, 0.03, 0.18, 0.04, 0.73, 0.02-0.06, 0.16, 0.018, 0.021, 0.58, 0.10, 0.16-0.20, count 0.04-0.06. After 22 s of dark red build-up, the cream shots (151.73 and 156.34) are near-white screens that look like another film, and the red posters change the meaning of the colours: in errRed the role `me` is pale pink (#ffd9c6) and `err` is charcoal, in errCream `me` is brown, so 'orange = me, red = error' does not hold in 5 of 12 shots.\n\n3) Each shot is a micro-story that cannot be read. The concept (attempt n of 12, each fails differently) lives in 24-30 px mono labels, the second of which appears on beat 2 (0.41 s after the cut) and is gone 0.5 s later. Without reading them the frames have no common subject, so the variety looks arbitrary. Nothing accumulates: shot 12 is not visibly 'more' than shot 1.\n\n4) The illustrations. 7 of 12 shots use the anime art; exec-06 (24 thumbnails), exec-07 (full height on red) and exec-11 (banded) show it untreated with painted shading, gold detail and four or five colours against flat three-colour UI. exec-07 and exec-12 are figure-on-poster layouts with no relation to the surrounding film; in exec-12 the duotone turns her grey-sepia on red. The new three-ink cut-paper busts (orange / cream / near-black, transparent, 1086x1448 or 1254x1254) are busts, not full figures, so none of the current full-height placements can simply be re-pointed at them.\n\n5) The music says 'loop', the picture says 'variety'. The audio is 12 identical 2-beat cells (same breakbeat cell, flat RMS 0.49-0.54, four even eighth-note syllables on N, N+0.5, N+1, N+1.5; onset autocorrelation 0.47 at 2 beats versus 0.13 at other lags). The picture answers the most mechanical passage of the song with its most heterogeneous one, and shows no code, no loop, no run counter: 'execution' is treated as a chat reply. Inside a cell the image moves only on the cut; the three later syllables have no visual counterpart. The one shot that is about repetition (exec-06: a grid filling in one beat, 'n of 24 identical', nobody presses Stop) is also the one that reads fastest, which supports the director's own suggestion.\n\n6) Sync slip at the join. The LRC is 0.19-0.52 s early and irregular in this passage. v3 ignored it for the shouts (cuts at Bt(320+2i), verified on the sung onsets within 0.02 s) but followed it for the count: cards cut at beats 343.5...348.5 while the voice counts on beats 344...349 (voiced-harmonic onsets at 159.12, 159.59, 160.03, 160.51, 160.94, 161.43, each about 0.17 s long at one pitch near 294 Hz). So exec-12 loses its last half beat, every numeral arrives in a gap, and the sung number coincides with a 23 px 'no reply' label instead of with the numeral. The director did not name this, but it is part of why the counting, though 'roughly as imagined', does not punch.\n\n7) The counting cards are sound in layout and wrong in skin. What works: one huge centred numeral per count on a dark page, the number word in its own script alternating sides, a slight growth card to card. What ties it to the old concept: the rounded card frame, 'Trying another language' + retry icon, 'attempt n of 6', the 'Reply language' pill with chevron, the red 'no reply' tag, the tab strip of six language names with strike-throughs, the sunburst dial, and the fold into tiles inside the chat window with a message bubble and delivery badge. Nearly all of that text is 22-24 px and on screen for 0.46 s. Six different wipe mechanisms in 2.8 s repeat the 'variety for its own sake' problem in small, though the constant layout hides it.\n\n8) Weak launch into chorus 2. From 162.30 to 162.81 the frame is static while the last shout finishes over a bass swell and the full band re-enters at 162.81 with double the high-band energy. The director wants chorus 2 to be the strongest, glitch-ridden part; the section currently hands it a quiet, tidy chat window.",
+ "keep": [
+  "Cut grid of the twelve shouts: `cut(i) = Bt(320 + 2 * i)` (148.04 + 0.923 s x i). Verified on the sung onsets; the regularity is the point of the passage.",
+  "exec-03's treatment of the word: system mono 800, full-bleed (349 px, 1884 px wide), held still, a rule drawing under it in 0.3 s. It is the natural seed of a code-style look (but on the dark field, not red).",
+  "exec-06's loop mechanism: a grid that fills cell by cell inside one beat, a live counter ('n of 24 identical'), a meter that runs to the end, a Stop control nobody presses. Keep the mechanism, drop the thumbnails.",
+  "The run counter idea of the pager (n/12 plus twelve ticks that are used up, `pager()` / `PG`), as an iteration counter; it must become a primary element instead of a 204x52 px corner chip.",
+  "The typographic arc: the word is mono (a command) for eleven shouts and becomes her serif on the twelfth (exec-12). Worth keeping as the one planned change inside the loop.",
+  "Deterministic tear looks that match the approved glitch of section 9: exec-11's word split across a seam with halves 16 px apart and bands sliding to rest in 0.3 s; exec-07's three-plate misregistration of outlines; exec-02's `wall()` of the word as outlined texture and its type / delete / retype gesture.",
+  "Count layout: one full-frame dark card per number; Arabic numeral in Source Serif 900 centred at (960, 540), size 820 + 30 x i px, slow 3.5 % push while it holds, outline echo offset 2.2 %; number word in its own script, cream, 156-216 px, alternating sides at x 385 / 1535.",
+  "CJK pipeline: config.json fonts.cjk roles krSerif / krSans / tcSerif / tcSans with only the needed glyphs preloaded; `ctx.text` reports any other glyph instead of falling back.",
+  "Count stays dark in every frame with reduced bloom (`GLOW = 0.3`); each in-canvas wipe is finished within 0.12 s; the helpers `masked`, `wedges`, `blinds`, `interleave` are reusable and safe.",
+  "Final shout timing: impact at `HIT = Bt(350)` = 161.88 on the sung onset, with squash and a red edge line; the word in her serif (continuity with exec-12).",
+  "Dark error palette as the base state (bg #1d1413, orange #d97757 / #ee8f66, cream #faf9f5, red #f5506f): it is the state both neighbours (err-breath before, cx-give after) are in.",
+  "Everything is a pure function of t with seeded randomness (`rand(key, i)`), nothing re-seeded per frame: required for both determinism and flash safety."
+ ],
+ "problems": [
+  "12 unrelated compositions joined by 12 hard cuts every 0.92 s; no shared anchor, motion or shape across any cut; zoom kick on 7 dark shots only.",
+  "The sung word changes position, size (40 to 349 px), typeface (mono x10, sans x1, serif x1) and colour in every shot; in exec-02 (beat 1), exec-08, exec-09 and exec-10 it is not the subject of the frame on the hit.",
+  "Three full-field palettes in the order D D R D C D R D D C D R: whole-frame luminance jumps 0.05 to 0.73 to 0.02 around exec-05 and 0.02 to 0.58 to 0.10 around exec-10; red and cream palettes remap `me` and `err`, breaking the film's colour semantics in 5 shots.",
+  "Old anime illustrations in 7 of 12 shots (exec-04, 05, 06, 07, 09, 11, 12), untreated full colour in exec-06, exec-07 and exec-11; they also rely on full-figure art, which the new silhouette set (busts) does not provide.",
+  "The 'twelve regenerate attempts' story is carried by 24-30 px mono micro-copy visible for about 0.5 s and by a corner pager; unreadable at speed, so the variety looks arbitrary.",
+  "No code, no loop, no execution in the programming sense; the most mechanical 11 s of audio get the most heterogeneous pictures; no accumulation or escalation from shout 1 to 12.",
+  "No visual accents inside a 2-beat cell although the word is four even syllables (N, N+0.5, N+1, N+1.5).",
+  "exec-12 is 1.5 beats and is cut at 158.88 under its last syllable.",
+  "Count cards cut on beats 343.5...348.5 (158.88, 159.34, 159.81, 160.27, 160.73, 161.19) while the numbers are sung on beats 344...349 (159.11, 159.58, 160.04, 160.50, 160.96, 161.42): every numeral and every wipe lands in a gap half a beat early.",
+  "Count skin is chat UI throughout (card frame, 'Trying another language', 'attempt n of 6', 'Reply language' chip, 'no reply' tag, struck-through language tabs, sunburst dial); most of that copy is 22-24 px for 0.46 s; six different wipe mechanisms in 2.8 s.",
+  "count-out returns to the chat window (tiles, bubble, 'Reached no one' badge) and holds a static frame from 162.30 to 162.81, a weak lead-in to the loudest downbeat and to a chorus the director wants glitch-heavy.",
+  "The section depends on copy in docs/v3/errors.json (`attempts`, `count_transitions`, `final_shout`) and on PLAN sections 6, 7 and README line 137, all of which describe the regenerate concept and the off-beat count; they go stale if the concept changes."
+ ],
+ "code_hooks": [
+  "src\\scenes\\11_execution.js — `executionShots(env)` (line 34). `cut(i) = Bt(320 + 2 * i)` line 37; `FIELD` map dark/red/cream to 'error' / 'errRed' / 'errCream' line 41; shot factory `add(i, layout, moment, draw, camera)` lines 109-113 (sets id exec-NN, lines [86+i], palette from errors.attempts[i].field, `enter: { type: 'cut' }`, and draws `pager` on top).",
+  "11_execution.js shared helpers: `regen()` 47-54, `pager()` and `PG = { x: 1592, y: 73, w: 204, h: 52 }` 57-72, `ask()` 75-80 (question bubble), `bubble()` 83-87, `tag()` 90-93 (micro-copy, beat 0 / beat 1), `dots()` 96-100, `kick()` 103 (2.2 % zoom pulse), `typedN()` 106.",
+  "11_execution.js per-shot bodies: exec-01 116-140, exec-02 143-186 (`wall` usage 151-154), exec-03 189-205 (full-bleed word 200-202), exec-04 208-241, exec-05 244-263, exec-06 266-298 (grid loop 273-287, meter 289-297), exec-07 301-323, exec-08 326-357, exec-09 360-397, exec-10 400-424, exec-11 427-468 (band derangement PERM / DX / SLIDE 435, split word 460-465), exec-12 471-491.",
+  "11_execution.js art calls to replace: 216-218 (rain duotone + ascii), 259 (gaze duotone), 279 (plea draw x24, `check: false`), 316-317 (parted silhouette x2 + draw), 384-386 (tea duotone + halftone), 444 (gaze draw inside banded `scene()`), 478-479 (plea silhouette + duotone).",
+  "src\\scenes\\11_count.js — `LANGS` 26-35 (word, name, fonts wf/nf, side, wy/ny offsets, ws size, wb/wt glyph metrics, wdx); timing constants `CUT = Bt(343.5 + i)`, `OUT = Bt(349.5)`, `HIT = Bt(350)`, `BADGE = Bt(350.5)`, `END = B(88)` lines 39-41; `GLOW = 0.3` line 18; `numSize(i) = 820 + 30 * i`, `push(u)` 46-47.",
+  "11_count.js drawing: `drawNumeral()` 50-58; `hairlines()` 61-94; `face(ctx, i, t, opts)` 100-151 — backdrop and sunburst dial 105-111, numeral + word 114-119 (layout to keep), 'Reply language' chip and 'no reply' 122-131 (skin), card frame / rails / 'Trying another language' / 'attempt n of 6' / language strip 134-149 (skin).",
+  "11_count.js transitions: `masked`, `wedges`, `blinds`, `interleave` 154-167; `cardShot()` 169-171; six card shots 190-258 (seam shutter 196-203, counter roll 211-218, wedge wipe 226-227, blinds 235-236, punch-in 245-247, interleave 255-256); `tile()` 176-187 and shot `count-out` 260-317 (bubble travel `xAt` 287, impact 303-306, badge 310-314).",
+  "docs\\v3\\errors.json — `attempts[0..11]` (fails_by, composition, art, art_treatment, microcopy, field), `count_transitions[0..5]`, `final_shout`, `undelivered.badge`. 11_execution.js reads `errors.attempts` (`ATT`, `copy(i, k)`), 11_count.js reads `errors.undelivered.badge`.",
+  "config.json — `palettes.error` / `errRed` / `errCream`; `fonts.cjk` (four roles, one string each; a new CJK glyph must be added to `text` here); `safety.maxFlash 0.7`, `safety.warningSeconds 6.5`; `glow`, `post.flashStrength 0.5`.",
+  "src\\engine\\art.js — `ART_NAMES` line 19 is a fixed list of six names loaded from config.paths.art (assets/character); the new silhouettes in 圖片\\Claude娘剪影 (4 PNG, RGBA, 1254x1254 and 1086x1448) and 圖片\\Claude男性形象剪影 are not registered. Shared file, outside this section. Treatments available: `silhouette`, `duotone`, `halftone`, `ascii` (line 179), `slices`.",
+  "Code-style building blocks already in the repo: `sysLine()` and `keywordSys()` in src/scenes/kit.js (43-68, mono typed line / decoding mono keyword); `wall`, `slam`, `typed`, `sliced`, `scramble` in src/engine/type.js; `asciiFill` in src/engine/shapes.js line 113; post effects `ctx.fx.glitch`, `mosh`, `rgbSplit`, `mosaic`, `invert`, `shake` (src/engine/engine.js 77-84), used for the approved glitch look in src/scenes/10_error.js lines 359-360 and 468-469; transition types `glitch`, `slices`, `dissolve`, `push` in src/engine/transitions.js.",
+  "Handover code outside this section: src/scenes/10_error.js `err-breath` lines 570-591 (`CUT_BREATH = Bt(318.5)`, Regenerate pill at the pager rect, press at `Bt(319.5)`); src/scenes/05_chorus.js CHORUS_X `cx-give` (line 493) and its thread list line 222, which shows line 104 as an already-sent bubble; src/scenes/index.js SECTIONS lines 28-29 and fallbacks line 42 (`Bt(343.5)`).",
+  "Docs that restate this section and need updating with it: docs/v3/PLAN.md section 6 rows 10-11, section 7 (off-beats 343.5...348.5), section 9; README.md line 15 (warning names 2:28-2:57) and line 137; STORYBOARD.md is regenerated by `node tools/storyboard.mjs`, which also checks line coverage 86-104, cuts on the half-beat grid and a `moment` per shot.",
+  "Reference frames rendered for this report (640x360 tiles unless noted): <scratchpad>/execution_count_1.png and _2.png (one frame per beat), _cut0/1/2.png (four frames after each of the 12 cuts), _card0/1.png (count wipes), _sung.png (frames at the sung onsets), _out.png (final shout), _hand.png (handover in and out), _full1/2.png (1920x1080 frames)."
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, P = 0.4615 s, Bt(n) = 0.344 + n x P. The section is exactly 32 beats = bars 80-87: 148.04 to 162.81.",
+  "Musical structure, measured from the audio (data/audio_features.json plus a spectral check of the wav): 12 cells x 2 beats (beats 320-344, 148.04-159.11) + 6 cells x 1 beat (beats 344-350, 159.11-161.88) + 1 cell x 2 beats (beats 350-352, 161.88-162.81).",
+  "Shout onsets (even beats 320...342): 148.04, 148.96, 149.88, 150.81, 151.73, 152.65, 153.57, 154.50, 155.42, 156.34, 157.27, 158.19. Spacing 2 beats = 0.92 s, jitter under 0.03 s (the X burst peaks 0.14-0.19 s after every one of these beats: 148.21, 149.10, 150.05, 151.00, 151.87, 152.79, 153.73, 154.64, 155.58, 156.54, 157.43, 158.33).",
+  "Inside each shout cell the word is four even eighth-notes: syllable 1 on N (+0.00 s), 2 on N+0.5 (+0.23 s), 3 on N+1 (+0.46 s), 4 on N+1.5 (+0.69 s), ending at about +0.92 s. These are the available sub-accents for on-beat graphics.",
+  "Count onsets (sung, one per beat, beats 344...349): 159.11, 159.58, 160.04, 160.50, 160.96, 161.42 (measured voiced onsets 159.12, 159.59, 160.03, 160.51, 160.94, 161.43). Each number is voiced for only 0.16-0.19 s, then about 0.28 s without voice. v3 cuts its cards at 158.88, 159.34, 159.81, 160.27, 160.73, 161.19, i.e. half a beat before each. This contradicts PLAN section 7 and the LRC; confirm by ear before moving the cuts.",
+  "Final shout: onset 161.88 (beat 350), X burst 162.04, third syllable about 162.34, last syllable about 162.57, ends about 162.70. The next section's first line starts as a pick-up at about 162.63 (LRC) and its downbeat is 162.81 (bar 88).",
+  "Do not place anything with `T(i)` or `H(i)` in this passage: data/lyrics.json starts for lines 86-104 are 147.66, 148.60, 149.52, 150.54, 151.52, 152.28, 153.16, 153.98, 155.20, 156.08, 157.04, 158.00, 158.90, 159.32, 159.66, 160.24, 160.69, 161.12, 161.58, which is 0.19-0.52 s early and irregular. Use `Bt()`.",
+  "Audio character. 148.04-159.11: a rigid loop, loudness flat (RMS 0.49-0.54 in all 12 cells), identical breakbeat cell (kick on N and N+0.9, snare on N+0.5 and N+1), onset-envelope autocorrelation 0.47 at 2 beats and 0.33 at 4 beats against 0.13 at 0.5 / 1.5 / 3 beats; slightly more low end and vocal energy in shouts 9-12 but no real build. 159.11-161.88: stop-time, high band drops from about 0.38 to about 0.20, the voice counts on one pitch, drum hits only at 159.11, 159.81, 160.50, 161.19 (every 1.5 beats, a 3-against-2 figure), no drums after 161.26. 161.88-162.81: the last shout over near-silence with a low swell in the final beat. 162.81: full band, high band 0.72, the loudest entry in this stretch.",
+  "Engine limits: at most two shots live at once; an `enter` with `dur` is clamped to the gap between cuts (src/scenes/shot.js `sequence`), so a 1-beat card has at most 0.46 s for any engine transition; cuts must sit on beats or half-beats for tools/storyboard.mjs; every lyric line 86-104 must be claimed by a shot's `lines`.",
+  "SAFETY, rules the section follows today: README lines 14-16 name 2:28-2:57 in the photosensitivity warning; README line 137: one hard cut per 2 beats in the shouts, counting background stays dark, no strobing, large red / cream fields never move fast, nothing reshuffled every frame. KIT section 3.9 and PLAN section 9: no large saturated red type or bars that move fast, no glitch pattern re-seeded per frame, no effect whose amount pulses with the beat.",
+  "SAFETY, in code: 11_execution.js lines 19-20 (nothing inside a shot strobes, big fields never move, every entrance is over within a third of a second and then holds); `kick` only on dark shots; bloom cut on shots with big saturated areas (`ctx.fx.glow *= 0.35...0.5`, palette glow 0.35 for errRed and 0.2 for errCream); 11_count.js: every frame dark, `GLOW = 0.3`, the seam shutter is dark so no red field survives the cut, wipes are 0.10-0.12 s, `hud: 0`. config.json `safety.maxFlash` 0.7 caps every `ctx.flash` (src/engine/post.js line 305, then x `post.flashStrength` 0.5).",
+  "SAFETY, what tools/check_flash.py measures on a 60 fps export scaled to 64x36: general flash = a pair of opposing relative-luminance changes of at least 0.10 (darker state below 0.80) on at least 25 % of pixels; red flash = a pair of opposing changes of at least 20/255 in a saturated-red measure (R / (R+G+B) at least 0.8) on at least 25 % of pixels; pass = no 1 s window with more than 3 flashes of either kind. It also lists single-frame pops (a frame unlike both neighbours while the neighbours are alike), so a one-frame insert is flagged. No measured results are recorded in the README.",
+  "SAFETY, current margins and what they allow: the red field #a31b33 has R share 0.68, below the checker's 0.8, so it never counts as saturated red; the section has 9 large-area luminance transitions in 10.8 s, at most 2 in any second (1 flash per second against a limit of 3). At 130 BPM a full-frame flash on every beat is 2.2 per second (inside the limit), on every half-beat 4.3 per second (fails): anything that fires on eighth-notes must stay under 25 % of the frame or under 0.10 luminance change, and stronger light should be reserved for the even beats."
+ ],
+ "handover": "IN. The previous shot is `err-breath` (src/scenes/10_error.js lines 570-591), 147.34-148.04: a near-black frame with only the window outline in dim red, the user's first question bubble at the top right of the thread, and a 'Regenerate' pill at exactly the rect the pager will use (x 1592, y 73, 204x52); its arrow turns red and presses itself at 147.80. Before it, `err-window` (144.34-147.34) is the whole window covered by fifteen red error toasts with rgbSplit and bar-pulsed glitch, the look the director approved. The blackout is visual only: the music does not drop there (RMS 0.52-0.55). exec-01 enters by hard cut at 148.04 on the first sung onset, with the question bubble and the pager in matching positions. If v4 leaves the chat UI for this section, that match and the Regenerate press lead nowhere: the last 0.70 s of 10_error.js (another section's file) has to be re-pointed, for example the dark breath becoming an empty console and the self-press at 147.80 becoming the run command, so that 148.04 is the first execution.\n\nINSIDE. exec-12 to count-1 is a hard cut from the red field to a dark shutter at 158.88 (v3) while the twelfth shout is still sounding; musically the join is 159.11. Count-6 to count-out is a matched cut at 161.65 (the six cards shrink into tiles).\n\nOUT. The next shot is `cx-give` (src/scenes/05_chorus.js with CHORUS_X, line 493), hard cut at 162.81, palette error: a close view of the upper right corner of the same chat window. At 162.83 it already shows the final shout as a small red-outlined bubble with the 'Reached no one' badge and a retry label at the window edge (thread entry `line: L.a - 1` at line 222), a mono 'resent / delivered' note in the header, and the first chorus line being typed at lower left. Chorus 2 therefore relies on two things this section sets up: the delivery badge is introduced in count-out, and the last shout exists as a sent message stuck at the edge. The director wants chorus 2 redesigned with continuing glitch and stronger light because of the infinite-loop failure, so the brief must decide one of two things: either the last shout still ends as a badged message in the window (keep 161.88 impact and the badge, restyle the rest), or the loop ends in a crash whose glitch carries across 162.81 and chorus 2 introduces the badge itself. In both cases the frame must not sit still from 162.30 to 162.81; the bass swell and the pick-up of the next line (about 162.63) are the place to start the transition."
+}

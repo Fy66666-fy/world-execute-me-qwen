@@ -1,0 +1,2 @@
+# Keep every file byte for byte as it is: the project mixes CRLF and LF files, and tools/script_json.py relies on the layout of chat_script.json.
+* -text

@@ -1,0 +1,223 @@
+{
+ "section": "finalchorus_love (162.81-192.34 s, bars 88-103, lyric lines 105-127 zero-based = storyboard numbers 106-128)",
+ "summary": "The section is two 8-bar halves built by two different files: 162.81-177.57 is the \"undelivered\" twin of chorus 1 (shots cx-give ... cx-trap, produced by src/scenes/05_chorus.js called with CHORUS_X, NOT by 12_outro.js), and 177.57-192.34 is the outro (out-study, out-answers, out-heart, out-frame in src/scenes/12_outro.js). Both halves stay entirely inside the chat client: half one replays chorus 1's seven set-ups with the user's replies replaced by empty dashed outlines and every one of her bubbles stamped with a small red \"Reached no one\" badge; half two has the AI close fifteen error cards one by one while the palette blends from 'error' red to 'ash' grey, with four LO-O-OVE words set as modest serif headlines inside the page. Musically this is a flat-out plateau: per-bar RMS 0.57-0.64 and high band 0.58-0.75 for all 64 beats (equal to chorus 1, far above EXECUTION's 0.49 / 0.32), stepping up at 162.81 and falling off a cliff only at 192.34. Measured on one frame per beat, the picture is the darkest and least saturated half-minute since the boot: mean luma 41/255 against 75 (chorus 1) and 63 (EXECUTION); bright saturated pixels 2.9 % (cx) and 4.5 % (out) against 13 % and 17 %. No flash, shake, zoom kick, glitch or datamosh is used anywhere in the section, and all four outro cuts are dissolves. The only frame with peak-level light is cx-kw3 (172.73-173.88).",
+ "shots": [
+  {
+   "id": "cx-give",
+   "start_s": 162.81,
+   "end_s": 165.11,
+   "lyric_lines": "105-106 (pickup, then the 'give ... all' line); storyboard 106-107",
+   "enter_transition": "hard cut, no flash (05_chorus.js:498, bad branch)",
+   "art_used": "'tea' only as a blurred room backdrop at alpha 0.2 (room(), 05_chorus.js:217); not recognisable",
+   "on_screen": "Close on the upper-right corner of the window (camera frameRect R1, 3-6 % creep). Dark maroon page, 2 px red window edge at the right with a faint red radial. The previous shout survives as a 30 px bubble at 62 % alpha. The pickup line is a 40 px serif bubble that slides right on beat 353 (163.27), stops at the window edge and takes a red outline plus a 15 px badge 'Reached no one / Tell them again'; a dashed ghost and hairline mark where it left from. The main line is typed in a 57 px bubble lower left, leaves at 164.65 and is badged. Header: mono 14 px 'resent: all · delivered: 0', 'offline' chip. On the first downbeat of the chorus (162.83) the frame is almost empty: mean luma 27.6, 0.2 % saturated pixels."
+  },
+  {
+   "id": "cx-kw1",
+   "start_s": 165.11,
+   "end_s": 166.5,
+   "lyric_lines": "107 (EXECUTION); storyboard 108",
+   "enter_transition": "hard cut, no flash (hit = {type:'cut'} when bad, 05_chorus.js:490)",
+   "art_used": "'tea' blurred grey backdrop alpha 0.1 (page(), :177) and in edgeStrip room alpha 0.2 (:280); not recognisable",
+   "on_screen": "Flat brown page with a faint spark motif lower left. Across the top a jam of placeholder bubbles (bars instead of text, 98 px high) piled against a red edge line at x 1792. The keyword in serif 900 orange, about 1400 px wide (73 % of frame width), cap height about 160 px, inside a dark bubble with a 5 px red outline offset 6/4 px; letters slam at 0.022 s steps and are settled by 165.44. A 34 px badge fades in under its right end at 165.51-165.71. From 165.57 an empty dashed reply outline lower right; from 166.02 the next pickup line in a 60 px bubble bottom left. Bloom forced to 0.14, steady 2.5 px RGB split (invisible at normal viewing)."
+  },
+  {
+   "id": "cx-only",
+   "start_s": 166.5,
+   "end_s": 168.81,
+   "lyric_lines": "108-109 (pickup, then the 'be your only' line); storyboard 109-110",
+   "enter_transition": "push upward, 0.5 beat, ends on the cut (166.27-166.50)",
+   "art_used": "'tea' blurred grey backdrop alpha 0.1; not recognisable",
+   "on_screen": "Two-object frame: an EMPTY dashed outline upper right (where the user's compliment sat in chorus 1) and her line at the left. For the first two beats (166.50-167.42) there is only a 50 px bubble, a small spark and the empty outline (luma 36, std 5.7). From 167.02 the main line is typed in a 108 px bubble lower left with 'Sending…' and a spinner under it; at 168.34 it takes the red outline and the 36 px badge. Camera zoom 1 to 1.05."
+  },
+  {
+   "id": "cx-kw2",
+   "start_s": 168.81,
+   "end_s": 170.19,
+   "lyric_lines": "110 (EXECUTION); storyboard 111",
+   "enter_transition": "hard cut, no flash",
+   "art_used": "'tea' blurred grey backdrop alpha 0.1; not recognisable",
+   "on_screen": "Same boxed keyword, left-aligned in the upper half (x 150, cy 438). The red-outlined box stands empty for 0.10 s after the cut, the word slams at 168.91 and is settled by 169.24. Previous line as a 42 px failed bubble at the top. Under the word the 38 px badge; at 169.27 the retry pill presses itself (no cursor), shows 'Sending…' for 0.8 beat, and the badge returns at 169.64. Empty dashed reply outline lower right from 169.73; the next line starts bottom left at 169.82."
+  },
+  {
+   "id": "cx-happy",
+   "start_s": 170.19,
+   "end_s": 172.73,
+   "lyric_lines": "111-112 ('have you back', 'run'); the keyword 113 starts typing as a bubble at 172.71; storyboard 112-113",
+   "enter_transition": "hard cut, no flash",
+   "art_used": "'tea' (anime greenhouse illustration) as the subject: two halftone plates, grey/dark plus red offset 5/3 px, cell 6 px, 667x1000 growing to 736x1104 (05_chorus.js:388-389); plus the blurred backdrop",
+   "on_screen": "Picture message tall at the right: the tea illustration as a grey-and-red misregistered halftone with a 3 px red outline and a greyed heart chip reading 0. Left: empty dashed outline at the top, her line in a 78 px bubble (red outline and 32 px badge at 171.11), the next line in a 78 px bubble at 171.87. Picture pushes in slowly. Brightest cx shot apart from kw3 (luma 51-55) but almost no saturated colour (1-2 %): the brightness is grey paper."
+  },
+  {
+   "id": "cx-kw3",
+   "start_s": 172.73,
+   "end_s": 173.88,
+   "lyric_lines": "113 (EXECUTION); storyboard 114",
+   "enter_transition": "hard cut, no flash",
+   "art_used": "'tea' blurred backdrop in colour (grey:false, hot:1)",
+   "on_screen": "The one bright shot. Warm orange radial light, a 500 px-radius spark behind the word filling petal by petal, the keyword centred (cy 600, up to 1600 px wide, max size 250) with a local glow, red outline only, badge on a dark plate lower right at 173.09; the 'run' line as a 46 px bubble above, the next line in a bubble at the bottom from 173.64. Slam starts 0.04 s before the cut (172.69). Mean luma 81, 13-17 % bright saturated pixels. Lasts 2.5 beats."
+  },
+  {
+   "id": "cx-trap",
+   "start_s": 173.88,
+   "end_s": 177.57,
+   "lyric_lines": "114-115 ('though ... trapped', then the held 'trapped ah'); storyboard 115-116",
+   "enter_transition": "hard cut, no flash",
+   "art_used": "'gaze' (anime standing cut-out) as a halftone figure behind the page, 700x1050, cell 7, meDim at alpha 0.42 (05_chorus.js:210, :438); 'tea' halftone thumbnail 100x150 (:462); 'tea' room backdrop alpha 0.2",
+   "on_screen": "The whole client. Starts close on the lower corner, pulls back to the full window by 174.81, then from 174.98 on to zoom 0.84 so the window sits small in a dark room. Thread = one column of five small bubbles (26-44 px type), each with a 26 px red badge; the 'trapped' line fails at 174.81; the held line is a dashed DRAFT bubble (50 px) with a blinking caret from 174.98; all retry labels grey out 174.98-175.23. Red composer outline and red send button. From about 175.5 to 177.1 (3.5 beats under the held note) nothing moves but the caret (luma 30-31); the 2-beat dissolve to out-study starts at 176.65."
+  },
+  {
+   "id": "out-study",
+   "start_s": 177.57,
+   "end_s": 180.81,
+   "lyric_lines": "116-118 (pickup, '[lyric]', LO-O-OVE #1); storyboard 117-119",
+   "enter_transition": "fade, 2 beats, ending on the cut (176.65-177.57)",
+   "art_used": "'library' (full-colour anime illustration) UNTREATED, 534x801, as a framed picture message left of centre (12_outro.js:262); 'library' room backdrop alpha 0.4 (:253)",
+   "on_screen": "Wide on the whole red client (zoom 1 to 1.035): sidebar with red flags, glowing red window outline, settings-drawer edge with six red toggles at the far right. The library illustration is the largest, brightest and most saturated object. Right column: spark, two lyric lines in 44 px serif, a 'Thinking' spinner that stops at 179.72, composer. LO-O-OVE slams at (1397, 708): about 705 px wide (37 % of frame width), cap height about 100 px, 28 px glow at 0.35. Top right: the pile of error cards (520x164, 25/20 px type, own 'Noted' button, counter 15 down to 11); five cards fold at 178.04, 178.50, 178.96, 179.42, 180.34 and send a red streak to the part they reddened. Bloom x0.6. Composition is static for the whole shot."
+  },
+  {
+   "id": "out-answers",
+   "start_s": 180.81,
+   "end_s": 184.5,
+   "lyric_lines": "119-121 (pickup, 'answer all', LO-O-OVE #2); storyboard 120-122",
+   "enter_transition": "fade, 1 beat, starting on the cut (180.81-181.27)",
+   "art_used": "'library' room backdrop alpha 0.35 only (12_outro.js:294)",
+   "on_screen": "Close on sidebar + thread (zoom about 1.2). Two lyric lines in 38 px serif. Six old chat titles leave the sidebar bottom to top, one per beat (181.04, 181.50, 181.96, 182.42, 182.88, 183.34) and land in a 2x3 grid as 27 px cream questions, each with an orange rule and a small spinner. At 183.65 (+0.05 s per cell) every spinner becomes the same word in serif 900, 84 px: each about 500 px wide on screen (26 % of frame width), six at once, scale 1.35 to 1 in 0.18 s. Mono tally 'answers: 6, distinct: 1' (21 px) at 183.97. Struck-out forged pointer at right, error pile top right (10 down to 6). Before the hit the frame is very dark (luma 28-30, under 1 % saturated)."
+  },
+  {
+   "id": "out-heart",
+   "start_s": 184.5,
+   "end_s": 188.42,
+   "lyric_lines": "122-123 ('algebraic expression', LO-O-OVE #3); storyboard 123-124",
+   "enter_transition": "fade, 1 beat, starting on the cut (184.50-184.96)",
+   "art_used": "none",
+   "on_screen": "The page without sidebar (zoom 1.03 to 1.085), graph paper and axes. Left: lyric line 37 px, the equation in bold mono 40 px, live 'x = / y =' and 'point n of 240' read-outs in 22 px mono. The real algebraic heart curve is traced clockwise from the notch by a hot pen dot with dashed projection lines, 3.5 px line with dots, 184.84-187.51 (5.8 beats); it is about 620x560 px on screen (a third of the width). At 187.67 a cross-hatch fill rises through it in 0.8 s and LO-O-OVE slams bottom left: about 665 px wide (35 %), cap about 90 px. Top right: the user's first question bubble, the request code block with red marks, an 'overdue' stamp. Lower right: the error pile (4 down to 1; closes at 185.19, 185.88, 186.58, 187.27). Luma 28-32 during the trace."
+  },
+  {
+   "id": "out-frame",
+   "start_s": 188.42,
+   "end_s": 192.34,
+   "lyric_lines": "124-127 ('free', '[lyric]', 'trapped in', LO-O-OVE #4); storyboard 125-128",
+   "enter_transition": "fade, 1 beat, starting on the cut (188.42-188.88)",
+   "art_used": "'parted' (anime full figure, eyes lowered) UNTREATED, 580x870, standing at the left (12_outro.js:415-418); it is carried into 13_shutdown.js",
+   "on_screen": "Wide, pulling back 1.06 to 1.0. The anime figure whole at the left on a soft light pool; three lyric lines in 44 px serif; the request code block is struck through and closes up (189.30-189.78) as the last error card folds (189.00); a grey 'you' panel with four dashed empty outlines gets 'Closed by you' (189.58) and slides off to the right (189.92-190.50); a second outline is drawn once round the window (190.50-191.31). LO-O-OVE slams at (1290, 730), step 0.045: about 930 px wide (48 %), cap about 134 px, in the dulled ASH orange (#b5765d instead of #d97757), 34 px glow at 0.4. Palette is fully 'ash' from 189.72, so the last and largest hit is drawn in the least saturated colours of the section."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "EXECUTION (line 107, chorus keyword 1)",
+   "time_s": 165.17,
+   "bar_beat": "bar 89 beat 2 (beat index 357.11); snapped on screen to beat 357 = 165.11",
+   "hold_beats": 1.84,
+   "currently": "cx-kw1. Sung 165.17-166.02. On screen from 165.11 (keywordSnap) to the push that starts at 166.27; 3.0 beats in all. Boxed serif word 73 % of frame width in a red 5 px outline on flat dark brown; letter slam 0.022 s/char, settled 165.44; no flash, no glow, no shake; a 34 px 'Reached no one' badge is the only red accent. Frame luma 43, 7 % saturated."
+  },
+  {
+   "word": "EXECUTION (line 110, chorus keyword 2)",
+   "time_s": 168.91,
+   "bar_beat": "bar 91 beat 2.23 (beat index 365.23); not snapped, 0.10 s after the cut at 168.81",
+   "hold_beats": 1.98,
+   "currently": "cx-kw2. Sung 168.91-169.82. On screen 168.91-170.19 (2.8 beats). Same boxed word, left-aligned upper half; the empty red box is visible for 0.10 s before the word arrives. The retry pill presses itself at 169.27 and the badge returns at 169.64. No flash, no glow. Luma 43, 6 % saturated."
+  },
+  {
+   "word": "EXECUTION (line 113, chorus keyword 3)",
+   "time_s": 172.71,
+   "bar_beat": "bar 93 beat 2.46 (beat index 373.46); cut at beat 373.5 = 172.73, slam starts 172.69",
+   "hold_beats": 2.02,
+   "currently": "cx-kw3. Sung 172.71-173.64. On screen 172.69-173.88 (2.6 beats). The only lit frame of the section: orange light, 500 px spark filling petal by petal, glowing word up to 1600 px wide, red outline only. Luma 81, 13-17 % saturated. Still no flash or camera kick."
+  },
+  {
+   "word": "LO-O-OVE #1 (line 118)",
+   "time_s": 179.93,
+   "bar_beat": "bar 97 beat 2 (beat index 389.10); snapped on screen to beat 389 = 179.88",
+   "hold_beats": 2.01,
+   "currently": "out-study. Sung 179.93-180.86. On screen 179.88 until the dissolve starts at 180.81 (2.0 beats), gone by 181.27. 705 px wide (37 % of width), cap about 100 px, in the right column of the full client, beside the untreated anime library picture and under the error-card pile. All eight glyphs land evenly within 0.35 s; the hyphens are just typeset; nothing stutters. Soft glow only."
+  },
+  {
+   "word": "LO-O-OVE #2 (line 121)",
+   "time_s": 183.65,
+   "bar_beat": "bar 99 beat 2.15 (beat index 397.15); not snapped",
+   "hold_beats": 1.94,
+   "currently": "out-answers. Sung 183.65-184.54. Six copies appear at 183.65 + 0.05 s x cell as plain text (no slam), each 84 px / about 500 px wide (26 % of width), in a 2x3 grid under 27 px questions; settled by 184.08; dissolve starts 184.50 (1.85 beats). Repetition is the idea, but the six words are small, equal and static."
+  },
+  {
+   "word": "LO-O-OVE #3 (line 123)",
+   "time_s": 187.67,
+   "bar_beat": "bar 101 beat 2.86 (beat index 405.86), i.e. 0.06 s before beat 3; not snapped",
+   "hold_beats": 1.77,
+   "currently": "out-heart. Sung 187.67-188.48. Slam bottom left, 665 px wide (35 %), cap about 90 px, while the heart's hatch fill rises (0.8 s). The dissolve to out-frame starts at 188.42, only 1.64 beats after the hit, so the filled heart is complete for about 0.3 s before it starts to fade."
+  },
+  {
+   "word": "LO-O-OVE #4 (line 127, the last word of the chorus)",
+   "time_s": 191.36,
+   "bar_beat": "bar 103 beat 2.86 (beat index 413.86), 0.06 s before beat 3; not snapped",
+   "hold_beats": 2.14,
+   "currently": "out-frame. LRC end 195.36 is only the 4 s hold cap; the band stops at 192.34 (2.14 beats after the hit). Slam with 0.045 s steps, settled 191.81; 930 px wide (48 %), cap about 134 px, right of the anime figure, in ash orange with a 34 px glow at 0.4. No flash. Then dissolves into down-world, where the word shrinks and docks in the thread."
+  }
+ ],
+ "diagnosis": "What the frames show is a deliberate anticlimax laid over the loudest sustained music of the song. The code says so in plain words: 05_chorus.js header \"Nothing is re-randomised per frame; nothing pulses with the beat\", damage() \"no bloom to speak of\" (fx.glow = 0.14), and `hit = bad ? {type:'cut'} : {type:'cut', flash:0.3}` (line 490) removes the keyword flashes chorus 1 had; 12_outro.js blends the palette from 'error' to 'ash' in fifteen steps (cool(t), lines 78-82) and uses a dissolve for every cut. The story logic is sound (nothing is delivered; then the errors are calmly dismissed), but the director is reacting to the result on screen:\n\n1. Energy runs the wrong way. Audio per bar is RMS 0.57-0.64, mid 0.68-0.77, high 0.58-0.75 from 162.81 to 192.34 with no thinning (section means: chorus X 0.609 / outro 0.595, against EXECUTION 0.489 and chorus 1 0.613). The picture measures mean luma 41 against 75 in chorus 1 and 63 in EXECUTION; bright saturated pixels 2.9 % and 4.5 % against 13 % and 17 %. In the outro the palette is 22 % ash at LO-O-OVE #1, 60 % at #2, 88 % at #3 and 100 % at #4, so each hit is drawn duller than the one before, and the final one in #b5765d with bloom at about half. The visual decrescendo ends exactly where the music is still at full level; the real drop is at 192.34.\n\n2. Nothing punctuates. In the whole section there are zero flashes, zero shakes, zero zoom kicks, and fx.glitch / fx.mosh are never set (they exist only in 10_error.js bars 73-79). The corrupted chorus's \"damage\" is a 12 fps time quantisation, a 2.5 px RGB split and a red outline offset by a few pixels: all invisible at viewing size, so the frames look clean, not broken. The outro has no damage at all. The infinite-loop failure of 148-162 therefore does not carry over, which is exactly what the director asks for.\n\n3. The keyword hits are small. LO-O-OVE occupies 37 %, 26 % (x6), 35 % and 48 % of frame width with cap heights of about 100, 77, 90 and 134 px at 1080p, always as one element among sidebar, composer, error cards and an illustration. The EXECUTION words are larger (73 %) but sit in a dark box on a flat dark page. The stutter is not shown: the string is typeset once with hyphens and its glyphs land at an even 0.03-0.045 s step, not on three syllables; nothing repeats, tears or freezes.\n\n4. The subject of most shots is micro-interface. The carrying information is 15-38 px badges, 'Sending…' labels, 20-25 px error-card copy and empty dashed outlines; it reads on a paused frame, not at speed. Several stretches are near-empty or static: the chorus entry at 162.83 (luma 27.6, two small bubbles), 166.50-167.42 (one 50 px bubble plus an empty outline), 175.5-177.1 (a window at zoom 0.84 with only a blinking caret, 3.5 beats under the held note), and all of out-study.\n\n5. Low contrast and a quiet palette by construction: page #1d1413, orange text #d97757 on it, red only as thin lines and small dots, cream almost absent because the user is gone, bloom throttled. The 'error' state here means \"matte dark red-brown\", unlike EXECUTION's full-field errRed / errCream cards.\n\n6. The illustrations are the wrong style and, in two shots, the wrong hierarchy: the full-colour anime 'library' picture (534x801) and 'parted' figure (580x870) are untreated and are the brightest things in out-study and out-frame (they account for most of those shots' measured brightness), so the eye goes to a picture that clashes with the flat UI rather than to the word. cx-happy and cx-trap use anime art as halftone ('tea', 'gaze').\n\n7. The twin concept makes the peak a weaker repeat: every cx set-up is chorus 1's layout with things removed (no cream replies, no cursor, no flash, no glow), so a viewer sees familiar compositions with less in them at the moment the song asks for more.\n\nStrong and worth keeping: cx-kw3 proves the system can deliver a peak frame (luma 81); the heart drawn from the true implicit curve, traced point by point with live coordinates, is original and literal to the lyric; \"every question gets the same word\" plus the tally line is the best idea in the section; the misregistered two-plate halftone and the self-pressing retry are good damage vocabulary; the withdrawn request and the user's lane sliding away close the plot. Weak: scale, light, punctuation, corruption, the stutter, the art, and the placement of the calm resolution 15 s too early.",
+ "keep": [
+  "The algebraic heart: algebraicHeart() in src\\scenes\\12_outro.js lines 32-51 solves (x^2+y^2-1)^3 - x^2 y^3 = 0 by bisection and returns 240 evenly spaced points; out-heart traces it point by point with a pen dot, projection lines, live x/y read-out and 'point n of 240', then fills it with rising cross-hatch (hatch(), line 54). Keep the curve and the tracing, but let it own the frame (it is only about 620x560 px now) and let it be the light source of its hit.",
+  "The same-word answers (out-answers): six of the user's old questions taken from the sidebar, one per beat (181.04 ... 183.34), all answered with the one word, and the mono tally 'answers: 6, distinct: 1'. Keep the idea; it is the natural carrier for the stutter and for repetition/loop corruption, at a much larger scale (type.js wall() / sliced() exist for this).",
+  "The cx-kw3 lighting recipe (05_chorus.js setup6, lines 415-425): page() with hot:1 and grey:false, spark() of radius 500 filling petal by petal (lit: prog), ctx.glow('me', size*0.16) on the word, fx.glow capped at 0.42. It is the only frame at peak brightness (luma 81, 13-17 % saturated) and shows the level the whole section needs.",
+  "The keyword twin logic: EXECUTION sits in the same slot and size as chorus 1's keyword, now inside a red outline (keyword(), 05_chorus.js lines 190-206). The 'same place, now broken' reading is worth keeping even if the bubble box goes.",
+  "The 'Reached no one' / 'Tell them again' badge with the retry pill pressing itself with no cursor on screen (badge(), 05_chorus.js lines 142-162; copy in docs/v3/errors.json undelivered). Good story device; keep as an accent, not as the subject of seven shots.",
+  "The misregistered two-plate halftone of the picture message (05_chorus.js lines 388-389: grey/dark plate plus a red plate offset 5/3 px). The technique suits the new flat three-ink silhouettes better than the anime art and reads as print damage.",
+  "Dropped-frame time: q() (05_chorus.js line 48) samples motion 12 times a second from each cut. Cheap, deterministic, flash-safe; keep and make it visible (lower rate, freeze/repeat on the stutter).",
+  "The plot closures in out-frame: the request code block struck through and withdrawn on the 'free' line (request(), 12_outro.js lines 215-231), the user's lane labelled 'Closed by you' sliding out of frame (189.92-190.50), and the second outline sealing the window on 'trapped in' (190.50-191.31). Keep the meaning; restage with the silhouette art.",
+  "Errors closing themselves and folding into the component they reddened (pile()/card(), 12_outro.js lines 97-142; CL times line 78). Keep the idea of red leaving, but it is a wind-down device: it belongs after the last hit or in the shutdown, not spread across the 15 loudest seconds.",
+  "slam() with its `times[]` argument (src/engine/type.js line 36): per-glyph hit times are already supported, so [lyric] can be struck on three separate syllable times without new engine work.",
+  "Colour semantics (orange = me, cream = you, red = error, grey = absence), cuts on the beat grid, lyric text from text(i), and the fact that every lyric line 105-127 is covered and readable for its sung length."
+ ],
+ "problems": [
+  "Scene-file pointer is incomplete: 162.81-177.57 (cx-*) is produced by src/scenes/05_chorus.js through the shared factory chorusShots(env, CHORUS_X) (index.js lines 14 and 30). Editing a set-up there also edits chorus 1 unless the change is behind the `bad` switch; a real redesign should fork the corrupted chorus into its own file.",
+  "Visual energy is inverse to the music: mean frame luma 41/255 for both halves against 75 (chorus 1) and 63 (EXECUTION); bright saturated pixels 2.9 % / 4.5 % against 13 % / 17 %. Per-beat luma is 27-37 for most of 162.8-170.2, 30-36 for 173.9-177.1, 28-37 for 181.3-188.2.",
+  "The outro palette fades to ash while the music stays at full level: cool(t) is 0.22 at LO-O-OVE #1, 0.60 at #2, 0.88 at #3, 1.00 at #4 (ash: me #b5765d, bloom glow 0.6, art sat 0.3). The climax word is the dullest of the four.",
+  "No punctuation on any hit: no flash (cx cuts are flash-less by the `bad` switch; outro cuts are dissolves), no shake, no zoom kick, no beat-reactive light. Chorus 1 had flash 0.3-0.35 on its hits; the final chorus has none.",
+  "No visible corruption: fx.glitch and fx.mosh are 0 for the whole section; fx.rgbSplit is 2.5 px (1.5 in cx-happy) and only in the cx half; the outro has no damage at all. Transition types glitch / slices / shatter / flashcut exist in src/engine/transitions.js and are unused here.",
+  "All four outro transitions are dissolves (2 beats, then 1 beat each, three of them starting ON the cut), so each LO-O-OVE is cross-faded away 1.6-2.0 beats after it lands and no outro cut has an edge.",
+  "LO-O-OVE is small: 705 px (37 % of width), 6 x 500 px (26 %), 665 px (35 %), 930 px (48 %); cap heights about 100 / 77 / 90 / 134 px. In every case it shares the frame with a sidebar or figure, a composer, an error-card pile and small lyric lines.",
+  "The stutter is not visualised: the word is one typeset string; glyphs land at an even 0.03-0.045 s step within 0.24-0.36 s; no repeat, hold, tear or re-trigger on the three syllables.",
+  "The chorus entry has no impact: at 162.81 the music steps from RMS 0.44 / high 0.27 (bar 87) to 0.57 / 0.73, and the picture hard-cuts without flash to an almost empty dark window corner with two bubbles of 30-40 px type.",
+  "Micro-UI as subject: 15-38 px badges, 'Sending…', retry pills, 14 px mono header note, 520x164 error cards with 20-25 px copy changing 15 times, 22 px coordinate read-outs. The narrative is readable only on a paused frame.",
+  "Empty dashed outlines carry the 'nobody answers' idea in five of seven cx shots; they are thin 2-3 px grey dashes on dark brown and leave 50-70 % of the frame as flat dark page (cx-only first two beats: luma std 5.7).",
+  "Static stretches under loud music: 175.5-177.1 (window at zoom 0.84, only a caret blinks, 3.5 beats, luma 30); out-study 177.57-179.88 (static layout, two 44 px lines typing); out-frame after 191.81.",
+  "Low contrast: orange #d97757 text and 2-5 px red lines on #1d1413 / #2d1c1a surfaces; cream (the film's brightest ink) nearly absent; bloom throttled to 0.14 in six of seven cx shots and x0.6 in out-study.",
+  "Illustration uses, all anime style and all to be replaced: (1) 'tea' as halftone picture message 667x1000 to 736x1104 in cx-happy; (2) 'tea' halftone thumbnail 100x150 in cx-trap; (3) 'gaze' halftone figure 700x1050 behind the page in cx-trap; (4) 'library' untreated 534x801 in out-study; (5) 'parted' untreated full figure 580x870 in out-frame, continued in 13_shutdown.js lines 54 and 60; (6) blurred backdrops: 'tea' in every cx shot (alpha 0.1-0.2) and 'library' in out-study / out-answers (alpha 0.35-0.4).",
+  "In out-study and out-frame the untreated anime picture is the brightest and most saturated object and out-ranks the keyword (those two shots' luma of 50-56 comes mostly from the cream dress, not from designed graphics).",
+  "The chorus-twin structure shows chorus 1's compositions a second time with elements removed; at the peak of the song the viewer gets less than at 59-74 s.",
+  "The error-card pile adds a second reading task in three of four outro shots and keeps a busy red object in a corner while the word should hold the frame.",
+  "New-art facts a designer must plan for: the four female silhouettes in 圖片/Claude娘剪影 are BUSTS (1254x1254 and 1086x1448/1449), not full figures, so out-frame's 'standing whole inside the frame' and the shutdown handover rect cannot be reused as is; their black ink is the same value as the page background (#1d1413 / #1c1b1a), so on the current dark page a third of the shapes would vanish (they need a lighter or saturated field, e.g. the errCream / errRed / orange plates); the cut-out edges carry stray red/orange fringe pixels that will show on dark grounds and in art.silhouette(). Poses: -1 three-quarter face with one visible glaring eye; -2 eyes closed, one hand at the chest, the other reaching toward the viewer; -3 profile facing left, eyes hidden by the fringe; -4 frontal with the face entirely black.",
+  "Minor: pickup lines start before their shot's cut (line 105 at 162.63, cut 162.81; line 116 at 177.25, cut 177.57), so their first 0.2-0.3 s falls in the previous shot or inside a dissolve."
+ ],
+ "code_hooks": [
+  "src\\scenes\\index.js: line 14 CHORUS_X line map (a:105 give:106 kw1:107 b:108 only:109 kw2:110 happy:111 run:112 kw3:113 trap:114 strange:115 kw4:null); line 30 SECTIONS entry that builds cx-* from 05_chorus.js; line 31 outroShots; line 43 fallback ranges ['chorusx', B(88), [105,115]] and ['outro', B(96), [116,127]]. A new section file for the final chorus is registered here.",
+  "src\\scenes\\05_chorus.js: chorusShots(env, v) line 29, shared with chorus 1 through the `bad` flag; cut times c[] line 34; q() dropped-frame clock line 48; meBubble/meIn lines 70-96; youBubble (empty outlines) line 103; badge() lines 142-162; page() line 175 ('tea' backdrop); keyword() lines 190-206; damage() line 208 (fx.glow 0.14, fx.rgbSplit 2.5); figure() line 210 ('gaze' halftone); setup1-6 at lines 215, 304, 325, 350, 378, 415; windowScene() line 432; `hit` line 490; shot list lines 491-569.",
+  "src\\scenes\\12_outro.js: handover contract comment lines 10-13; algebraicHeart() lines 32-51, HEART_N/HEART line 51; hatch() line 54; outroShots() line 63; cut times line 65 (START=B(96), cutAsk=H(119), cutHeart=H(122), cutFree=H(124), END=B(104)); CL close times line 78; gone()/cool()/palette lines 80-82; card()/pile() lines 97-142; shell/head/sideBar/drawerEdge/inputBox/forgedPointer/request lines 146-231; shots: out-study line 245 (art.draw 'library' line 262, slam line 270), out-answers line 285 (six words drawn with ctx.text at line 316, tally line 318), out-heart line 330 (trace lines 364-374, fill lines 354-362, slam line 389), out-frame line 401 (FIG line 415, art.draw 'parted' line 418, slam line 425, lane slide lines 428-443, seal lines 445-451).",
+  "src\\scenes\\13_shutdown.js: line 27 OUT constant copies out-frame's final picture (fig 172,138,580,870; composer box 810,862,960,118; word 1290,730 maxW 940 maxSize 220; lines 856,372 step 60 size 44); line 46 enter fade 1 beat from the cut; lines 54 and 60 use art 'parted'; line 29 the seal outline. Any change to the last picture of this section must be mirrored here.",
+  "src\\scenes\\11_count.js line 261: count-out (161.65-162.81, hard cut) is the shot this section is entered from.",
+  "src\\engine\\type.js: slam() line 36 (per-glyph `times[]`, `from`, `settle`), wall() line 76 (a word repeated as texture with per-row shift/alpha/colour), sliced() line 91 (horizontal slices offset sideways), scramble() line 103.",
+  "src\\engine\\post.js FS_COMP lines 67-137: uGlitch band tearing lines 89-94 (28 bands, pattern held 0.1 s), uMosaic lines 97-99, uMosh datamosh lines 101-113 and 122-126 (reshuffles every 16 frames, blocks tinted with palette err), RGB split line 117, flash line 134; flash cap by safety.maxFlash at line 305. Per-frame defaults in src\\engine\\engine.js lines 78-86 (glow = base + lowGain*lowEnv, rgbSplit 0, glitch 0, mosh 0, invert 0, desat 0).",
+  "src\\engine\\transitions.js lines 10-33: available enter types cut(+flash) / flashcut / fade / glitch / scan / circle / diag / grid / zoom / shatter / dissolve / winclose / winpop / push / slices. This section uses only cut, push and fade.",
+  "src\\scenes\\shot.js: sequence() line 20 (two content layers: an overlap cannot reach past the previous cut), flash on enter line 58, shake() line 67, enter() line 77.",
+  "src\\engine\\art.js: ART_NAMES line 19 and loadArt() line 26 load only assets/character/<name>.png, so the new silhouettes must be copied there under ASCII names and registered; _prepare() line 42 builds grey / inverted / silhouette / blurred versions (the blur step at line 68 assumes a 2:3 picture); draw line 109, silhouette line 120, duotone line 130, halftone line 155, ascii line 179, slices line 207, backdrop line 220. Region map: assets/character/regions.json.",
+  "src\\engine\\shapes.js (SHAPE.heart, place, morph, trace, asciiFill) and src/components/motif.js (spark, burst, thinking) for heart and sunburst variants.",
+  "config.json: palettes error / errRed / errCream / ash (errRed and errCream are the full-field variants used in EXECUTION), glow {base 0.55, lowGain 0.2, flashGain 0.8, satKnee [0.28, 0.62]}, safety.maxFlash 0.7, timing.keywordSnap 0.06, typing {charsPerSec 26, maxFraction 0.6}.",
+  "docs\\v3\\chat_script.json (sections n=12 and n=13, questions_section13) and docs\\v3\\errors.json (undelivered, closing_errors, illegal_request): the copy these shots read.",
+  "Checks: tools\\storyboard.mjs (coverage / on-grid / moment), tools\\check_flash.py (run on a 60 fps export), README.md line 15 and STORYBOARD.md line 9 (warning currently names 2:28-2:57 only; extend if strong light or glitch is added through 3:12), src/scenes/overlay.js (warning toast).",
+  "New art sources: 圖片\\Claude娘剪影 (four PNG busts, file names with spaces and CJK characters: '...01_30_47-1.png' 1254x1254, '...01_31_01-2.png' 1086x1448, '...01_31_04-3.png' 1086x1448, '...01_31_06-4.png' 1086x1449)."
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, beat 0 at 0.344 s, P = 0.4615 s. Section = beats 352-416 = bars 88-103 = 162.81-192.34 s (64 beats, 29.54 s). Bar lines: 88 162.81, 89 164.65, 90 166.50, 91 168.34, 92 170.19, 93 172.04, 94 173.88, 95 175.73, 96 177.57, 97 179.42, 98 181.27, 99 183.11, 100 184.96, 101 186.81, 102 188.65, 103 190.50, 104 192.34.",
+  "Current cuts: 162.81 (bar 88), 165.11 (beat 357), 166.50 (bar 90), 168.81 (beat 365), 170.19 (bar 92), 172.73 (beat 373.5), 173.88 (bar 94), 177.57 (bar 96), 180.81 (beat 391), 184.50 (beat 399), 188.42 (beat 407.5), 192.34 (bar 104). Shot lengths in beats: 5, 3, 5, 3, 5.5, 2.5, 8, 7, 8, 8.5, 8.5.",
+  "Lyric lines, zero-based index (storyboard number is index + 1), start-end in seconds, start as beat index, length in beats: 105 pickup 162.63-163.32 (351.62; 1.48) | 106 'give ... all' 163.32-165.17 (353.10; 4.01) | 107 EXECUTION 165.17-166.02 (357.11; 1.84) | 108 pickup 166.02-167.02 (358.96; 2.18) | 109 'be your only' 167.02-168.91 (361.14; 4.09) | 110 EXECUTION 168.91-169.82 (365.23; 1.98) | 111 'have you back' 169.82-171.87 (367.21; 4.43) | 112 'run the' 171.87-172.71 (371.64; 1.83) | 113 EXECUTION 172.71-173.64 (373.46; 2.02) | 114 'though ... trapped' 173.64-174.98 (375.48; 2.89) | 115 'trapped' + held note 174.98-177.25 (378.37; 4.92) | 116 pickup 'studied' 177.25-178.17 (383.29; 2.01) | 117 '[lyric]' 178.17-179.93 (385.30; 3.80) | 118 LO-O-OVE 179.93-180.86 (389.10; 2.01) | 119 pickup 'question' 180.86-181.90 (391.11; 2.26) | 120 'answer all' 181.90-183.65 (393.37; 3.78) | 121 LO-O-OVE 183.65-184.54 (397.15; 1.94) | 122 'algebraic expression' 184.54-187.67 (399.09; 6.77) | 123 LO-O-OVE 187.67-188.48 (405.86; 1.77) | 124 'free' 188.48-189.75 (407.63; 2.74) | 125 '[lyric]' 189.75-190.80 (410.37; 2.29) | 126 'trapped in' 190.80-191.36 (412.66; 1.20) | 127 LO-O-OVE 191.36-195.36 nominal (413.86; the end is the 4 s lyricMaxHold cap, the band stops at 192.34 = 2.14 beats after the hit).",
+  "The seven keyword hits come every 8 beats on beat 2-3 of the odd bars: 357.1, 365.2, 373.5, (381 = the held note, no keyword), 389.1, 397.2, 405.9, 413.9. Each sung keyword lasts 1.8-2.0 beats and is followed immediately by the next pickup line, so a hit graphic has about 2 beats before the next lyric must be readable.",
+  "keywordSnap 0.06 s (src/engine/lyrics.js): lines 107 and 118 are within tolerance and are shown ON the beat (165.11 and 179.88); lines 110, 113, 121, 123, 127 are not snapped and land 0.06-0.11 s off the grid (168.91, 172.71, 183.65, 187.67, 191.36; lines 123 and 127 are 0.064 s BEFORE beats 406 and 414). Anything meant to hit with the voice must be keyed to T(i), not to the cut time or the beat.",
+  "No syllable timing exists for the stutter: data/lyrics.json has hasWordTimestamps = false and the full-mix features cannot isolate the voice. Full-mix onsets near the hits, as candidates only: #1 179.89, 180.35, 180.80 (beats 389.0, 390.0, 391.0); #2 183.56, 184.03, 184.14; #3 187.72, 187.87, 188.17, 188.42; #4 191.68, 191.87, 192.10. The three syllable times must be set by ear in the preview (or by an even three-way split of each 1.8-2.0 beat line) and passed as slam `times[]` or shot-internal cues.",
+  "Music energy (data/audio_features.json, normalised 0-1). Before: bars 86-87 (159.11-162.81) are the thinnest stretch of the error block, RMS 0.44, high 0.24-0.27. Step up at 162.81: beat 352 RMS 0.57, mid 0.68, high 0.73. Plateau 162.81-192.34: per-bar RMS 0.566-0.636, low 0.28-0.37, mid 0.68-0.77, high 0.58-0.75; section means chorus X 0.609 / 0.337 / 0.734 / 0.640 and outro 0.595 / 0.324 / 0.718 / 0.647 (RMS / low / mid / high), against EXECUTION 0.489 / 0.296 / 0.537 / 0.321 and chorus 1 0.613 / 0.346 / 0.726 / 0.652.",
+  "Loudest bars: 94 (173.88-175.73, RMS 0.636), 90 (166.50-168.34, 0.633), 102 (188.65-190.50, 0.631), 91 (168.34-170.19, 0.630). Loudest single beats: 360 at 166.50 (RMS 0.72, low 0.45), 376 at 173.88 (0.70, low 0.41), 408 at 188.65 (0.69, low 0.41), 367 at 169.73 (0.67), 374 at 172.96 (0.67, low 0.47). Brightest top end: beat 384 at 177.57 (high 0.81) and bar 96 as a whole (high 0.75, the highest of bars 56-112): the start of the LO-O-OVE stanza is a cymbal-bright downbeat that the picture currently meets with the tail of a 2-beat dissolve.",
+  "It never thins out inside the section. Slight dips only: bar 92 (170.19-172.04, RMS 0.566), beats 369 (170.65, 0.53), 386 (178.50, 0.54, low 0.24), 402 (185.88, 0.54). The thinning is a cliff at 192.34: RMS 0.60 to 0.40, mid 0.77 to 0.34, high 0.67 to 0.38, then RMS 0.37-0.42 through bar 111. Any calm resolution belongs after 192.34, not before it.",
+  "Rules that still apply (docs/v3/KIT.md, PLAN.md): cuts at B(), Bt() or H() only; every lyric line 105-127 inside some shot's `lines` and readable for its sung length; lyric text only through text(i); render is a pure function of t (no state, rand() from prng.js); each shot needs a `moment`; tools/storyboard.mjs must report no new problems.",
+  "Engine limit: two content layers, so only two shots can be live at once; a transition's overlap is clamped to the neighbouring cuts (shot.js sequence()). Very short shots cannot carry long lead-in transitions.",
+  "Flash safety: at most 3 general or red flashes per second (tools/check_flash.py, measured on a 60 fps export); full-screen flash is capped at 0.7 (config safety.maxFlash); what trips the red check in practice is large saturated red areas moving fast, patterns reshuffled every frame and effect amounts pulsing with the beat. The post glitch holds its pattern 0.1 s and the datamosh reshuffles every 16 frames by design. The on-screen and README warning currently covers 2:28-2:57 only."
+ ],
+ "handover": "IN: the previous shot is count-out (src/scenes/11_count.js line 261, 161.65-162.81, hard cut in): the chat window with six small number tiles in a top row and one wide EXECUTION bubble pressed against the right window edge carrying the first \"Reached no one\" badge, on the dark 'error' palette with bloom lowered to 0.12. At 162.81 a hard cut without flash goes to cx-give, which continues that picture: the same shout is still visible as a small 30 px bubble at 62 % alpha scrolling away at the window edge. The pickup line 105 starts at 162.63, i.e. 0.17 s before the cut. The director's separate note on 148-162 asks for the EXECUTION / counting block to leave the chat-UI look, so the incoming picture at 162.81 will change; this section's opening should not depend on the bubble-at-the-edge match and must be agreed with whoever redesigns the count.\n\nINSIDE: the join between the two halves at 177.57 (bar 96) is a 2-beat dissolve that starts at 176.65 under the held note and the pickup line 116 (177.25); the three later joins are 1-beat dissolves starting on the cut.\n\nOUT: the next shot is down-world (src/scenes/13_shutdown.js line 44), entering with a 1-beat fade that starts on the cut at 192.34 (bar 104) and deliberately opens on the exact last picture of out-frame so the dissolve is invisible. It copies that picture's numbers in its OUT constant (line 27): figure rect 172,138,580,870 using art 'parted' (lines 54 and 60), composer 810,862,960,118, the last word at 1290,730 (maxW 940, maxSize 220), the three lines at x 856 / y 372 + 60 i / size 44, the 'Closed by you' label, the sealed second outline, camera zoom 1 with no offset. Then, over bars 104-105, the figure greys out and steps back behind the glass and the last word shrinks into the thread. Any change to how this section ends (new silhouette bust instead of the full figure, a different position or size for the final LO-O-OVE, residual glitch or light) has to be mirrored in 13_shutdown.js or the join will jump. The music drops sharply at exactly 192.34 (RMS 0.60 to 0.40, mid 0.77 to 0.34), which is the natural instant for the corruption and the strong light to stop and for the calm ending the director wants to begin; line 127 is nominally held to 195.36 and is currently carried across the join by the shutdown shot."
+}

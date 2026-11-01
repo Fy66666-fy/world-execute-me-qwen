@@ -1,0 +1,36 @@
+# The song and its lyrics belong to Mili: bring your own, never commit them.
+/音頻&歌詞/*
+!/音頻&歌詞/README.md
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.lrc
+# made on your machine from your own lyric file (tools/fill_lyrics.mjs): it carries the lyric text
+/data/lyrics.json
+
+# renders (the videos carry the song)
+/out/
+
+# the maker's source pictures and older versions: not part of the repository
+/圖片/
+/backup/
+
+# local sharing helper
+/.share-runtime/
+/stop-sharing.cmd
+
+# dependencies, caches, local settings
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+/.claude/settings.local.json
+
+# local npm cache (never commit)
+/.npm-cache/
+/backup_pre_ornament/

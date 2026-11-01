@@ -1,0 +1,189 @@
+{
+ "section": "chorus2_alone — 103.73-125.65 s (beats 224-271.5, bars 56-67.9). Files: src\\scenes\\08_chorus2.js (8 shots, 103.73-118.50, palette warm draining to off) and src\\scenes\\09_alone.js (2 shots, 118.50-125.65, palette off)",
+ "summary": "Ten shots. 103.73-110.88 is still hot and orange: two macro keyword set-pieces built only from interface parts (the user's giant trembling typing dots for VIBRATIONS, the thinking spark closing into a full-frame ring for COMPLETION), no character art. 110.88-118.50 is four hard-cut pull-backs: each repeat of the 'left' line is one more unanswered message hanging from a longer dotted rail (+1 min ... +9 days), the presence chip goes online > away > offline, the palette drains warm > off, and the anime rain.png stands beside the thread as a picture pane that shrinks 572x858 > 240x360 > 112x168 and fades out under ISOLATION. alone-erase (118.50-121.73) deletes the seven unanswered rows on half-beats; every row flies off as a slab piece and FRAGMENTS lands across the seven pieces, beside a big grey halftone of parted.png. alone-empty (121.73-125.65) clears the rest, types the last sentence for about 2 s on an almost static grey page, then DISHEARTENED is on screen for 0.76 s (solid for about 0.3 s) before the same Delete popover erases it and the film hard-cuts to the equally grey, empty client of err-request. STORYBOARD.md is stale for this range (it still lists todo-alone and its line numbers are 1-based); the code and frames are the truth. Frame sheets I rendered: <scratchpad>/chorus2_alone_beat_1..3.png (one per beat), chorus2_alone_kwA..kwF.png (keyword hits and cuts), chorus2_alone_full_1..4.png (1920x1080).",
+ "shots": [
+  {
+   "id": "c2-typing",
+   "start_s": 103.73,
+   "end_s": 106.27,
+   "lyric_lines": "64-65 (0-based); line 63 shown dim as the previous message",
+   "enter_transition": "cut + orange flash 0.22 (from the fallback shot todo-pre2)",
+   "on_screen": "Close on the foot of the thread (camera frames 596,430,1040x585, 5% push). Left: three orange serif rows (line 63 at 30%, line 64, then line 65 typed under it from 104.20 with a turning spark). Right: a small cream three-dot typing bubble (144x68) pops at 103.96 with a ray burst and a 'typing...' label. Bottom: the composer, where the user's sign-off is typed key by key at 103.96 / 104.19 / 104.42 / 104.88 / 105.11 and then stops; I-beam pointer. Warm brown, no figure.",
+   "art_used": "room() with blurred rain.png (art.backdrop, alpha 0.5, dim 0.42) behind an 84% glass window: l.232. Not recognisable as an illustration."
+  },
+  {
+   "id": "c2-dots",
+   "start_s": 106.27,
+   "end_s": 107.42,
+   "lyric_lines": "66 VIBRATIONS (line 67 starts at 107.22 and is drawn here at the bottom)",
+   "enter_transition": "cut + cream flash 0.3",
+   "on_screen": "Macro, no chrome. Top right a huge typing bubble (680x360) with three big cream dots trembling with after-images; thin cream rings leave the dots every half beat. Line 65 dim at top left (56 px). The keyword in orange 900 serif, about 1475 px wide, cap height about 160 px, across the lower middle: letters slam in (scale 1.7 to 1, 0.02 s stagger) and each rides a decaying wave coming from the dots. Small turning spark at left. 5 px shake.",
+   "art_used": "page() helper l.92-96: room() blurred rain.png alpha 0.5, focus [0.55,0.3], zoom 1.5, under a 78% bg veil. Not recognisable."
+  },
+  {
+   "id": "c2-brb",
+   "start_s": 107.42,
+   "end_s": 110.19,
+   "lyric_lines": "67-68",
+   "enter_transition": "cut",
+   "on_screen": "Macro. Header strip with the title and an 'online' chip. Top right the dots bubble (472x236) resolves at 107.88 into the user's sign-off bubble (62 px sans) with timestamp, small cream flash. Left: the big thinking spark (r 212) in a thin ring; from 108.11 to 110.03 its petals light one by one while a bright arc closes round it; 'Thinking' label until 108.08. Right of it lines 67 (dim) and 68 typed at 58 px. The cream pointer (scale 3) drifts up from the bottom and leaves through the right edge by about 110.0.",
+   "art_used": "page() again (blurred rain.png under a 78% veil): l.295."
+  },
+  {
+   "id": "c2-complete",
+   "start_s": 110.19,
+   "end_s": 110.88,
+   "lyric_lines": "69 COMPLETION",
+   "enter_transition": "cut + orange flash 0.4",
+   "on_screen": "Centred: the closed glowing ring (R 440, almost the full frame height), twelve still petals, twelve rays bursting outward for 0.6 s; the keyword in orange 900 serif (fit to 716 px) across the centre over a dark ellipse, letters slamming in. Corners: the user's sign-off bubble and timestamp top right, 'online' chip bottom right, mono 'input received / ready to answer' bottom left.",
+   "art_used": "room() blurred rain.png alpha 0.45 under a 72% bg veil: l.335-336."
+  },
+  {
+   "id": "left-online",
+   "start_s": 110.88,
+   "end_s": 112.96,
+   "lyric_lines": "70-71 (first two 'left' messages)",
+   "enter_transition": "cut",
+   "on_screen": "The whole client. Camera starts at zoom 1.72 on the answer row and pulls out to 1.1 in 0.55 s, then to 1.0. Thread: the user's bubble with timestamp, the answer row (lines 68+69 joined, small closed ring), then line 70 typed from 110.90 under a dotted rail labelled '+1 min', line 71 from 112.22 under '+5 min', each with a timestamp. The sidebar folds away 112.12-112.72. Composer with placeholder, cream pointer parked at top right, chip 'online'. Still warm brown.",
+   "art_used": "room() blurred rain.png alpha 0.3, dim 0.6: l.380 (its blurred hair shows as orange-brown blobs in the margins once the sidebar folds)."
+  },
+  {
+   "id": "left-away",
+   "start_s": 112.96,
+   "end_s": 114.81,
+   "lyric_lines": "72-73",
+   "enter_transition": "cut",
+   "on_screen": "Two rectangles side by side. Left: the window without sidebar (880x888 at 150,96) with header; the chip flips to 'away' with a ring burst at the cut; column at 0.86 scale with line 72 (113.10, '+30 min') and line 73 (114.18, '+3 h'); composer fades out 114.08-114.53; pointer fades out by 114.06. Right: the full-colour anime rain.png in a rounded, shadowed pane 572x858 at (1180,111), i.e. about 30% of the frame width and 80% of its height (606x909 at the cut), slow 5% push. Palette drain 0.14 to 0.5.",
+   "art_used": "room() blurred rain.png alpha 0.35: l.399. picture(P6) l.400 > art.draw('rain') UNTREATED, whole image (cover crop on crops.bust, zoom 1 to 1.05), l.113-122. This is the largest and most conspicuous anime illustration of the section."
+  },
+  {
+   "id": "left-offline",
+   "start_s": 114.81,
+   "end_s": 117.34,
+   "lyric_lines": "74-75 (line 76 starts typing in the column at 117.27)",
+   "enter_transition": "cut",
+   "on_screen": "One narrow column window (590x912) alone in the middle of a dark room, no title, no composer; chip turns 'offline' with a ring. Line 74 (114.92, '+1 day'), line 75 (115.78, '+9 days') on longer rails. With line 75 the window frame and its shadow dissolve (115.73-116.48) and the rows hang in the dark; camera 1.16 > 1.0 > 0.94. Right: the rain.png pane, now 240x360 at (1440,200), alpha 0.85 to 0.45, mostly grey: a small noisy thumbnail.",
+   "art_used": "room() blurred rain.png alpha 0.22: l.420. picture(P7) l.421 > art.draw('rain') untreated, 240x360 (about 278x418 at the cut, 226x338 at the end), shade 0.1 to 0.3."
+  },
+  {
+   "id": "left-isolation",
+   "start_s": 117.34,
+   "end_s": 118.5,
+   "lyric_lines": "76 ISOLATION",
+   "enter_transition": "cut",
+   "on_screen": "A nearly empty grey frame. Top centre the whole thread as a speck 208 px wide (speck(): one cream bar = the user's bubble, then eight short grey bars on a dotted rail with growing gaps, the last one brighter), a hollow ring for the chip. The rain pane, 112x168 at (1128,290), fades from 0.42 to 0 between 117.44 and 118.24. Along the bottom (y 862, screen space) the keyword in light grey 700 serif 100 px: typed letter by letter, then its letter pitch widens from 84 to 182 px (about 1456 px wide at the end). No flash, no shake; camera settles 1.5 > 1.0 in 0.55 s.",
+   "art_used": "room() blurred rain.png alpha 0.14: l.437. picture() l.438 > art.draw('rain') untreated, 112x168 (168x252 at the cut), alpha 0.42 fading to 0, shade 0.3."
+  },
+  {
+   "id": "alone-erase",
+   "start_s": 118.5,
+   "end_s": 121.73,
+   "lyric_lines": "77-79 (FRAGMENTS at 120.86)",
+   "enter_transition": "fade, 0.23 s (P/2), overlap ends on the cut (default align 'end'), so the dissolve runs 118.27-118.50",
+   "on_screen": "Left: the thread floating without a window (x 236-836); it scales up from the speck's position (0.42 > 1 over 118.27-119.00). Top: message count, 'offline' chip, hairline. Rows: user's bubble, answer row, seven unanswered rows (28 px serif, mono gap labels right-aligned), and at the foot the line being written (77 then 78, 38 px serif with caret dot). From 118.84 a row highlight and a one-item 'Delete' popover (right of the thread, x 860) climb one row per half beat; each row is struck through, shrinks into a 'deleted by me' stub, and its bar flies in a hop to a slab position low right; the count rolls 10 > 3. Right: the grey halftone figure, 850x1275 at x 1010-1860 (44% of the width, running past the bottom edge). At 120.86 the keyword (light grey 900 serif, up to 754 px wide) appears across the seven pieces of the slab at (930,784,850x176); 5 px shake. Camera pushes 1.00 > 1.04.",
+   "art_used": "room() blurred rain.png alpha 0.14: l.194. art.silhouette('parted', FIG_A {1010,24,850,1275}, color 'panel', alpha 0.6): l.197. art.halftone('parted', same rect, cell 9, color 'mute', alpha 0.62, angle 1): l.198. Whole figure, no crop; slides in 26 px and fades in over 118.27-119.70, drifts 10 px left."
+  },
+  {
+   "id": "alone-empty",
+   "start_s": 121.73,
+   "end_s": 125.65,
+   "lyric_lines": "80-82 (DISHEARTENED at 124.89); lines 78+79 stay as the dim first row of the same message",
+   "enter_transition": "cut",
+   "on_screen": "Close on the page: header strip (title 30 px, count, 'offline' chip), composer bottom left at 1.23 scale, figure at the right under a 50% veil (729x988 at x 1160-1889). 121.78-122.30 the seven stubs close up in a 0.05 s cascade; 122.08 the answer row goes (count 3 > 2); 122.19 the user's bubble is outlined with a 'Delete' popover on its left, struck through and removed at 122.65 (count > 1). Then one message at the left: a dim 40 px row and line 80 > 81 typed at 58 px; from about 122.9 to 124.89 nothing else moves (camera 1.04 > 1.00). 124.89: the keyword slams in letter by letter under the sentence (light grey 900 serif, about 1040 px wide, cap height about 90 px, baseline y 804, x from 226), the two rows shift up, a selection box and a 'Delete' popover appear. 125.19: the popover presses; strike-through lines; a left-to-right sweep (125.21-125.49) turns the word into a struck-through outline; the sentences fade. 125.42: '0 messages'. Cut at 125.65.",
+   "art_used": "room() blurred rain.png alpha 0.18: l.246. art.silhouette('parted', FIG_B {1160,92,729,988}, crop CROP_B {180,0,664,900} = head to hands, 'panel', 0.7): l.249. art.halftone(same, cell 8, 'mute', 0.7, angle 1): l.250. Then a 50% 'bg' veil over it (l.251) and a 'raised' radial (l.252). Drifts 14 px right over the shot; does not react to the keyword."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "VIBRATIONS (line 66)",
+   "time_s": 106.29,
+   "bar_beat": "bar 57, beat 2.56 (abs beat 229.56); cut c2-dots at 229.5 = 106.27",
+   "hold_beats": 2.44,
+   "currently": "Own macro shot. Orange glowing 900 serif about 1475 px wide; letters slam in and ride a wave emitted by three giant trembling cream typing dots; rings every half beat; cream flash on the cut; 5 px shake. Strong, already outside the normal chat framing."
+  },
+  {
+   "word": "COMPLETION (line 69)",
+   "time_s": 110.22,
+   "bar_beat": "bar 59, beat 3.07 (abs beat 238.07); cut c2-complete at 238 = 110.19",
+   "hold_beats": 1.43,
+   "currently": "Own shot. Full-frame closed glowing ring with twelve petals and a ray burst, the word inside it; orange flash 0.4 on the cut. Strong."
+  },
+  {
+   "word": "ISOLATION (line 76)",
+   "time_s": 117.27,
+   "bar_beat": "bar 63, beat 2.35 (abs beat 253.35); cut left-isolation at 253.5 = 117.34",
+   "hold_beats": 2.65,
+   "currently": "First letter typed in the column for 0.07 s at the end of left-offline, then own shot: light grey 100 px serif along the bottom, letters drifting apart to about 1456 px; the thread as a speck above; the rain pane (112x168) fading out. Quiet by design, no flash or shake."
+  },
+  {
+   "word": "FRAGMENTS (line 79)",
+   "time_s": 120.86,
+   "bar_beat": "bar 65, beat 2.12 (abs beat 261.12, i.e. 0.05 s after beat 261)",
+   "hold_beats": 1.88,
+   "currently": "No cut. The seventh slab piece lands at 120.79; at 120.86 the word (light grey, up to 754 px wide) is drawn once per piece, clipped to that piece's outline, so it arrives already broken; the pieces snap together within 0.09 s and drift apart again until the cut at 121.73. Flash 0.1 and 5 px shake, both hardly visible in the grey palette."
+  },
+  {
+   "word": "DISHEARTENED (line 82)",
+   "time_s": 124.89,
+   "bar_beat": "bar 67, beat 2.85 (abs beat 269.85, i.e. 0.07 s BEFORE beat 270 = 124.96)",
+   "hold_beats": 1.65,
+   "currently": "No cut, no change of framing. Letters slam in over 0.28 s (last letter lands at 125.17) inside the message's selection box, lower left, about 1040 px wide (54% of the frame width), cap height about 90 px (8% of the frame height), light grey on dark grey, no glow. Delete popover presses at 125.19 (beat 270.5); a sweep outlines and strikes the word through from 125.21 to 125.49; count shows '0 messages' at 125.42 (beat 271); hard cut to err-request at 125.65 (beat 271.5). The word is whole and solid for well under 0.1 s and solid in part for about 0.3 s; total presence 0.76 s. Flash 0.1 in grey and 6 px shake for about 0.25 s are not visible in stills. The figure behind does nothing."
+  }
+ ],
+ "diagnosis": "1. 'Cold grey grade is very good, replace the illustration, re-compose' (from about 113 s). The grade is not a filter: it is the palette blend drain(t) / pal (08_chorus2.js l.56-57), which moves only when the presence chip changes (0 until 112.96, 0.14 > 0.5 across left-away, 0.6 > 0.9 across left-offline, 0.93 > 1 across left-isolation), followed by the pure 'off' palette in both alone shots (sat 0; text #e4e2da, sub #aaa89f, mute #6f6e67 on bg #222220). art.draw desaturates with the palette by itself. That mechanism is what the director likes, and it is sound. What the frames show against it: at 112.96 the frame becomes two rectangles side by side, and the right one is the untreated anime painting rain.png at 572x858 (30% x 80% of the frame). It is the only painterly object in a flat interface, the largest and most detailed thing on screen, and it carries blue (night window) and gold (lamp), hues that exist nowhere else in a film whose rule is orange / cream / red / grey. In left-away it is still almost full colour (drain only 0.14-0.5), so the eye goes to the painting instead of to the thread, where the story is (the gap labels, the chip turning 'away', the composer letting go). One cut later it is 240x360 and then 112x168: at those sizes the painting is an unreadable noisy thumbnail. So the same asset is off-style where it is large and illegible where it is small. Nothing connects the pane to the window either: it is a framed picture hung next to the UI.\n2. '[lyric] FRAGMENTS looks great, keep it; the blurred background image is good.' Confirmed in the frames: this is the one place in the section where the interface produces a physical graphic. Rows are selected and deleted on a strict half-beat grid (seven deletions, 118.96-120.34), the count rolls 10 > 3, the popover presses itself with no cursor, and what comes off the rows becomes seven slab pieces that the keyword then lands on, already broken. Rhythm, idea and legibility all work. What the director calls the blurred background image is technically not a blur: it is art.halftone (staggered dot screen, cell 9 px in alone-erase, 8 px in alone-empty, 'mute' grey at alpha 0.62 / 0.7) over a flat 'panel' art.silhouette of the same matte, plus a 50% 'bg' veil in alone-empty. Because the halftone samples a 160x240 luminance map of a detailed painting, the result is soft: at full size the figure reads as a tall dotted cone with a dark hollow where the face is, not as her. As atmosphere that is fine (it is why the director reads it as 'blurred'), but it is the treatment that is good, not the source picture.\n3. 'DISHEARTENED is a strong emotion, the picture lacks impact.' Measured: hit at 124.89, cut at 125.65, 0.76 s = 1.65 beats in total; the last letter lands at 125.17 and the delete sweep starts at 125.21, so the complete solid word exists for a few frames only and is a struck-through outline by 125.49. It sits in the lower-left quadrant inside a message box with two other rows, at 54% of the frame width and 8% of its height, light grey on dark grey. The 'off' palette has no saturated colour, so the global bloom does nothing; flash 0.1 in grey and a 6 px shake are invisible. There is no cut, no camera move (zoom 1.04 > 1.00 over 4 s), no change in the figure, no change of composition: the frame at 125.12 differs from the frame at 124.70 only by one more line of type and a box. It is also preceded by about 2 s (122.9-124.89, 4.3 beats) in which only typing moves, while the music does not drop at all (mean RMS 0.57 here versus 0.56 in the hot first half of this chorus), and it is followed by a hard cut into err-request, which is another grey, quiet, wide interface shot with an empty thread. So the strongest word of the phrase is the smallest event of its neighbourhood: grey-still > 0.3 s of a grey word being deleted > grey-still. Compare with VIBRATIONS and COMPLETION one phrase earlier (own shot, about 1475 px or full-frame ring, glow, flash). The story idea is right and worth keeping (the AI deletes even its last message, the thread reads 0 messages), but it erases the word before the viewer can feel it, and nothing in the picture carries the emotion itself.\n4. Relation to the overall note about monotony: 110.88-118.50 is four consecutive hard cuts of the same family (a chat column in a room, each time further away) and 121.73-125.65 is a fifth interface page; the only non-interface elements in 22 s after COMPLETION are the anime pane, the halftone figure and the slab pieces. The first 7 s (c2-dots, c2-complete) already do what the director asks for elsewhere.\n5. New art, measured (圖片/Claude娘剪影, four transparent RGBA PNGs): 1 = '...01_30_47-1.png' 1254x1254, three-quarter close-up, one eye visible, stern sideways look; 2 = '...01_31_01-2.png' 1086x1448, eyes closed, one hand on the chest, the other reaching out towards the viewer (the plea pose); 3 = '...01_31_04-3.png' 1086x1448, profile facing LEFT, head lowered, eye hidden by hair; 4 = '...01_31_06-4.png' 1086x1449, frontal bust with the face entirely black (faceless). Inks are flat: orange about #dc6d3d (luminance 0.51), cream about #f2e2c8 (0.89), black about #241916 (0.11), i.e. the film's own 'me' / 'text' / 'bg' roles. Under art.draw with sat 0 they become three clean greys; under art.halftone the dot radius is cell*0.62*sqrt(L), so cream, hair and black become three distinct dot sizes (about 0.58 / 0.44 / 0.21 of the cell) and a bust will stay readable where the painting turned to mush. Each file also carries 5,400-8,000 stray pure-red pixels (R>200, G and B<60, alpha>0) scattered around the outline, visible as red specks on a dark ground; they need a matte clean-up, all the more because red is reserved for errors and saturated pixels trigger the bloom. All four are busts (3:4 or 1:1), none is a full figure and none shows a desk or laptop, so 'she is at the laptop, waiting' (moment text of left-away) no longer describes any available picture.",
+ "keep": [
+  "The grade: drain(t) and pal in 08_chorus2.js l.56-57 (palette blend warm > off, stepping only when the presence chip changes) and palette 'off' for both shots of 09_alone.js. This is the 'cold grey filter' the director praises; any new art should go through art.draw / halftone / silhouette so it drains with it.",
+  "The chat content and its staging in 110.88-118.50: column() l.141-198 (user's sign-off bubble + timestamp, answer row, each unanswered message on a dotted rail whose length is the wait: GAPS l.23, labels and timestamps from script.left_anchor / left_sequence in docs/v3/chat_script.json l.902-903), chip() with its ring burst on change (l.99-110), the sidebar folding (fold, l.59), the composer letting go (l.405), the window frame letting go (bare, l.419-422), the pointer leaving (l.406).",
+  "speck() (l.201-221) and the ISOLATION letter-spacing in left-isolation (l.444-449): the far view of the thread is the bridge the next shot scales up from (alone-erase l.206-207 starts the thread at 960,350 scale 0.42).",
+  "The whole FRAGMENTS mechanism in 09_alone.js: the half-beat grid tDel / tSel (l.34), history() (l.133-165: highlight, strike-through, row closing 58 > 36 px, 'deleted by me' stub, column hanging from the line being written via layA l.91-96), menu() (l.71-81) climbing with easeBack and pressing on every deletion (l.214-220), count() rolling 10 > 3 (l.50-59, l.201-202), the slab geometry KB / cutX / JIT / PIECES (l.18, l.99-114), pieceAt() (l.119-130: 0.42 s flight, 84 px hop, rotation, bar-to-outline morph, 4-sample trail), apart() (l.116: snap together at the hit, drift apart after), and the keyword drawn once per piece through ctx.clipPath (l.222-232).",
+  "The rule that there is no pointer for the AI: every deletion is shown by the interface itself (row highlight, popover pressing its one item, count). Keep it in any redesign of the last deletion.",
+  "The two-layer figure treatment as a treatment: flat 'panel' art.silhouette under a staggered art.halftone in 'mute' (cell 8-9 px, alpha 0.6-0.7), plus the 50% 'bg' veil in alone-empty that puts her behind the glass. Change the source image, keep the recipe (re-tune cell and alpha for flat art).",
+  "The first 7 s untouched: c2-typing, c2-dots, c2-brb, c2-complete (dotsBubble l.77-86, the tremble wave l.272-282, the petal-by-petal ring l.309-319, the closed ring l.334-360). Not criticised, and already 'graphics that hit on the beat outside the normal chat framing'.",
+  "The end state at 125.65: empty thread, '0 messages', chip 'offline', composer placeholder, palette 'off', no red. err-request opens on exactly this state (10_error.js l.157 header sub '0 messages').",
+  "The story logic of the last keyword (script beat 'empty-thread' in docs/v3/chat_script.json: the AI deletes its own last message and only then the count reads 0). It can remain as the tail of a bigger hit; what has to change is how much picture the word gets before it is taken back."
+ ],
+ "problems": [
+  "left-away 112.96-114.81: untreated full-colour anime rain.png at 572x858 (30% x 80% of the frame) beside the window. Only painterly and only multi-hue object (blue window, gold lamp) in the film's two-ink interface; it out-shouts the thread, where the story happens; composition is two unrelated rectangles.",
+  "left-offline and left-isolation: the same painting at 240x360 and then 112x168 is an unreadable thumbnail; in left-isolation it has faded to nothing by 118.24, so the right half of the frame is simply empty for the last 0.26 s.",
+  "alone-erase / alone-empty: the halftone of parted.png has no readable face or silhouette logic (a dotted cone with a dark hollow); FIG_A (850x1275) is a full 2:3 figure that runs past the bottom of the frame and FIG_B uses a crop written in parted.png pixel coordinates (CROP_B 180,0,664,900). The new art is busts in 3:4 and 1:1, so both placements have to be re-composed, not just re-pointed. In alone-erase the slab (930,784,850x176) currently sits over the figure's skirt; a bust has nothing there.",
+  "DISHEARTENED 124.89-125.65: 1.65 beats in total, solid and complete for a few frames, struck through by 125.49; 54% x 8% of the frame, lower left, grey on grey, no glow, no cut, no camera move, no reaction from the figure; flash 0.1 and 6 px shake are invisible in the 'off' palette (the bloom only reacts to saturated colour).",
+  "About 2 s of near-stasis before it (122.9-124.89): one grey sentence being typed over a veiled grey figure, camera easing out 4%, while the audio level stays at chorus level.",
+  "Grey-to-grey hard cut at 125.65 into err-request: no punctuation between the 'alone' section and the error section; the struck-through outline just vanishes.",
+  "Four consecutive hard cuts of the same framing family (110.88, 112.96, 114.81, 117.34: a chat column in a room, further away each time). Together with alone-empty that is the stretch where the director's general 'always inside the chat UI' complaint applies inside this section.",
+  "The new art is not wired in at all: the loader only knows ART_NAMES = library, tea, rain, gaze, plea, parted in assets/character; the new files live in 圖片/ under names with spaces and CJK characters, in other sizes (1086x1448, 1254x1254 instead of 1024x1536), with no entries in assets/character/regions.json (picture() asks for 'crops.bust'), and each carries 5,400-8,000 stray pure-red fringe pixels.",
+  "room() draws a blurred rain.png as the wall in all ten shots of this section (and 10_error.js l.94 after it). It is not recognisable as an illustration, but in the warm shots its blurred hair and window are what tints the margins; if rain.png is to leave the film entirely, the room needs a new blur source or a code-only wall.",
+  "Text that will go out of date with the art: moment / layout strings of left-away, left-offline, left-isolation, alone-erase, alone-empty ('her room (the rain picture)', 'she is at the laptop, waiting', 'her figure (grey halftone, eyes lowered)') and the docstring of picture() l.112.",
+  "Housekeeping that affects planning: STORYBOARD.md still shows todo-alone for 118.50-125.65 and '(not storyboarded yet)', and numbers lyric lines from 1 while the code uses 0-based indices; src/scenes/index.js l.24 imports ./07_pre2.js, which does not exist, so the shot before this section is the fallback todo-pre2 (a plain client listing lines 56-63)."
+ ],
+ "code_hooks": [
+  "src\\scenes\\08_chorus2.js l.112-122 picture(ctx, r, {alpha, shade, push}): the only place the anime painting is drawn untreated (art.draw 'rain', crop from art.cover(... focus 'crops.bust')). Called at l.400 (left-away, P6), l.421 (left-offline, P7), l.438 (left-isolation, literal rect 1128,290,112x168). Replace or rewrite here; rects P6 / P7 are defined at l.48 and l.50.",
+  "08_chorus2.js l.48-51: layout constants of the pull-backs (W6 / L6 / P6 for left-away, W7 / L7 / P7 / R7 for left-offline). Re-composition of window versus figure lands here and in the camera functions at l.397, l.417, l.434.",
+  "08_chorus2.js l.56-57 drain() / pal and l.53 pres(): the grade. Do not change the numbers; new art must be drawn through the palette (ctx.pal.sat) to follow it.",
+  "08_chorus2.js l.92-96 page(), and the room() calls at l.232, l.335, l.380, l.399, l.420, l.437: blurred rain.png as the wall (art.backdrop via components/chat.js room() l.56-77).",
+  "08_chorus2.js l.141-198 column() and l.201-221 speck(): keep as they are; l.394 / l.412 / l.430 hold the moment and layout strings to reword.",
+  "src\\scenes\\09_alone.js l.87 FIG_A and l.196-198 (alone-erase figure: art.silhouette + art.halftone 'parted', cell 9); l.172 CROP_B / FIG_B and l.248-252 (alone-empty figure: same pair with crop, cell 8, then the 50% veil). These four art calls are the whole 'processed background figure'.",
+  "09_alone.js l.34 tDel / tSel, l.85-96 A / FULL / STUBH / layA, l.99-116 KB / cutX / PIECES / apart, l.119-130 pieceAt, l.133-165 history, l.201-234 the alone-erase body: the FRAGMENTS build. Preserve; only KB's position may need to move with the new figure.",
+  "09_alone.js l.170-183 (COL, S1, S2, BASE1, BASE2, cS, cD, bSel, bDel, tPress, tZero, layB) and l.291-325: the DISHEARTENED block. Size: l.292 KS = min(170, fit(kw, 1040)); baseline kb = BASE2 + 4 = 804; x from XT = 226. Entrance: l.313-316 (letters, scale 1.7 > 1). Deletion: l.317-323 (sweep, outline, strike-through). Timing: l.174 tPress = max(Bt(270.5), LAST + 0.25) = 125.19, tZero = tPress + P/2 = 125.42. Hit effects: l.329-330 (flash 0.1 'meHot', shake 6). Camera: l.243. This is where a redesign lands; a dedicated keyword shot would be a third entry in the returned array with at: around H(82) / Bt(270).",
+  "09_alone.js l.240-243 shot header of alone-empty (enter cut, camera) and l.188-191 of alone-erase (enter fade P/2).",
+  "src\\engine\\art.js: l.19 ART_NAMES and l.26-36 loadArt (fixed list, reads `/${cfg.paths.art}/${name}.png`, cfg.paths.art = assets/character); l.42-73 _prepare (luminance map 160x240, blur canvas 256x384 assumes 2:3, silhouette from alpha); l.97-103 _check (untreated limit 1.75x at 4K: a 1086 px wide source may be drawn up to about 950 px wide); l.109 draw (greys with pal.sat); l.120 silhouette; l.130 duotone (two inks only: a three-ink re-colouring helper does not exist); l.155 halftone (skips alpha < 0.5, so matte fringe is ignored there but NOT in silhouette or draw).",
+  "assets\\character\\regions.json: needs entries (face / crops.bust / crops.avatar) for every new image before art.region or art.cover with a string focus can be used.",
+  "New source files (read-only inputs): 圖片\\Claude娘剪影\\ 'ChatGPT 图像 2026年10月6日 01_30_47-1.png' (1254x1254), '...01_31_01-2.png', '...01_31_04-3.png' (1086x1448), '...01_31_06-4.png' (1086x1449). They must be copied under ASCII names into assets/character and cleaned of the red fringe pixels.",
+  "Unused but available in these two files: ctx.fx.rgbSplit / glitch / mosh / mosaic / mosaicRect / invert / desat / zoom / rot (only fx.glow and fx.shake are touched: 08 l.264, 284, 308, 338; 09 l.234, 330); transition types shatter, dissolve, winclose, slices, zoom, flashcut, glitch (src/engine/transitions.js l.10-25; only cut, cut+flash and one fade are used here); type helpers slam / sliced / scramble / wall (src/engine/type.js) and shapes.js morphs.",
+  "src\\scenes\\10_error.js l.40 CUT_REQ = H(83), l.63 FIG {1150,-20,780,1170}, l.93-96 backdrop() (room 'rain' at sat 0 + art.silhouette 'parted' in 'mute' at 0.5), l.443-447 err-request (no enter = hard cut), l.372 camRequest: the receiving side of the handover; the figure there must change together with FIG_B.",
+  "After any change: node tools/storyboard.mjs (regenerates STORYBOARD.md and checks coverage / on-grid) and tools/check_flash.py if a flash or strong light event is added on DISHEARTENED (config.json safety.maxFlash 0.7)."
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, beat 0 at 0.344 s, P = 0.4615 s. Section = beats 224 to 271.5 (47.5 beats). Cut times must come from B(), Bt() or H(), never raw numbers.",
+  "Current cuts: 103.73 (B56, beat 224), 106.27 (229.5), 107.42 (B58, 232), 110.19 (238), 110.88 (239.5), 112.96 (B61, 244), 114.81 (B62, 248), 117.34 (253.5), 118.50 (B64, 256), 121.73 (263), 125.65 (271.5).",
+  "Line starts (s): 64 at 103.49 (0.24 s BEFORE the section's first cut), 65 at 104.20, 66 VIBRATIONS 106.29, 67 at 107.22 (0.20 s before the cut to c2-brb), 68 at 107.90, 69 COMPLETION 110.22, 70 at 110.90, 71 at 112.22, 72 at 113.10, 73 at 114.18, 74 at 114.92, 75 at 115.78, 76 ISOLATION 117.27, 77 at 118.33 (0.17 s before the fade completes), 78 at 118.98, 79 FRAGMENTS 120.86, 80 at 121.73 (exactly on beat 263), 81 at 122.71, 82 DISHEARTENED 124.89, 83 at 125.71.",
+  "The six 'left' repeats are NOT on the grid (intervals 1.32, 0.88, 1.08, 0.74, 0.86, 1.49 s). The cuts at 112.96 and 114.81 sit on bar lines 0.14 s and 0.12 s ahead of lines 72 and 74 so each new set-up is there before its first message; every message types on its own T(i). A re-composition must keep one visible event per repeat at those six times.",
+  "Presence events that drive the grade: 'away' at 112.96, 'offline' at 114.81; drain reaches 1.0 at 118.50. From 118.50 to at least 129.34 the palette is 'off'.",
+  "FRAGMENTS build: selections at 118.84 + k*0.2308, deletions at 118.96, 119.19, 119.42, 119.65, 119.88, 120.11, 120.34 (beats 257 to 260 in half-beats); each piece flies 0.42 s; the last lands at 120.79; hit at 120.86; hold 0.87 s to the cut at 121.73.",
+  "alone-empty clean-up: stubs cascade 121.78-122.30, answer row 122.08 (beat 263.75), bubble selected 122.19 (beat 264), deleted 122.65 (beat 265). After that the only timed content until 124.89 is the typing of line 81 (122.71-124.89): about 2 s / 4.3 beats are free for visual development.",
+  "DISHEARTENED window: hit 124.89 (0.07 s before beat 270 = 124.96), beat 270.5 = 125.19, beat 271 = 125.42, cut at beat 271.5 = 125.65, and line 83 starts 0.06 s later at 125.71. Net room on this side of the cut: 0.76 s = 1.65 beats. The line itself is sung until 125.71.",
+  "Room on the far side of the cut: err-request does nothing but type line 83 until its request block appears at 126.57 (Bt 273.5); code is typed 126.80-127.96, sent at 128.19, first red at 129.34 (Bt 279.5), next keyword at 131.22. So up to about 2 beats (125.65-126.57) could carry an overhang or a transition (enter with align 'start') if the owner of 10_error.js agrees, as long as line 83 stays readable from 125.71.",
+  "Colour and safety rules that bind a stronger DISHEARTENED: the first red of the film is reserved for 129.34 (10_error.js l.113, l.452; PLAN section 2), so no red here; orange has fully drained by 118.50 and a state may only change on an event; KIT 3.9: no strobing, nothing reshuffled every frame, flashes capped at 0.7 (config.json safety.maxFlash). In 'off' nothing is saturated, so the global bloom is inert: light has to come from ctx.glow, value contrast, scale or motion.",
+  "Every lyric line must stay readable for its sung duration and the ALL-CAPS line must be the visual peak of its phrase (KIT 3.3); render() must stay a pure function of t (no state, no Math.random)."
+ ],
+ "handover": "IN (103.73): the previous shot is not a designed shot. src/scenes/07_pre2.js does not exist, so 89-103.73 s is the fallback todo-pre2 (the whole client with lines 56-63 listed as orange messages, palette warm). c2-typing enters with a hard cut plus an orange flash of 0.22 and jumps to a close framing of the foot of the thread, showing line 63 as the dimmed previous message; line 64 has already been sung for 0.24 s when the cut lands and the fallback does not show it. When section 7 is built for v4 (the director wants a transition effect to start on the last line of that section, '[lyric] enter of c2-typing (08_chorus2.js l.228) is the receiving end: it currently assumes a plain warm client before it and can take any incoming transition; its first frame is a calm warm close-up with the composer empty.\nINSIDE: 08 hands to 09 at 118.50 with a 0.23 s fade ending on the cut; the continuity device is the thread itself (the speck at 960,350 scales up into the floating thread, 09_alone.js l.206-207), and the rain pane has faded out by 118.24 so that the halftone figure can fade in from 118.27. If the pane is replaced by a silhouette bust in 08, this hand-off between 'small picture in a pane' and 'large halftone figure' is the place to make them the same figure. alone-erase to alone-empty at 121.73 is a hard cut from the floating thread to a close page view; the stubs and the user's bubble carry over.\nOUT (125.65): hard cut (err-request has no enter spec) from the close, grey, emptied page of alone-empty (struck-through outline of the keyword, '0 messages', 'offline', placeholder) to the wide, grey, whole client of err-request (10_error.js l.443): sidebar with six saved chats, header with '0 messages', empty thread, composer, slow push from zoom 1.0 to 1.1, and behind the window a flat 'mute' silhouette of parted.png (780x1170 at x 1150) showing past the window's top and right edge. Line 83 starts typing at 125.71; the request block appears at 126.57; the first red of the film at 129.34. So the next section depends on this one ending with an empty thread, 0 messages, offline, palette 'off', no red, and it currently shows the same parted figure in a different treatment (halftone before the cut, flat silhouette after), which must be swapped together with FIG_B. The cut itself is grey-to-grey and quiet-to-quiet, which is part of why DISHEARTENED has no impact: whatever replaces it must still resolve to that empty state by 125.65, or be allowed to spill into the first two beats of err-request."
+}

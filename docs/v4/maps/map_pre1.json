@@ -1,0 +1,190 @@
+{
+ "section": "pre1 (pre-chorus 1), 44.65-59.42 s, bars 24-31, lyric lines 24-31 (0-based), scene file src/scenes/04_pre1.js",
+ "summary": "Four shots of 8 beats each (3.69 s), all hard cuts that land exactly on a cursor click: the user opens a 616 px settings drawer on the AI and works down its five rows (Current AC/DC, Vision, Knowledge date, Shared memory, Context depth). The cursor is the protagonist; the AI only narrates in orange serif, either on the page top-left (wide shots) or as a 24 px annotation under the row being touched (close shots). The section uses NO character art at all (room() is called without art; env.art is not even destructured), so the anime-illustration complaint does not apply here and nothing has to be swapped. There are no ALL-CAPS keyword lines in lines 24-31; the \"hits\" are the clicks. Shots 1, 2 and 4 are strong and varied (wide drawer + live graph / 2.96x macro with full-frame mosaic and camera kicks / centred sheet with the spark-and-dot pair and a fly-through). Shot 3 (pre1-date) is the calmest and most diagram-like of the four: a grey 560 px band with two static 204 px serif era tokens, a thin ruler and a year counter; only a 46 px spark slides along it.",
+ "shots": [
+  {
+   "id": "pre1-drawer",
+   "start_s": 44.65,
+   "end_s": 48.34,
+   "lyric_lines": "24-25 (current / AC-DC); line 26 (blind) starts typing top-left at 47.67 before the cut",
+   "enter_transition": "plain cut at B(24)=44.65; the take simply continues from v1-limit (identical window, page, cursor position on both sides of the cut)",
+   "art_used": "none (no character art). Backdrop = room() wall with faint sunburst motif + dot grid; graph paper page",
+   "on_screen": "Wide client, sidebar closed. Cursor leaves the composer, clicks the Settings icon in the header at 44.88 (b0.5); drawer slides in from the right 44.90-45.30 and squeezes the page; the LIMITATIONS letters of verse 1 lift off the cream limit line and fade. Five rows slide in staggered. Click AC at 46.04 (b3): the saturating curve of verse 1 becomes a 104 px sine wave (page label 'current: AC'). Click DC at 46.96 (b5): the wave collapses to a flat line with one overshoot ('current: DC'). Lines 24, 25 are typed at 52 px orange serif at (176,214)/(176,284) and repeated as 24 px annotation under the Current row. Cursor then travels to the Vision toggle and clicks it exactly on the cut. Camera: slow 6 % push, 50 px drift right."
+  },
+  {
+   "id": "pre1-vision",
+   "start_s": 48.34,
+   "end_s": 52.04,
+   "lyric_lines": "26 (blind my vision, 47.67-49.53) and 27 (dizzy x2, 49.53-51.36); line 28 (travel) starts at 51.36 as the 24 px annotation under the Knowledge date row during the pan",
+   "enter_transition": "plain cut ON the Vision click at B(26)=48.34 (wide -> 2.96x macro)",
+   "art_used": "none",
+   "on_screen": "Macro (zoom 2.96, centre world (1492,353); visible world area about x1168-1816, y170-535) on three drawer rows: Current (top), Vision (middle, highlighted), Knowledge date (bottom edge). Vision off at 48.34: local mosaic() coarsens in steps 7/14/28/56 px, a 50 % dark veil and fixed cell grain cover everything; only the lyric annotation, a hairline outline of the toggle and the mono note 'image input: none' stay sharp. 49.73 (b11) Vision on: picture returns, camera kick (rot 0.032, 11 px). 49.96 (b11.5): the cursor drifts up and hovers over the DC half of the Current control (no click). 50.19 (b12) Vision off: blind again. 50.65 (b13): cursor jumps up-left and clicks the AC half of Current while the frame is blind; the white burst lands on an unreadable orange block at the top of frame; the pill slides DC->AC under the mosaic. 51.11 (b14) Vision on: picture returns, Current now reads AC. Line 27 is drawn per letter with a sine wobble, 0.16 rad letter rotation and two after-images; a slow seasick roll runs under the whole line. From 51.34 (b14.5) the camera pans down so the Knowledge date knob sits where the next shot has it; cursor reaches the knob and grabs on the cut."
+  },
+  {
+   "id": "pre1-date",
+   "start_s": 52.04,
+   "end_s": 55.73,
+   "lyric_lines": "28 (travel, on the band 52.04-53.23) and 29 (A.D / B.C, sung 53.23-55.08, on the band until it folds at ~55.0); line 30 (unite) starts 55.08 on the page top-left",
+   "enter_transition": "plain cut ON the grab at B(28)=52.04 (macro -> wide; match cut on the knob position)",
+   "art_used": "none",
+   "on_screen": "Wide client dimmed by a 62 % panel veil. The Knowledge date row opens sideways then vertically into a full-width grey band (world y 262-822, i.e. about 52-54 % of frame height; fully open 52.28-54.96). In the band: sans label 'Knowledge date' (150,334, 34 px); the lyric line at (150,408) in 60 px orange serif; a mono year counter right-aligned at (1770,408), 66 px ('A.D. 2026' ... '3000 B.C.'); two 204 px weight-900 serif era tokens taken from the lyric text, 'B.C' centred x=555 and 'A.D' centred x=1365 (baseline y=640), dim meDim when off, orange with 30 px glow when on; a vertical era line at x=960 (y 452-778); a ruler at y=716 from x=150 to 1770 with a tick every 100 years and mono labels every 500 (right of the knob the ticks go dim = 'no longer known'). The knob is the spark (r=46, glow) with a pressed hand pointer (scale 2.0) and a 6-ghost trail when faster than 500 px/s. Motion: 52.14-52.96 knob 2026 -> ~1017 A.D. (404 px); 52.96-53.42 almost stalled (1017 -> 923, 37 px); 53.42-54.34 main pull 923 A.D. -> 2871 B.C. (1144 px); crosses the era line at 53.81: line thickens 4->11 px with glow, 12-ray cream burst r=120 for 0.5 s, 'B.C' lights and scales 1.1, 'A.D' dims over 0.25 s; 54.57-54.92 parked at 3000 B.C.; released 54.92; band folds back into its row 54.96-55.28; 55.28-55.73 plain wide client (sine wave on the page, cursor crossing to Shared memory). Camera: 3.5 % push only."
+  },
+  {
+   "id": "pre1-unite",
+   "start_s": 55.73,
+   "end_s": 59.42,
+   "lyric_lines": "30 (unite, 55.08-56.92) and 31 (deeply x2, 56.92-59.22); line 32 starts 59.22 but belongs to c1-give",
+   "enter_transition": "plain cut ON the Shared memory click at B(30)=55.73",
+   "art_used": "none",
+   "on_screen": "Client dimmed 66 %; a centred 1000x800 sheet pops (scale 0.9->1). Top: 'Shared memory' + toggle flicking on; a gridded well holding the pair: the orange spark (me) and a cream dot (you) inside one orange capsule outline, snapping together with easeBack; line 30 in 50 px serif under the title. Below: 'Context depth' slider; hand drags from shallow at 56.88 (b26.5) to deep (57.16) to deepest (58.04) while the dot sinks into the spark's centre and the spark grows; two extra pushes against the end stop at 58.50 and 58.73; line 31 under the label. Done clicked at 58.96 (b31): sheet fades, four concentric spark outlines appear, camera flies into the united spark (zoom +1.25, y -100) until the cut."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "AC (line 25)",
+   "time_s": 46.04,
+   "bar_beat": "24:4 (section beat 3)",
+   "hold_beats": 2,
+   "currently": "Cursor clicks the AC half of the Current control; the verse-1 curve on the page turns into a sine wave. Keep."
+  },
+  {
+   "word": "DC (line 25)",
+   "time_s": 46.96,
+   "bar_beat": "25:2 (beat 5)",
+   "hold_beats": 3,
+   "currently": "Cursor clicks DC; wave collapses to a flat line with one overshoot. Keep."
+  },
+  {
+   "word": "blind (line 26)",
+   "time_s": 48.34,
+   "bar_beat": "26:1 (beat 8)",
+   "hold_beats": 3,
+   "currently": "CUT on the Vision click; toggle goes off, whole frame turns to dark mosaic, 'image input: none'. Keep."
+  },
+  {
+   "word": "dizzy, hit 1 (line 27)",
+   "time_s": 49.73,
+   "bar_beat": "26:4 (beat 11)",
+   "hold_beats": 1,
+   "currently": "Vision toggle clicked ON (burst on the toggle), picture returns, camera kick. Strongest onset of the phrase (49.71, strength 0.99). Keep."
+  },
+  {
+   "word": "dizzy, hover on Current",
+   "time_s": 49.96,
+   "bar_beat": "26:4.5 (beat 11.5)",
+   "hold_beats": 0.5,
+   "currently": "No click, but the cursor travels up to (1678,251) and sits on the DC half of Current in a clear frame at 49.96-50.10: this is the 'Current' visit at 'about 50 s'. Remove."
+  },
+  {
+   "word": "dizzy, hit 2 (line 27)",
+   "time_s": 50.19,
+   "bar_beat": "27:1 (beat 12)",
+   "hold_beats": 2,
+   "currently": "Vision toggle clicked OFF (cursor comes back down from Current with a trail); frame goes blind again and stays blind for 2 beats. Onset 50.17, strength 0.93."
+  },
+  {
+   "word": "dizzy, hit 3 = the Current click",
+   "time_s": 50.65,
+   "bar_beat": "27:2 (beat 13)",
+   "hold_beats": 1,
+   "currently": "Cursor clicks the AC half of the Current control at (1604,239) while the frame is mosaic: the burst sits on an unreadable orange block at the top of frame, away from the toggle and the lyric; no full-frame change on this beat, only a small camera kick. THE CLICK THE DIRECTOR WANTS GONE."
+  },
+  {
+   "word": "dizzy, hit 4 (line 27)",
+   "time_s": 51.11,
+   "bar_beat": "27:3 (beat 14)",
+   "hold_beats": 2,
+   "currently": "Vision toggle clicked ON; picture returns and Current now shows AC (a change nobody saw happen). Keep as a Vision click; it must leave Vision ON."
+  },
+  {
+   "word": "travel (line 28)",
+   "time_s": 52.04,
+   "bar_beat": "28:1 (beat 16)",
+   "hold_beats": 2.5,
+   "currently": "CUT on the grab; band opens (fully by 52.28); line 28 already fully typed; knob slides 2026 -> ~1000 A.D. then stalls 52.96-53.42. No image of travelling: no streaks, parallax or scrolling."
+  },
+  {
+   "word": "A.D (line 29)",
+   "time_s": 53.42,
+   "bar_beat": "28:4 (beat 19, estimated from onsets; the LRC has no word timestamps)",
+   "hold_beats": 1,
+   "currently": "Nothing happens on the word: the 'A.D' token has been lit since 52.1 and the line is being typed (53.23-53.75) in the corner."
+  },
+  {
+   "word": "B.C (line 29)",
+   "time_s": 53.81,
+   "bar_beat": "28:4.84 (beat 19.84; the beat is at 53.88)",
+   "hold_beats": 2.5,
+   "currently": "Knob crosses the era line: line flare + cream burst (0.5 s), 'B.C' lights and bumps 10 %, 'A.D' dims. The only accent of the shot, 0.07 s ahead of beat 20 (onset 53.89, strength 0.79), and the 'B.C' token was already visible dim since 52.1 so it is a brightness swap, not an arrival."
+  },
+  {
+   "word": "unite (line 30)",
+   "time_s": 55.73,
+   "bar_beat": "30:1 (beat 24)",
+   "hold_beats": 2.5,
+   "currently": "CUT on the Shared memory click; sheet pops; spark and cream dot snap together inside one outline. Keep."
+  },
+  {
+   "word": "deeply x2 (line 31)",
+   "time_s": 56.88,
+   "bar_beat": "30:3.5 (beat 26.5); deepest at 58.04 (31:2); pushes 58.50 / 58.73; Done 58.96 (31:4)",
+   "hold_beats": 4.5,
+   "currently": "Hand drags Context depth to the end stop and pushes on; the dot sinks into the spark; Done; fly-through. Keep."
+  }
+ ],
+ "diagnosis": "(a) The \"Current\" click. Frames at 49.68-51.55 show the cursor leaving the Vision row twice. At 49.96-50.10 it hovers on the DC half of the Current control in a perfectly clear frame (waypoint b(11.5), no click), and at 50.65 (beat 13) it clicks the AC half. That click happens while Vision is off, so the frame is 56 px mosaic: the cream click burst, the brightest thing in the picture, lands on an unreadable orange block in the top third, roughly 120 world px (about 360 screen px at 2.96x) above the toggle and far from the wobbling lyric. A viewer cannot tell what was clicked; the mosaic does not change on that beat (only Vision clicks switch it), so beat 13 reads as a miss in an otherwise clear on/off pattern; and when sight returns at 51.25 the Current control has silently changed from DC to AC. The lyric being sung is the dizzy line, which is drawn under the Vision row and whose whole effect (blind/see, camera kicks) is driven by the Vision toggle. So the idea \"one switch is rattled until it is dizzy\" is diluted by a zig-zag to another row. The director's wish is exactly what the frames suggest: every hit of this phrase on the Vision toggle.\n(b) The date shot. What the frames show is a settings diagram, not a journey. The band takes only about half the frame height; the top and bottom quarters are a dimmed leftover of the client (46 % of the frame carries nothing). Inside the band both era tokens are on screen from the first frame, so the destination is known before the trip starts and crossing the line is only a brightness swap. The only moving things are a 46 px spark on a 6 px line and a number in the corner; the camera moves 3.5 %. Of the 3.69 s, real travel is about 0.9 s (53.42-54.34); the knob is almost still for 0.46 s (52.96-53.42) and parked for 0.58 s (54.34-54.92), then 0.8 s goes to folding the band and a plain wide frame. At contact-sheet size six of the eight beat frames look the same. There is no picture of time or history (no era imagery, no clock, no speed, no depth), and the single accent (53.81) sits 0.07 s before beat 20. Its neighbours are much louder: pre1-vision changes the whole frame on every click, pre1-unite has a glowing centre motif and a fly-through. So the lyric with the most cinematic potential in the section gets the flattest picture, which is the director's \"not strong enough\".\nWhat is strong: the concept and its logic (the knob IS the spark, the user's hand drags the AI into the past; ticks right of the knob go dim because that time is no longer known), the cut on the grab with the knob match-cut, the band opening out of and folding back into its own drawer row, the era tokens being the lyric's own words, the mono year counter, strict colour roles, and the whole of shots 1, 2 (minus the Current detour) and 4.",
+ "keep": [
+  "All four cuts exactly on a click (44.65 continue, 48.34 Vision off, 52.04 grab, 55.73 Shared memory on) and the exit: Done at 58.96, fly into the united spark, cut with orange flash 0.35 into c1-give at 59.42",
+  "pre1-drawer as is: drawer squeezing the page, LIMITATIONS letters lifting off, the verse-1 curve becoming the 'current' (AC sine, DC flat line with overshoot), lyric on the page plus annotation under the row",
+  "pre1-vision's blindness device: stepped local mosaic() (7/14/28/56 px, not reshuffled per frame), dark veil, the toggle outline and mono 'image input: none' staying sharp, per-letter wobbling dizzy line with after-images, camera kicks on each flip and the slow seasick roll",
+  "The cursor craft: cur() with long ghost trail above a speed threshold, click burst staying where the click happened, pressed state for 0.12 s",
+  "pre1-date's idea and mechanics: Knowledge date scrubber, the spark as the knob dragged by a pressed hand, band opening from and folding back into its drawer row, year counter, ruler whose future side goes dim, era tokens derived from the lyric text (ERA), the match cut from cam2's pan onto the knob",
+  "pre1-unite as is: sheet, spark + cream dot pair in one outline, dot sinking into the spark with depth, pushes against the end stop, halo outlines and fly-through",
+  "Colour and type rules: orange serif = the AI, cream = the user (cursor, bursts, limit line), mono = system; palette 'on' throughout; no hex literals, no ctx.fx post effects used so far in this section",
+  "Every lyric line readable for its sung duration (line 28 from 51.36 as row annotation, then 60 px on the band; line 29 on the band; line 30 on the page from 55.08)"
+ ],
+ "problems": [
+  "pre1-vision 49.96: cursor waypoint b(11.5) parks on the DC half of Current (hover, no click) in a clear frame; reads as going for Current at 'about 50 s'",
+  "pre1-vision 50.65 (beat 13): click on Current/AC happens under the mosaic; burst lands on an unreadable orange block at top of frame; that beat has no full-frame change; Current silently reads AC when sight returns at 51.25",
+  "Parity trap when fixing it: after the cut-click (off) Vision is flipped on 49.73, off 50.19, on 51.11. Simply moving the 50.65 click onto Vision would leave Vision OFF for the pan and the date shot; the number of Vision flips after the cut must stay odd (3, or 5 by adding one more, e.g. a half-beat double flick at b13/b13.5 or a last flip at b15=51.58)",
+  "Removing tAC2 also changes state seen later: the Current pill stays on DC, the page graph stays a flat line and its label reads 'current: DC' in the wide frames 55.28-55.73, behind the sheet in pre1-unite, and src/scenes/10_error.js line 37 (LEFT = { Current: 0, ... } 'as the user left them') would then disagree",
+  "pre1-date: band covers only world y 262-822; the strips above and below (about 250 px each) show a 62 % dimmed client and carry no information",
+  "pre1-date: both era tokens visible from the first frame; crossing is a brightness swap plus a 0.5 s burst, not an arrival; nothing pictures time, history, distance or speed; camera push is 3.5 %",
+  "pre1-date: dead time: knob nearly still 52.96-53.42 (0.46 s) and parked 54.34-54.92 (0.58 s); band folding and a plain wide frame take 54.96-55.73 (0.77 s)",
+  "pre1-date: the only accent is off the grid: tCross = 53.81 (beat 19.84) vs beat 20 at 53.88 (onset 53.89); nothing lands on the other strong onset of the shot at 52.44 or on the sung era words",
+  "pre1-date: small copy inconsistency: tokens read 'A.D' / 'B.C' (lyric spelling) while the counter and row labels read 'A.D. 2026' / '3000 B.C.' (chat_script values)",
+  "No historical or time silhouettes exist in the repo: the supplied art folders hold character busts only, so any era imagery must be drawn in code in the same flat three-ink language (orange / cream / black) or built from type and shapes",
+  "Docs drift after the fix: shot `moment` text of pre1-vision (line 361) and docs/v3/chat_script.json beat 'flipped-back-and-forth' (lines 204-211: 'rattles both rows', 'click: Current, AC') still describe the Current click; STORYBOARD.md is regenerated from the code",
+  "docs/v3/PLAN.md section 7 file src/scenes/07_pre2.js does not exist yet; all drawer helpers in 04_pre1.js are local closures, so a second settings section cannot reuse them without extracting them"
+ ],
+ "code_hooks": [
+  "src/scenes/04_pre1.js L38-41: all click times. L39 `tOff = B(26), tOn1 = b(11), tOff2 = b(12), tAC2 = b(13), tOn2 = b(14)`; b(n) = Bt(96+n) = 44.65 + 0.4615 n. tAC2 is the click to delete or turn into a Vision flip",
+  "L47 `segPos = flick(t, tDC) - flick(t, tAC2)`: drop the tAC2 term (Current then stays DC). L190 in figure(): `amp = 104 * (flick(tAC) * (1 - easeBack(tDC)) + flick(t, tAC2, 0.3))`: drop the last term (page stays a flat line; label at L204 follows segPos)",
+  "L48-49 `vision(t)` and `blind(t)`: alternating +/- sums over the Vision flips; add a term pair for every extra flip, keep the total odd so Vision ends ON before 51.34. ramp = 0.2 s, flick = 0.16 s, so flips need at least half a beat (0.23 s) between them",
+  "L69 ACT (row highlight windows in beats): row 0 `[[2.4, 6.4], [12.5, 13.6]]` -> remove the second window; row 1 `[[6.7, 12.5], [13.6, 14.7]]` -> one window [6.7, 14.7]",
+  "L231 KICKS `[[tOn1, 1], [tOff2, -1], [tAC2, 1], [tOn2, -1]]`: camera kick per click, signs alternate; replace the tAC2 entry with the new Vision flip(s). cam2 at L232-239 (zoom 2.96, centre (1492,353), pan to the date knob b14.5-b15.8 for the match cut)",
+  "L390-396 cursor waypoints of pre1-vision: remove `{ t: b(11.5), x: A.dc[0] - 40, y: A.dc[1] + 20 }` (the hover on Current) and `{ t: tAC2, x: A.ac[0], y: A.ac[1] + 8, click: true }`; keep the pointer on or beside the toggle (A.vis = (1724,353); toggle rect x1672-1776, y325-381), e.g. small drifts like the existing b(10.3) waypoint. Anchors A at L65-68: ac (1604,231), dc (1718,231), vis (1724,353), date(1) (1764,542), share (1724,647)",
+  "L361 `moment` string of pre1-vision mentions Current being rattled: update. docs/v3/chat_script.json L204-211 (beat 'flipped-back-and-forth', `you` list) likewise; the code does not read that list, it is copy of record",
+  "src/scenes/10_error.js L37 `LEFT = { Current: 0, ... }` (drawer state 'as the user left them', drawn at L253-260): set Current to 1 if pre1 now leaves it on DC",
+  "pre1-date state: L50 dateU(t) (two eased legs: 1 -> 0.74 by tPull = b(18.5), 0.74 -> 0 by b(21.6)), L51 bandK(t) (opens in 0.24 s from tGrab, folds tDrop+0.04 .. +0.36), L55-56 tCross (bisection: when the knob passes u = 0.5), L57-58 readout(u) (year string; A.D. side 2026 years and B.C. side 3000 years each mapped onto half the ruler)",
+  "pre1-date drawing: L247 `BAND = { x: -40, y: 262, w: 2000, h: 560 }, TY = 716, TX = (u) => 150 + 1620 * u`; L248-250 TICKS; L251-288 band() (tok() era tokens at cx 555 / 1365, y 640, size 204; era line at x 960; label, say(28), say(29), counter; ruler and ticks; crossing burst); L290-291 knobAt / knobFast; L240 cam3 (3.5 % push); shot object L401-420 (62 % veil at L410, knob spark + trail L414-415, hand pointer L417, release path to Shared memory L418). A stronger time-travel image goes inside band() or as a new layer between the veil (L410) and band() / the knob",
+  "say() L100-108 (typed lyric at a free position, `out` hands over to the next line), hintOf()/hint() L110-124 (row annotations, ROW_LINES L33), cur() L93-98 (cursor + trail + burst), screen() L74 (draw in screen space), mosaic() L80-91 (local mid-draw mosaic)",
+  "Kit available but unused in this section: ctx.fx post effects (zoom, rot, shake, rgbSplit, glitch, mosh, mosaic; src/engine/post.js) for a time-warp feel; ctx.trail for streaks; src/engine/shapes.js (outlines that morph, trace, asciiFill, ctx.clipPath) for code-drawn era silhouettes; src/engine/type.js (slam, scramble, wall) for year numerals; src/engine/transitions.js enter types if a shot is split (zoom, push, scan, slices); src/engine/art.js silhouette()/duotone() only if a supplied bust is placed (would first need the new PNGs registered as art)",
+  "Other shots, unchanged unless desired: pre1-drawer L339-356 (cam1 L230, client() L208-227, drawerPanel() L154-182, figure() L187-205), pre1-unite L423-441 (sheet() L308-332, pair() L295-307, cam4 L241-244)"
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, P = 0.4615 s; section beat n is at 44.65 + 0.4615 n (n = 0..32). Cuts at 44.65, 48.34, 52.04, 55.73, 59.42 = bars 24, 26, 28, 30, 32; each cut must stay on its click",
+  "Cursor presses between 48.00 and 52.10 today: 48.34 Vision off (cut, beat 8); 49.73 Vision on (beat 11); 50.19 Vision off (beat 12); 50.65 Current -> AC (beat 13); 51.11 Vision on (beat 14); 52.04 grab of the Knowledge date knob (cut, beat 16). Plus the non-click hover on Current/DC at 49.96 (beat 11.5)",
+  "Line 26 (blind) is sung 47.67-49.53: Vision must stay OFF until at least 49.53, so the first re-flip cannot be earlier than beat 11 (49.73)",
+  "Line 27 (dizzy x2) is sung 49.53-51.36; kicks on every beat; onset strengths 49.71 = 0.99, 50.17 = 0.93, 50.64 = 0.58, 51.10 = 0.57, 51.57 = 0.45; weak off-beats at 49.96, 50.36, 50.86. No word timestamps in data/lyrics.json (hasWordTimestamps false), so word positions are estimates",
+  "Vision must be ON again by 51.34 (pan to the date row starts at beat 14.5 and line 28 is typed under that row from 51.36) or at the latest at beat 15 = 51.58 if the pan is shortened; the cursor needs to reach the knob at (1767,546) by 52.04",
+  "Flash safety (config.json safety, tools/check_flash.py): each Vision flip darkens or restores the whole frame; today 4 transitions in 2.77 s. Extra flips are fine at beat or half-beat spacing but keep below 3 flashes per second and do not make the mosaic pattern change every frame",
+  "pre1-date is 8 beats (3.69 s). Band fully open 52.28-54.96 (2.68 s, about 5.8 beats). Line 28 is on the band 52.04-53.23 (1.19 s; it began at 51.36 in the previous shot). Line 29 is sung 53.23-55.08 (1.86 s = 4 beats) and typed 53.23-53.75. Line 30 starts at 55.08 and must be readable from then (today on the page at (176,214) once the band has folded)",
+  "Knob timetable today: 52.14-52.96 fast (2026 -> ~1017 A.D.), 52.96-53.42 stall, 53.42-54.34 main pull, crossing 53.81, parked from 54.57, release 54.92 (beat 22.25), fold 54.96-55.28. Strong onsets in the shot: 52.44 (0.85), 53.89 (0.79, beat 20), then 55.26 (0.55). Moving the crossing onto beat 20 = 53.88 needs only a retimed dateU()",
+  "After release the cursor must reach the Shared memory toggle at about (1702,653) by 55.73 for the next cut-on-click, and the drawer must be visible again by then",
+  "Free screen in pre1-date (world px, 1920x1080, camera zoom at most 1.035): (1) upper-centre strip x 660-1420, y 290-440 between the lyric (ends x about 630 for line 28, about 530 for line 29) and the counter (starts x about 1430); (2) between the tokens x 740-1180, y 452-690, split by the era line at x 960; (3) outside the tokens x 150-370 and x 1560-1770, y 452-690; (4) outside the band y 0-252 and y 832-1080 across the full width (dimmed client). Occupied: tokens about x 385-725 and x 1185-1550, y 500-645; ruler, ticks and labels y 700-790. If the tokens shrink or move, or the band goes full-bleed, the stage for a time-travel image is up to 1920 x about 400 above the ruler, or the whole frame",
+  "Match cuts to preserve or re-author: cam2 ends with the knob at the screen position cam3 starts with (L236-238); pre1-drawer continues verse 1's curve phase through thV1 / RUN (L185-186)",
+  "Engine rules: render is a pure function of t (no state, no Math.random; rand(key, i) only); fonts cover Latin-1 plus a few symbols (no arrows, no infinity sign); colours by role; serif = AI, sans = interface/user, mono = system"
+ ],
+ "handover": "IN: from v1-limit (40.73-44.65, src/scenes/03_verse1.js) by a plain cut at 44.65. Frames 44.60 and 44.67 are the same picture (same window, graph, LIMITATIONS on the cream limit line, 'Stopped' pill, cursor beside the composer); only the first letters of line 24 appear top-left. The take continues, so pre1-drawer depends on verse 1's layout and curve phase. Since 0:00-0:59 is approved almost as is, this join should not change.\nINSIDE: 48.34 wide -> 2.96x macro on the Vision click; 52.04 macro -> wide on the grab (knob match cut); 55.73 wide -> centred sheet on the Shared memory click. No transition effects are used anywhere in the section, only hard cuts.\nOUT: Done is clicked at 58.96, the sheet fades and the camera flies into the united spark (frame 59.38 is a full-frame orange spark with a cream core and concentric outlines). At 59.42 a hard cut with an orange flash (enter { type: 'cut', flash: 0.35, flashColor: 'me' }, src/scenes/05_chorus.js L498) lands on c1-give: a close view of the upper corner of the chat window, palette on > warm, first chat bubbles. Line 32 starts at 59.22, 0.2 s before the cut, and is owned by c1-give. The chorus section (59-74 s) is being redesigned for v4, so its first frame may change; the fly-into-the-spark exit is self-contained and gives any incoming shot a clean orange full-frame to cut or flash from.\nSheets rendered for this report are in <scratchpad> (pre1_1.png .. pre1_6.png, pre1_full_*.png)."
+}

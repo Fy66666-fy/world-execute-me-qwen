@@ -1,0 +1,500 @@
+{
+ "f_bust": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "flower": [
+   445,
+   168,
+   40
+  ],
+  "chin": [
+   342,
+   405
+  ],
+  "brooch": [
+   342,
+   516,
+   34
+  ],
+  "face": [
+   243,
+   221,
+   197,
+   184
+  ],
+  "figure": [
+   35,
+   16,
+   1014,
+   1431
+  ],
+  "crops": {
+   "avatar": [
+    190,
+    110,
+    320,
+    320
+   ],
+   "bust": [
+    0,
+    0,
+    1086,
+    1150
+   ]
+  },
+  "notes": "Qwen v3 (AIGC: full hat with cream badge on band, soft silk tassel at hat right, no ribbon)."
+ },
+ "f_profile": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "flower": [
+   704,
+   252,
+   28
+  ],
+  "chin": [
+   431,
+   705
+  ],
+  "nose": [
+   314,
+   588
+  ],
+  "brooch": [
+   548,
+   903,
+   25
+  ],
+  "figure": [
+   12,
+   49,
+   1066,
+   1364
+  ],
+  "crops": {
+   "avatar": [
+    180,
+    120,
+    700,
+    700
+   ]
+  },
+  "notes": "Strict left-facing profile, head bowed; no eye or brow, only the forehead-nose-lips-chin contour. Rosette with rectangular rays and a black centre. Floats."
+ },
+ "f_reach": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "flower": [
+   314,
+   158,
+   46
+  ],
+  "eye": [
+   453,
+   316
+  ],
+  "mouth": [
+   463,
+   371
+  ],
+  "chin": [
+   477,
+   394
+  ],
+  "palm": [
+   194,
+   687
+  ],
+  "hand": [
+   101,
+   594,
+   195,
+   223
+  ],
+  "chestHand": [
+   101,
+   594,
+   195,
+   223
+  ],
+  "face": [
+   398,
+   260,
+   185,
+   134
+  ],
+  "figure": [
+   8,
+   12,
+   1070,
+   1436
+  ],
+  "crops": {
+   "avatar": [
+    361,
+    186,
+    380,
+    380
+   ],
+   "bust": [
+    0,
+    0,
+    1086,
+    1200
+   ]
+  },
+  "notes": "Qwen v3, reaching hand at viewer's left (white palm), soft silk tassel at hat left, full hat."
+ },
+ "f_eye": {
+  "alpha": true,
+  "size": [
+   1254,
+   1254
+  ],
+  "cut": [
+   "top",
+   "bottom",
+   "right"
+  ],
+  "flower": [
+   978,
+   285,
+   32
+  ],
+  "eye": [
+   730,
+   522
+  ],
+  "mouth": [
+   600,
+   785
+  ],
+  "chin": [
+   650,
+   900
+  ],
+  "figure": [
+   0,
+   0,
+   1254,
+   1254
+  ],
+  "crops": {},
+  "notes": "Face close-up, one eye open (orange iris), looking straight at the viewer. A crop, not a bust: only full-bleed or clipped by a shape. ALWAYS drawn mirrored (flip: true); mirrored, the eye is at x = 1254 - 730 = 524. First seen on the DISHEARTENED beat (124.89 s), nowhere before."
+ },
+ "boy_bust": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "register": [
+   0.89,
+   60,
+   -18
+  ],
+  "flower": [
+   792,
+   267,
+   60
+  ],
+  "chin": [
+   570,
+   724
+  ],
+  "brooch": [
+   579,
+   889,
+   29
+  ],
+  "face": [
+   359,
+   274,
+   371,
+   450
+  ],
+  "figure": [
+   13,
+   12,
+   1065,
+   1421
+  ],
+  "crops": {},
+  "notes": "Boy, front bust, faceless. Registers with f_bust at scale 0.89, offset (+60, -18) source px (art.fit). Pre-chorus 2 only."
+ },
+ "man_bust": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "register": [
+   0.873,
+   81,
+   -4
+  ],
+  "flower": [
+   769,
+   249,
+   60
+  ],
+  "chin": [
+   570,
+   727
+  ],
+  "brooch": [
+   563,
+   906,
+   40
+  ],
+  "figure": [
+   10,
+   10,
+   1065,
+   1428
+  ],
+  "crops": {},
+  "notes": "Adult man, front bust, faceless. Registers with f_bust at scale 0.873, offset (+81, -4). Only ever a faint ghost."
+ },
+ "cat_bust": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "register": [
+   1,
+   -28,
+   -49
+  ],
+  "flower": [
+   790,
+   269,
+   60
+  ],
+  "chin": [
+   600,
+   678
+  ],
+  "brooch": [
+   599,
+   841,
+   33
+  ],
+  "face": [
+   423,
+   331,
+   301,
+   347
+  ],
+  "ears": [
+   [
+    250,
+    29,
+    110,
+    191
+   ],
+   [
+    740,
+    29,
+    110,
+    191
+   ]
+  ],
+  "figure": [
+   7,
+   29,
+   1077,
+   1412
+  ],
+  "crops": {},
+  "notes": "f_bust redrawn with two striped cat ears. Registers with f_bust at scale 1.00, offset (-28, -49): the two nearly coincide."
+ },
+ "cat_paws": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [
+   "top"
+  ],
+  "flower": [
+   801,
+   263,
+   60
+  ],
+  "brooch": [
+   688,
+   765,
+   24
+  ],
+  "eyes": [
+   [
+    690,
+    430
+   ],
+   [
+    520,
+    515
+   ]
+  ],
+  "paws": [
+   [
+    490,
+    700
+   ],
+   [
+    780,
+    760
+   ]
+  ],
+  "tail": [
+   40,
+   590,
+   210,
+   500
+  ],
+  "figure": [
+   7,
+   0,
+   1075,
+   1446
+  ],
+  "crops": {},
+  "notes": "Cat-eared, both fists raised like paws, eyes half closed, striped tail at viewer's left. The right ear tip touches the top of the canvas: leave headroom above it."
+ },
+ "qwen_bust": {
+  "alpha": true,
+  "size": [
+   1128,
+   1452
+  ],
+  "cut": [],
+  "flower": [
+   557,
+   300,
+   62
+  ],
+  "chin": [
+   420,
+   560
+  ],
+  "face": [
+   300,
+   440,
+   230,
+   150
+  ],
+  "figure": [
+   170,
+   60,
+   790,
+   1197
+  ],
+  "crops": {
+   "avatar": [
+    340,
+    200,
+    420,
+    420
+   ],
+   "bust": [
+    140,
+    40,
+    850,
+    1160
+   ]
+  },
+  "notes": "Qwen v4 (user final bust: grey-violet hair, Qwen mark + tassel ornament, white jacket; processed by tools/qwen_bust2.py from the user image)"
+ },
+ "qwen_profile": {
+  "alpha": true,
+  "size": [
+   1086,
+   1448
+  ],
+  "cut": [],
+  "flower": [
+   660,
+   240,
+   60
+  ],
+  "chin": [
+   300,
+   700
+  ],
+  "nose": [
+   250,
+   560
+  ],
+  "face": [
+   250,
+   480,
+   260,
+   260
+  ],
+  "figure": [
+   55,
+   0,
+   975,
+   1448
+  ],
+  "crops": {
+   "avatar": [
+    200,
+    120,
+    700,
+    700
+   ]
+  },
+  "notes": "Qwen girl in a left-facing bowed profile (generated from qwen_bust with ImageGen, cut to the film 3 inks by tools/qwen_profile.py). Same design as qwen_bust: bob hair, three-blade mark + tassel, cream jacket with a bow."
+ },
+ "qwen_eye": {
+  "alpha": true,
+  "size": [
+   1254,
+   1254
+  ],
+  "cut": [],
+  "eye": [
+   412,
+   664
+  ],
+  "flower": [
+   1040,
+   240,
+   50
+  ],
+  "figure": [
+   0,
+   0,
+   1254,
+   1254
+  ],
+  "crops": {
+   "avatar": [
+    250,
+    250,
+    760,
+    760
+   ]
+  },
+  "notes": "Qwen girl face close-up, one eye, generated from qwen_bust with ImageGen; processed to the 3 inks by tools/qwen_eye.py. Iris at (412,664) in asset px."
+ }
+}

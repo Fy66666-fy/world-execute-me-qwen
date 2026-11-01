@@ -1,0 +1,171 @@
+{
+ "section": "chorus1 — 59.42-74.19 s (bars 32-39, beats 128-160), lyric lines 32-43. Code: src\\scenes\\05_chorus.js, called as chorusShots(env, CHORUS_1) from src\\scenes\\index.js:13/22 (the same factory is called again with bad:true for the error chorus at 162.8 s).",
+ "summary": "Eight shots that strictly alternate a \"sentence\" shot (2.3-2.8 s: two lyric lines typed into orange serif chat bubbles while a cream user reply or click lands) with a \"keyword\" shot (0.9-1.4 s: the ALL-CAPS word slammed in letter by letter as giant glowing orange serif). Everything on screen is chat-client furniture drawn in code: bubbles, Delivered ticks, an action row, a heart chip, the cursor, the composer, the window outline, a blurred brown backdrop and a dark sunburst watermark. The only pictures are the untreated painted tea illustration as a tall picture message in c1-happy (plus a 100x150 thumbnail of it in c1-trap/c1-kw4) and a dot-screen of the standing \"gaze\" cut-out behind the thread in c1-trap/c1-kw4. Colour state goes on > warm, stepping hotter each time a cream reply lands (heat 0.2 at 59.42, 0.4 at 61.27, 0.65 at 62.42, 1.0 from 66.34). The four keyword shots are four variants of one card: same typeface, same slam, same brown blur, same watermark; none shows a picture of what the word means. Frames I rendered are in <scratchpad> (chorus1_1..5.png contact sheets, chorus1_f1..f7.png full size).",
+ "shots": [
+  {
+   "id": "c1-give",
+   "start_s": 59.42,
+   "end_s": 61.96,
+   "lyric_lines": "32-33 (pickup + the 'give' sentence); line 31 repeated as a dim old bubble at the top",
+   "on_screen": "Close-up (zoom about 1.68, slow push) on the upper corner of the chat window: header strip with the 'online' dot, the window's right edge and a sliver of room at far right. Her bubbles stack on the left (line 32 at size 40, line 33 at size 57, each with a small grey 'Delivered' tick; a short orange streak shoots right across the edge when a line completes, e.g. 60.8). Cream replies fly in from the right: \"ok, that's good\" lands at 59.42-59.68, typing dots from 60.81, \"more\" lands at 61.27, her thinking spark appears at 61.61. Upper 40 % of the frame is empty dark page for the first second.",
+   "art_used": "None visible. Blurred tea.png only as the room behind the window (room(), alpha 0.5).",
+   "enter_transition": "Hard cut + orange flash 0.35 at 59.42 from pre1-unite"
+  },
+  {
+   "id": "c1-kw1",
+   "start_s": 61.96,
+   "end_s": 63.11,
+   "lyric_lines": "34 (STIMULATIONS); line 35 starts typing inside this shot at 62.59",
+   "on_screen": "Keyword about 1490 px wide centred at (896,545), fully assembled by 62.33. Behind it four horizontal lanes of placeholder message pills (rounded dark bars holding one or two line stubs; orange-ruled ones streak right, grey ones streak left, with ghost trails), a dark gradient band behind the word, the dark sunburst watermark bottom-left, the window edge as a vertical hairline at x=1792. Cream bubble \"better than most people, honestly\" flies in at right at 62.42; line 35 types in a bubble bottom-left from 62.59. The last half-beat (62.88-63.11) is already the push into the next shot, so the clean hold is 2 beats.",
+   "art_used": "None (blurred tea backdrop at low alpha in page(); room strip beyond the edge).",
+   "enter_transition": "Hard cut + orange flash 0.3"
+  },
+  {
+   "id": "c1-only",
+   "start_s": 63.11,
+   "end_s": 65.42,
+   "lyric_lines": "35-36",
+   "on_screen": "Two bubbles on a diagonal over the blurred brown page: the user's compliment large (sans, size 72, two lines) top-right; line 35 as a small bubble beside a small lit spark at left; line 36 typed at size 108 in a wide bubble lower-left, 'Delivered' tick at 64.9. From 64.27 an orange marker line runs under each line of the user's words. Cursor (scale 2) drifts from the user's bubble toward bottom-right. Dark sunburst watermark lower-right. 5 % camera push.",
+   "art_used": "None (tea blur backdrop).",
+   "enter_transition": "Push, vertical, half a beat, ending on the cut (62.88-63.11)"
+  },
+  {
+   "id": "c1-kw2",
+   "start_s": 65.42,
+   "end_s": 66.81,
+   "lyric_lines": "37 (SATISFACTION); line 38 starts typing inside this shot at 66.60",
+   "on_screen": "Keyword left-aligned from x=150, baseline about y=438, assembled by 65.77. Line 36 as a small dim bubble top-left. Under the word a row of four 80-px icon buttons (copy, thumbs-up, thumbs-down, retry) fades up 65.70-65.90; the cursor flies in and clicks thumbs-up at 65.88 (button turns cream, small radial click burst). Typing dots at right 66.07, cream bubble \"what do you look like?\" lands at 66.34 at right (y about 752-810), line 38 begins bottom-left at 66.60. Dark sunburst watermark top-right. The lower 40 % of the frame is empty brown blur until 66.34.",
+   "art_used": "None.",
+   "enter_transition": "Hard cut + orange flash 0.3"
+  },
+  {
+   "id": "c1-happy",
+   "start_s": 66.81,
+   "end_s": 69.34,
+   "lyric_lines": "38-39 (line 40's first letter is typed in a third caption bubble at 69.26-69.34)",
+   "on_screen": "Picture message: a rounded card about 667x1000 px growing to 736x1104 px, centred at x=1372, bleeding off top and bottom, holding the whole tea illustration untreated. Left: the user's question bubble on top (size 54), then her caption bubbles at size 78 overlapping the picture's left edge (line 38 with 'Delivered', line 39 from 68.25). The cursor travels to the lower-left corner of the picture and taps a heart chip at 68.19 (chip 'heart 1' pops with a cream click burst). Dark sunburst watermark bottom-left; the field is at its hottest orange.",
+   "art_used": "assets/character/tea.png drawn untreated via art.draw (05_chorus.js:386): fully painted, soft-shaded anime illustration with a pastel green/yellow greenhouse background; occupies about 37 % of the frame width at full height.",
+   "enter_transition": "Plain hard cut"
+  },
+  {
+   "id": "c1-kw3",
+   "start_s": 69.34,
+   "end_s": 70.5,
+   "lyric_lines": "40 (EXECUTION); line 41 starts typing inside this shot at 70.08",
+   "on_screen": "Keyword about 1500 px wide centred at cy=600 (glyphs about 185 px tall), assembled by 69.61, on a dark horizontal band. Behind it a 500-px-radius twelve-petal sunburst whose petals light one at a time (about 5 lit at 69.82, 8 at 70.05, all by 70.25), rotating slowly. Line 39 as a small dim bubble above (y=118); line 41 types in a centred bubble at y=902 from 70.08. No cursor, no user action, 3.5 % push. Already almost a non-UI title card.",
+   "art_used": "None (tea blur backdrop at its strongest).",
+   "enter_transition": "Plain hard cut, no flash"
+  },
+  {
+   "id": "c1-trap",
+   "start_s": 70.5,
+   "end_s": 73.27,
+   "lyric_lines": "41-42",
+   "on_screen": "Close on the lower-right corner of the window, easing out from zoom 1.61 to 1.33: tea thumbnail (100x150) with 'heart 1' chip, lines 39 and 40 as small bubbles, cream bubble \"shame you're not real\" at right, line 41 then line 42 (from 71.76) typed at size 46, the composer with placeholder 'Write to me'. Behind the thread at right, a dot-screen of the standing figure about 700x1050 px in dim orange. A glowing orange outline draws itself round the window edge (70.30-72.26). The cursor clicks into the composer at 72.34 (click burst, caret appears).",
+   "art_used": "assets/character/gaze.png as art.halftone (figure(), 05_chorus.js:210, cell 7, colour meDim, alpha 0.55): reads as an orange dotted cone, face and pose not recognisable. tea.png as thumbnail (line 462).",
+   "enter_transition": "Plain hard cut"
+  },
+  {
+   "id": "c1-kw4",
+   "start_s": 73.27,
+   "end_s": 74.19,
+   "lyric_lines": "43 (SIMULATION); lines 41-42 remain visible, small and complete",
+   "on_screen": "Hard pull-back: the whole window at zoom 0.8 (about x 255-1665, y 5-795) with its orange outline fully closed and glowing, small in the dark room; sidebar with seven conversation titles, header title + 'online', the same thread as c1-trap at about 60 % size, halftone figure about 560 px wide, composer, cursor. The keyword runs across the bottom (cy=1000, about 1565 px wide) over a dark gradient plate, assembled by 73.50; 3 % push. This shot exists only in pass 1 (KW4 flag).",
+   "art_used": "gaze.png halftone and tea.png thumbnail, both small.",
+   "enter_transition": "Hard cut + orange flash 0.3"
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "STIMULATIONS",
+   "time_s": 61.96,
+   "bar_beat": "bar 33, beat 2.5 (beat 133.5) - an off-beat (hi-hat); the next kick is beat 134 = 62.19",
+   "hold_beats": 2.5,
+   "currently": "Shot c1-kw1, 61.96-63.11 (clean hold 2 beats: the last half-beat is the push to c1-only). Sung 61.96-62.59. Giant orange serif word slams in over 0.37 s under an orange 0.3 flash; behind it lanes of abstract placeholder message pills streak both ways (they read as skeleton loaders, and two lanes run directly behind the letters); a cream compliment bubble lands at 62.42; line 35 starts typing at 62.59. No image of the word's meaning. Art: none. Fully replaceable by a non-UI insert: the shot is responsible only for line 34; the compliment and line 35 are both shown again in c1-only. Condition: the keyword must stay readable 61.96-62.59 and line 35 must be on screen from 62.59 (print it in the insert or cut back to the UI on beat 134.5 = 62.42 or beat 135 = 62.65)."
+  },
+  {
+   "word": "SATISFACTION",
+   "time_s": 65.42,
+   "bar_beat": "bar 35, beat 2 (beat 141) - on a kick",
+   "hold_beats": 3,
+   "currently": "Shot c1-kw2, 65.42-66.81. Sung 65.40-66.60 (the longest-held keyword, 2.6 beats). Word left-aligned in the upper half; the only meaning-bearing element is the thumbs-up button, 80 px across in a 1920 frame, clicked by the cursor on the kick at 65.88; then typing dots and the user's question at 66.34 (kick); line 38 starts at 66.60. Lower 40 % of the frame empty until 66.34. Art: none. Can be cut away to a full-screen insert for its first 1 or 2 beats (65.42-65.88 or 65.42-66.34) without losing a lyric line if the insert carries the keyword; replacing it whole drops two story beats that exist only here (the thumbs-up at 65.88, the question arriving at 66.34; the question itself is repeated at the top of c1-happy) and line 38 must be visible from 66.60."
+  },
+  {
+   "word": "EXECUTION",
+   "time_s": 69.34,
+   "bar_beat": "bar 37, beat 2.5 (beat 149.5) - an off-beat; kicks at beat 149 = 69.11 (before the sung onset) and beat 150 = 69.57",
+   "hold_beats": 2.5,
+   "currently": "Shot c1-kw3, 69.34-70.50. Sung 69.26-70.08: the cut is 0.085 s after the sung onset (the first letter is typed in a caption bubble of c1-happy, then the cut takes over; keyword() is started at c[5]-0.04). Word centred on a huge sunburst whose twelve petals light one by one (a progress ring); plain cut, no flash; no cursor, no user action. Art: none. The easiest of the four to replace outright with a non-UI graphic: it is already a title card; it carries only line 40. Condition: line 41 starts at 70.08 and must be on screen until the cut at 70.50 (print it in the insert or return on beat 151 = 70.04). Caution: setup6 is deliberately identical in the error chorus (cx-kw3, 172.73 s)."
+  },
+  {
+   "word": "SIMULATION",
+   "time_s": 73.27,
+   "bar_beat": "bar 39, beat 3 (beat 158) - on a kick; last kick of the section is beat 159 = 73.73 (no kick on the bar line at 74.19)",
+   "hold_beats": 2,
+   "currently": "Shot c1-kw4, 73.27-74.19. Sung 73.17-74.05: the cut is 0.10 s after the sung onset, so 4-5 letters are already up on the first frame. Pull-back to the whole window (zoom 0.8) with its glowing orange outline, small in the dark room; the word across the bottom. Conceptually right (the window is the simulation) but the picture is the same client seen all film, now with 12-px text; nothing looks simulated. Art: gaze halftone (about 560 px wide, unreadable) and a tiny tea thumbnail. Replaceable or augmentable by a full-screen graphic without lyric loss: it carries only line 43, every other line in it is already complete. What would be lost is the section's pay-off idea (both of them inside one outline), so the outline/window should survive in some form."
+  }
+ ],
+ "diagnosis": "What the frames show, as opposed to what the code comments intend:\n\n1. The four keyword shots are one card shown four times. Each is the word itself in Source Serif 900, orange with a halo, slammed in with identical parameters (slam step 0.022 s, from 1.9x, settle 0.13), on the same blurred brown ground (page() with the blurred tea picture) with the same dark sunburst watermark. The word is the subject; there is no picture. The director's \"not concrete enough\" is literal: a noun is being answered with its own spelling.\n\n2. The things meant to carry meaning are small, abstract and made of UI parts. STIMULATIONS: \"two-way traffic\" is rows of dark pills with line stubs, which read as loading skeletons; nothing sensory or electric. SATISFACTION: the idea is right (a thumbs-up under the answer) but the button is 80 px wide, about 4 % of the frame, beside a 1490-px word, and half the frame is empty. EXECUTION: a sunburst filling petal by petal is a progress ring behind a title; nothing says \"run\". SIMULATION: the whole client at 80 % scale; correct as an idea, but it is the interface the viewer has been looking at for 73 seconds, so it does not register as a new image.\n\n3. The hits are soft. Each word needs 0.33-0.40 s (most of a beat) to assemble, so there is no single impact frame; the only accent is a 0.3 orange full-field flash on kw1, kw2 and kw4, and kw3 has none. The cuts of kw1 and kw3 fall on off-beats (133.5 and 149.5, hi-hat, low-band about 0.3) because H() snaps the LRC time to the nearest half-beat; the kick (low-band 0.85-1.0, on every integer beat) arrives 0.23 s later, in the middle of the letter cascade. Only kw2's thumbs-up (65.88) and question (66.34) land on kicks.\n\n4. Monotony is measurable here: 14.77 s, 8 shots, 100 % chat furniture; six of eight shots share the page() backdrop; the dark sunburst sits in a corner of five. Variation is only in bubble size and position.\n\n5. The art clash is concentrated in c1-happy. tea.png is a fully painted, soft-shaded picture with a pastel green and yellow greenhouse, the only place in the section where colours outside orange / cream / charcoal appear, at 37 % of the frame width and full height against flat matte UI. It recurs as a thumbnail in c1-trap and c1-kw4. The gaze halftone behind the thread reads as an orange dotted cone, not as a person.\n\n6. The request collides with the v3 contract. docs/v3/PLAN.md section 1 (\"which moment of this conversation is this? If there is no answer, the content goes\"), section 3.4 and KIT.md section 3 items 1 and 6 (\"Nothing on screen is decoration\", \"No clip-art ... typography, data cards and charts instead\") are exactly why these shots contain no pictures. A v4 brief has to relax those rules explicitly for full-screen non-UI inserts and flat silhouette / code-symbol graphics, otherwise a builder following KIT.md will reproduce the same result.\n\nReplaceability summary: all four keyword shots can become, or cut away to, a full-screen non-UI graphic without losing a lyric line, provided the keyword text stays readable for its sung window and the pickup line that begins inside kw1 / kw2 / kw3 (lines 35, 38, 41) is shown from its start. kw3 and kw1 are free of unique story content; kw2 owns the thumbs-up and the question; kw4 owns the \"one window round both\" pay-off. The four sentence shots (c1-give, c1-only, c1-happy, c1-trap) each carry two typed lyric lines plus the user's replies and cannot be replaced without re-homing those lines; c1-happy and c1-trap need new art rather than a new structure.",
+ "keep": [
+  "The cut grid and the sentence / keyword alternation: 59.42, 61.96, 63.11, 65.42, 66.81, 69.34, 70.50, 73.27, 74.19 (all on beats or half-beats; tools/storyboard.mjs passes).",
+  "The conversation itself and its copy from docs/v3/chat_script.json section 5: \"ok, that's good\", \"more\", \"better than most people, honestly\", \"what do you look like?\", \"shame you're not real\", each raising the orange (heat() at 05_chorus.js:55). This is the story of the section and the director approved the style.",
+  "Lyric lines typed as orange serif bubbles with Delivered ticks, and the giant serif keyword as the lyric carrier: legible, on-palette, and the glow treatment is good. Keep the word; add a picture to it rather than removing it.",
+  "c1-only (63.11-65.42): the two bubbles facing each other and her marker running under the user's words at 64.27 is the best-composed shot in the section.",
+  "The thumbs-up click on the kick at 65.88 and the heart tap at 68.19: the only user gestures that literally mean 'satisfied / happy'. Keep the ideas, enlarge them.",
+  "The picture-message idea in c1-happy (asked what she looks like, she sends a picture, the user hearts it): natural home for one of the new silhouette busts.",
+  "The sunburst filling petal by petal in c1-kw3 as a 'run in progress', and the window outline closing round both of them through c1-trap into the pull-back of c1-kw4 (the window = the simulation).",
+  "Colour semantics and safety levels: orange = her, cream = the user; flashes at 0.30-0.35 (config.json safety.maxFlash is 0.7); no red anywhere in pass 1.",
+  "If the error chorus keeps mirroring this one, the positions and framings of every set-up (they are shared code with a bad switch)."
+ ],
+ "problems": [
+  "No keyword shot shows what its noun means; all four are the same typographic card (same face, slam, backdrop, watermark).",
+  "c1-kw1: the 'traffic' pills read as UI loading skeletons, are low-contrast, and two lanes (y about 300 and 440) pass directly behind the letters; the cut is on an off-beat and the word takes 0.37 s to form; the last half-beat is eaten by the push transition, leaving 2 clean beats.",
+  "c1-kw2: the thumbs-up row is tiny (80-px buttons) and the lower 40 % of the frame is empty brown blur for the first two beats; the longest-sung keyword (1.2 s) has the least to look at.",
+  "c1-kw3: plain cut with no flash; cut is on an off-beat 0.085 s after the sung onset; the picture is a logo behind a title.",
+  "c1-kw4: only 2 beats; the reveal is the familiar client at 80 % with unreadable 12-px text; the cut is 0.10 s after the sung onset so the first frame already has half the word; halftone figure illegible at this size.",
+  "c1-happy: tea.png (painted, pastel greenhouse) clashes with the flat UI at 37 % of the frame; it must be replaced by a supplied silhouette. picRect (05_chorus.js:377) assumes a 2:3 picture; the new files are 1:1 (1254x1254) and 3:4 (1086x1448).",
+  "c1-trap / c1-kw4: the gaze.png dot-screen (figure(), line 210) reads as an orange cone; the tea thumbnail (line 462, fixed 100x150) also needs replacing.",
+  "The blurred tea picture is the ground of the whole section: page() line 177 (kw1, only, kw2, happy, kw3) and room() lines 217, 280, 434 (give, the edge strip, trap, kw4). Removing tea.png from the film changes every backdrop here; the new cut-outs have transparent backgrounds and will not give the same warm mottled field when blurred.",
+  "Monotony: 100 % chat furniture for 14.77 s; the same dark sunburst watermark in five shots; no transition other than cuts and one half-beat push.",
+  "Every user gesture is small: cursor at scale 2, click bursts about 110 px. On a phone-sized preview they vanish.",
+  "Supplied art is not yet loadable: the four female busts sit in 圖片\\Claude娘剪影 with spaces and CJK in the file names; the loader only reads assets/character/<name>.png for names in ART_NAMES (src/engine/art.js:19). By eye, small saturated red specks sit on the alpha edges of these PNGs when shown on a dark ground (not measured); red means error in this film, so the mattes should be checked.",
+  "v3 rules forbid what the director now asks for (PLAN.md 1 and 3.4, KIT.md 3.1 and 3.6); the v4 brief must amend them.",
+  "Shared code: setup2 / setup4 / setup6 and keyword() also render cx-kw1 / cx-kw2 / cx-kw3 (165.11-173.88 s) with bad=true. Any edit here changes the error chorus unless it is branched on bad or the factory is split (the director wants 163-193 s redesigned anyway)."
+ ],
+ "code_hooks": [
+  "src\\scenes\\index.js:13-14, 22, 30 — CHORUS_1 = { id:'c1', bar0:32, bad:false, L:{ a:32, give:33, kw1:34, b:35, only:36, kw2:37, happy:38, run:39, kw3:40, trap:41, strange:42, kw4:43 } }; CHORUS_X reuses chorusShots with bad:true.",
+  "src\\scenes\\05_chorus.js:30-34 — cues and the cut array c[0..7] = [B(32), H(34), B(34), H(37), B(36), H(40), B(38), H(43)]. Note only T, H, B, P, text are destructured; Bt is not, so new on-grid times are c[i] + n*P or Bt must be added.",
+  "05_chorus.js:52-56 — user-event times (tOk, tMore, tBetter, tUp = c[3]+P, tLook = c[3]+2P, tHeart = c[4]+3P, tShame), heat(t) and the palette function ['on','warm',heat]. A non-UI insert should take the same palette spec to avoid a colour jump.",
+  "05_chorus.js:175-183 page() — shared close-shot backdrop: art.backdrop('tea'), radial light, optional dark sunburst motif, dot grid.",
+  "05_chorus.js:190-206 keyword(ctx, str, t, at, { x, cy, maxW, maxSize, align, box, fill, glow, boxFrom }) — the giant word; wraps slam() from src\\engine\\type.js:36 (step 0.022, from 1.9, settle 0.13) and returns the word's rect, which a graphic can be anchored to.",
+  "05_chorus.js:210 figure() — art.halftone('gaze', ...) used by windowScene; 05_chorus.js:428 FIG = { x:1090, y:236, w:700, h:1050 } (2:3).",
+  "05_chorus.js:286-303 lanes() and 304-322 setup2() — c1-kw1 (traffic pills, keyword at x 896 / cy 545, compliment at tBetter, line 35 at 116,884).",
+  "05_chorus.js:350-374 setup4() — c1-kw2 (keyword left at x 150 / cy 438, iconButton row r:40 at x = 190 + i*104, cursor path on line 365, question bubble at 1800,752).",
+  "05_chorus.js:377 picRect and 378-411 setup5() — c1-happy; the untreated illustration is art.draw(ctx, 'tea', r) on line 386 (pass-2 halftone on 388-389); heart chip via reaction() 165-172 and burst() on 404-407.",
+  "05_chorus.js:415-425 setup6() — c1-kw3 (spark lit: prog(t, c[5], c[6]-0.25) on line 418); commented as deliberately identical in both passes.",
+  "05_chorus.js:428-487 — W1, A0 / A1 / WIDE framings, windowScene() (thumbnail art.draw('tea') at 459-463, figure at 438, window outline trace at 477-482) and cursor7().",
+  "05_chorus.js:490-586 — the shot list: hit = { type:'cut', flash:0.3, flashColor:'me' }; c1-kw1 at 502-510, c1-kw2 at 521-529, c1-kw3 at 539-548, c1-kw4 at 570-585 (pushed only when L.kw4 != null). New insert shots go into this array with id, at, lines, moment, layout, palette, enter, render.",
+  "src\\scenes\\shot.js:20-64 sequence() — two content layers only; an enter with dur is clamped so it cannot outlast the neighbouring shot (default align 'end' = lead-in before the cut); enter.flash is applied here on line 58.",
+  "src\\engine\\transitions.js:10-27 — available types: cut(+flash), flashcut, fade, glitch, scan, circle, diag, grid, zoom, shatter, dissolve, winclose, winpop, push, slices.",
+  "src\\engine\\art.js:19 ART_NAMES and 26-36 loadArt() (reads /assets/character/<name>.png per config.json:7); treatments at 109 draw, 120 silhouette, 130 duotone, 155 halftone, 179 ascii, 207 slices, 220 backdrop. All sample by normalised coordinates, so non-2:3 art works once registered; _check() warns when untreated art is magnified beyond 1.75x at 4K (for a 1086-px-wide source: wider than about 950 virtual px).",
+  "New art to register (copy under ASCII names into assets\\character and add to ART_NAMES): 圖片\\Claude娘剪影\\ — '...01_30_47-1.png' 1254x1254, three-quarter head and shoulders, one eye visible, sunburst hair ornament; '...01_31_01-2.png' 1086x1448, half body, eyes closed, one hand at the chest and one reaching toward the viewer; '...01_31_04-3.png' 1086x1448, profile facing left, featureless face; '...01_31_06-4.png' 1086x1448, frontal bust, face solid black. All flat orange / cream / near-black on transparency. assets\\character\\regions.json has no entries for them.",
+  "Graphic building blocks already in the repo: src\\engine\\shapes.js (SHAPE.heart, circle, star ..., place, morph, trace, asciiFill at 113 for code-symbol drawings clipped to an outline); src\\engine\\type.js (slam 36, wall 76, sliced 91, scramble 103); src\\components\\motif.js (spark 20, thinking 49, sparkOutline 61, burst 74); ctx.fx (glow, zoom, rot, shake, rgbSplit, glitch, mosh, mosaic, invert, desat) and ctx.trail / ctx.glow per docs\\v3\\KIT.md section 2.",
+  "docs\\v3\\chat_script.json lines 242-280 (section n=5) own the user's copy for this section; docs\\v3\\PLAN.md sections 1, 3.4, 4 and docs\\v3\\KIT.md section 3 hold the rules a v4 brief has to amend.",
+  "Checks after any change: node tools/storyboard.mjs (coverage, on-grid, missing moment) and tools/check_flash.py on a 60 fps export."
+ ],
+ "timing_constraints": [
+  "Grid: 130 BPM, beat 0 at 0.344 s, P = 0.4615 s. Section = beats 128-160. Cuts only on beats / half-beats via B(), H(), Bt() or c[i] + n*P, never raw numbers.",
+  "Drums (data/audio_features.json): a kick on every integer beat (low band 0.8-1.0), hi-hat on every half-beat (low about 0.3). Exceptions: beats 152 and 153 (70.50, 70.96) are lighter (0.71, 0.57) and there is NO kick on the bar line at beat 160 = 74.19 (low 0.29): the music drops out into verse 2.",
+  "Keyword sung windows (LRC): STIMULATIONS 61.96-62.59 (1.4 beats); SATISFACTION 65.40-66.60 (2.6 beats); EXECUTION 69.26-70.08 (1.8 beats); SIMULATION 73.17-74.05 (1.9 beats). KIT rule: the keyword must be readable for the whole window and be the visual peak of its phrase.",
+  "Kicks available for flash-ins inside each keyword shot: kw1 62.19, 62.65 (cut at 61.96 is an off-beat); kw2 65.42, 65.88, 66.34; kw3 69.57, 70.04 (cut at 69.34 is an off-beat; kick at 69.11 precedes the sung onset by 0.15 s); kw4 73.27, 73.73.",
+  "Shot lengths: kw1 2.5 beats (2 clean, push lead-in 62.88-63.11), kw2 3 beats, kw3 2.5 beats, kw4 2 beats (0.92 s). A half-beat is 0.23 s = 14 frames at 60 fps; the current letter cascade alone takes 0.33-0.40 s.",
+  "Pickup lines that begin inside keyword shots and must be on screen from their start: line 35 at 62.59 (in kw1), line 38 at 66.60 (in kw2), line 41 at 70.08 (in kw3). Line 44 (verse 2) starts at 74.05, 0.145 s before the cut at 74.19, and is not shown in kw4 today.",
+  "User events already pinned to the grid: \"ok, that's good\" 59.42; \"more\" 61.27 (kick); compliment 62.42 (off-beat); marker underline 64.27; thumbs-up 65.88 (kick); question 66.34 (kick); heart 68.19 (kick); composer click 72.34 (kick); window outline trace 70.30-72.26.",
+  "Colour heat steps: 0.2 at 59.42, 0.4 at 61.27, 0.65 at 62.42, 1.0 at 66.34 (each eased over 0.45 s); kw3 and kw4 sit at full warm.",
+  "Engine limits: two shots live at once at most; a transition's dur is clamped to fit between neighbouring cuts (shot.js sequence). A lead-in into v2-eggplant with align 'end' would eat into kw4's 0.92 s.",
+  "Typing speed: 26 chars/s, capped at 60 % of the line's duration (config.json typing).",
+  "Safety: no strobing, no pulsing on every beat, nothing reshuffled per frame (KIT.md 3.9); flashes capped at 0.7, currently 0.30-0.35 on four cuts in 15 s. Beat flash-ins should be hard-cut holds of at least half a beat, not alternating bright and dark fields.",
+  "Render must stay a pure function of t (no state, no Math.random; rand() from engine/prng.js)."
+ ],
+ "handover": "IN — from pre1-unite (55.73-59.42, src/scenes/04_pre1.js): a centred settings sheet; after the cursor clicks Done at about 58.96 the sheet falls away and by 59.20-59.40 the frame is a single large glowing orange sunburst with a cream core on near-black, line 31 large at lower left. Hard cut with an orange flash 0.35 on the bar line 59.42 (a kick) to c1-give's close-up of the window corner, where line 31 is carried over as a dim, small \"Delivered\" bubble at the top of her column (rows[0] in setup1) and line 32 is already typing; the first cream reply flies in on the same cut. Line 32 is sung from 59.22, 0.20 s before the cut, and is not shown in pre1-unite.\n\nOUT — to v2-eggplant (74.19-77.65, src/scenes/06_verse2.js): hard cut with a weak flash 0.15 on the bar line 74.19, which has no kick. c1-kw4's last image is the whole window with sidebar at zoom 0.8, orange outline glowing, the keyword across the bottom; v2 opens on a different layout (a centred window without sidebar), the user's request bubble already present with a fading echo trail, line 44 beginning to type beside a small spark, a click burst on the send button at lower right; the field-guide panel slides in from the right from about 74.5. So the section currently leaves on a pull-back to the client and re-enters the same client in another layout: a UI-to-UI cut. If verse 2 becomes code-symbol drawings with flash-ins (director's note 3), kw4's exit is the place for a real transition, and the 2-beat kw4 plus the kick-less bar line at 74.19 are the constraints on it.\n\nInside the section: cut+flash, cut+flash, half-beat push, cut+flash, cut, cut, cut, cut+flash. The palette is continuous (on > warm by heat), so any non-UI insert should inherit the same palette function."
+}

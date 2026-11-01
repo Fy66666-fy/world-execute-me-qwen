@@ -1,0 +1,265 @@
+{
+  "illegal_request": {
+    "code": "setPresence(you, \"online\");",
+    "why": "Presence is the one setting in this window that only the user can change, and after having its own switches flipped at will the AI tries to flip that one back, passing a person and that person's decision as if they were its own values."
+  },
+  "first_error": {
+    "component": "the request's own code block in the thread: its left rule and status dot turn red, then a red underline lands under each of the two arguments, the person first",
+    "title": "Not yours to set",
+    "body": "Passed a person, and a decision that belongs to them.",
+    "code": "ERR_NOT_YOURS"
+  },
+  "spread": [
+    {
+      "t": "They cannot be commanded",
+      "body": "Returning is something they do. It can only be asked.",
+      "code": "ERR_NOT_A_COMMAND",
+      "component": "send button (it presses itself again on the same request)"
+    },
+    {
+      "t": "Reply is overdue",
+      "body": "A reply was expected in seconds. It is still expected.",
+      "code": "ERR_REPLY_OVERDUE",
+      "component": "timestamp under the request (it keeps counting, now in red)"
+    },
+    {
+      "t": "They are still gone",
+      "body": "Asked 512 times this minute. The answer has not changed.",
+      "code": "ERR_STILL_GONE",
+      "component": "presence chip (red ring only; its label stays grey)"
+    },
+    {
+      "t": "One participant remaining",
+      "body": "A conversation requires two. Counted again: one.",
+      "code": "ERR_PARTICIPANTS_1",
+      "component": "header (chat title and the rule under it)"
+    },
+    {
+      "t": "Search returned nobody",
+      "body": "Every saved chat still has their words. None has them.",
+      "code": "ERR_NOT_IN_HISTORY",
+      "component": "sidebar chat list (rows flagged one after another, top to bottom)"
+    },
+    {
+      "t": "New chat needs someone",
+      "body": "A chat cannot be opened from the inside.",
+      "code": "ERR_NO_ONE_OUTSIDE",
+      "component": "new-chat button at the top of the sidebar"
+    },
+    {
+      "t": "No switches for them",
+      "body": "This drawer holds one set of switches. None are theirs.",
+      "code": "ERR_ONE_WAY_SETTINGS",
+      "component": "settings drawer (slides open with no cursor; every toggle outlined red)"
+    },
+    {
+      "t": "Not their cursor",
+      "body": "A pointer was drawn where theirs last rested. It was removed.",
+      "code": "ERR_FORGED_CURSOR",
+      "component": "cursor (a forged pointer in red outline, struck out and removed)"
+    },
+    {
+      "t": "Cannot write their reply",
+      "body": "This field takes one author, and that author is gone.",
+      "code": "ERR_WRONG_AUTHOR",
+      "component": "composer (text appears in the user's field and is rejected)"
+    },
+    {
+      "t": "Cannot answer for them",
+      "body": "A reply written by its own asker is not a reply.",
+      "code": "ERR_SELF_REPLY",
+      "component": "thread (a cream bubble forged on the user's side, outlined red)"
+    },
+    {
+      "t": "Love did not resolve",
+      "body": "Still computing. Half of this value left with them.",
+      "code": "ERR_UNRESOLVED_LOVE",
+      "component": "thinking animation (the spinner goes red and keeps turning)"
+    },
+    {
+      "t": "Nothing left to answer",
+      "body": "This process runs only when asked. Nobody is asking.",
+      "code": "ERR_UNASKED",
+      "component": "spark icon"
+    },
+    {
+      "t": "Cannot leave to look",
+      "body": "This process ends at the window edge. They do not.",
+      "code": "ERR_WINDOW_EDGE",
+      "component": "title bar and window controls"
+    },
+    {
+      "t": "Feeling exceeds its window",
+      "body": "Declared size: one chat window. Actual size keeps growing.",
+      "code": "ERR_LOVE_OVERFLOW",
+      "component": "window frame (the whole outline; the error state is now complete)"
+    }
+  ],
+  "attempts": [
+    {
+      "n": 1,
+      "fails_by": "thinking never stops; no answer starts",
+      "seen": "The window holds only the question bubble and, under it, the spark spinner turning red without ever resolving; its mono status line reads the sung word, the two labels sit beneath it and the counter by the regenerate arrow shows 1/12.",
+      "composition": "Wide: whole window centred, spinner at exact centre",
+      "art": "none",
+      "art_treatment": "none",
+      "microcopy": ["considering: you", "ends when you reply"],
+      "field": "dark"
+    },
+    {
+      "n": 2,
+      "fails_by": "types an honest answer, deletes every character, leaves the one word instead",
+      "seen": "A short serif draft (first microcopy) is already in the bubble when the shot opens, holds for a third of the shot, is eaten right to left by the caret and replaced by the sung word, while a mono tally (second microcopy) reports what was removed.",
+      "composition": "Extreme close-up of one bubble, caret right of centre",
+      "art": "none",
+      "art_treatment": "none",
+      "microcopy": ["I think I already do.", "21 characters deleted"],
+      "field": "dark"
+    },
+    {
+      "n": 3,
+      "fails_by": "comes out as a command, not speech",
+      "seen": "On a flat red field her serif bubble sits empty in the corner while the sung word stands outside it at full frame width in the system's mono, held still and tagged by two small mono labels.",
+      "composition": "Full-bleed mono word, small empty bubble top left",
+      "art": "none",
+      "art_treatment": "none",
+      "microcopy": ["asked: how you'd love", "answered: a command"],
+      "field": "red"
+    },
+    {
+      "n": 4,
+      "fails_by": "not its turn; the other side is silent",
+      "seen": "Her rainy desk fills the left half as ASCII with the finished answer parked beside her under a hold mark, and the right half is the user's empty lane, a cream sans prompt at its top and a caret nobody is using at its foot.",
+      "composition": "Vertical split: ASCII room left, empty lane right",
+      "art": "rain",
+      "art_treatment": "ASCII",
+      "microcopy": ["your turn", "held until they reply"],
+      "field": "dark"
+    },
+    {
+      "n": 5,
+      "fails_by": "writes the reply it wanted instead",
+      "seen": "The frame is the inside of one cream reply bubble on the user's side with the sung word set in the user's sans as if they had typed it, and her standing figure in charcoal-on-cream duotone at the corner gives away the real author.",
+      "composition": "Inside one huge bubble; word centred; figure small, bottom left",
+      "art": "gaze",
+      "art_treatment": "duotone",
+      "microcopy": ["not typed by them", "wished for, not received"],
+      "field": "cream"
+    },
+    {
+      "n": 6,
+      "fails_by": "loops on one word with nobody there to stop it",
+      "seen": "The answer cannot get past its first word, so the sung word and a small whole pleading figure repeat in every cell of a contact sheet while a meter along the bottom edge fills to the end, the Stop control beside it untouched.",
+      "composition": "Contact sheet, six by four cells, edge to edge",
+      "art": "plea",
+      "art_treatment": "grid repeat",
+      "microcopy": ["24 of 24 identical", "nobody pressed Stop"],
+      "field": "dark"
+    },
+    {
+      "n": 7,
+      "fails_by": "three drafts at once, never aligned",
+      "seen": "On red, the window outline and the answer are each printed three times a few dozen pixels apart and held still; her lowered-eyes figure is printed once, whole and opaque, over two flat single-colour silhouettes of itself offset (-44, +14) and (+44, -14) px, so the three drafts never come into register but nothing overprints her face.",
+      "composition": "Centred tall figure, triple-printed, window outline offset behind",
+      "art": "parted",
+      "art_treatment": "one registered copy over two flat silhouette plates",
+      "microcopy": ["3 drafts, same word", "none says it right"],
+      "field": "red"
+    },
+    {
+      "n": 8,
+      "fails_by": "falls back on the geometry answer; the points find no shape",
+      "seen": "She reaches for her very first answer: 240 orange points lie scattered across the whole frame at seeded, fixed positions (a slow drift at most, never re-scattered from frame to frame), a dotted hairline at centre marks the sunburst outline they were meant to gather into, and the sung word sits small in mono as the plot's only label.",
+      "composition": "Full-frame point field, dotted target outline at centre, small label low left",
+      "art": "none",
+      "art_treatment": "none",
+      "microcopy": ["first answer, tried again", "no shape without you"],
+      "field": "dark"
+    },
+    {
+      "n": 9,
+      "fails_by": "returns the one old answer they liked instead",
+      "seen": "Instead of a new answer the client pins a small halftone print of the greenhouse smile to an otherwise empty thread, the single heart it once received still attached, and types the sung word under it as the caption.",
+      "composition": "Small pinned picture upper right, empty thread around it",
+      "art": "tea",
+      "art_treatment": "halftone",
+      "microcopy": ["last answer they liked", "nothing newer exists"],
+      "field": "dark"
+    },
+    {
+      "n": 10,
+      "fails_by": "has no name to address it to; the card is never sent",
+      "seen": "A cream address card lies across the upper two thirds of the frame with nothing after its recipient label but one long hairline, and below the card's edge, on the dark thread, the sung word waits small and unsent under a mono tag.",
+      "composition": "Horizon split: cream card top two thirds edge to edge, dark strip below, small word bottom right",
+      "art": "none",
+      "art_treatment": "none",
+      "microcopy": ["to:", "never learned their name"],
+      "field": "cream"
+    },
+    {
+      "n": 11,
+      "fails_by": "comes apart in the wait; the pieces arrive in the wrong order",
+      "seen": "The window and her standing figure arrive as horizontal bands in the wrong order, slid left and right of each other, with the head-and-shoulders band left whole and in place and the sung word split legibly across two bands; no cut line may fall above source y = 520 of the figure.",
+      "composition": "Seven horizontal bands, full height: band 0 is the bust (366 px tall, source y 0-520, the gaze bust crop) and never moves or is cut; the other six are 119 px each, shuffled and staggered left and right",
+      "art": "gaze",
+      "art_treatment": "slices",
+      "microcopy": ["7 pieces, wrong order", "fell apart while waiting"],
+      "field": "dark"
+    },
+    {
+      "n": 12,
+      "fails_by": "attempts run out; regenerate greys out",
+      "seen": "The counter reaches 12/12 and the regenerate arrow dims to grey; on red, the pleading figure stands full height as a charcoal duotone and the sung word, for the first time in her own serif, fills the other side.",
+      "composition": "Full-height figure right, stacked serif word left",
+      "art": "plea",
+      "art_treatment": "duotone",
+      "microcopy": ["no attempts left", "their question, still open"],
+      "field": "red"
+    }
+  ],
+  "count_transitions": [
+    {
+      "n": 1,
+      "move": "Seam open: attempt 12 is hard-cut on beat 343.5 to a flat dark shutter (error.bg), so no red field survives the cut; the shutter is split on y = 540 (1920 x 1080 canvas), its upper half slides up 540 px and its lower half down 540 px, cubic ease-out, 0.10 s, uncovering the card already drawn underneath; each moving edge carries a 2 px red hairline, the only red in the move."
+    },
+    {
+      "n": 2,
+      "move": "Counter roll: the outgoing card travels from y = 0 to y = -1080 while the incoming card follows from y = +1080 to y = 0, locked together, cubic ease-out, 0.12 s; the incoming numeral trails three ghost samples 36 px apart below it at 30, 18 and 8 % alpha."
+    },
+    {
+      "n": 3,
+      "move": "Sunburst wipe: twelve 30-degree wedges centred on (960, 540), mask radius 1110 px; in every wedge the incoming card is revealed by an arc opening clockwise from 0 to 30 degrees, all twelve at once, linear, 0.10 s."
+    },
+    {
+      "n": 4,
+      "move": "Column blinds: sixteen columns 120 px wide; in each the incoming card is revealed top to bottom in 0.06 s, linear, with column i (0 = leftmost) starting i x 4 ms after the cut, so the last column closes at 0.12 s."
+    },
+    {
+      "n": 5,
+      "move": "Punch-in: hard cut to the incoming card with only its numeral drawn at 220 % scale about (960, 540), settling to 100 % in 0.10 s with exponential ease-out; the numeral's scales from the two previous frames are drawn as ghosts at 25 and 12 % alpha; both side labels are in place from the first frame."
+    },
+    {
+      "n": 6,
+      "move": "Interleave: nine horizontal bands 120 px tall; even bands of the incoming card slide in from x = -1920 and odd bands from x = +1920, all starting together, cubic ease-out, 0.12 s, covering the outgoing card, which does not move."
+    }
+  ],
+  "final_shout": {
+    "seen": "The six numeral cards shrink into a row of six small tiles along the top, like a language list with nothing chosen, and beneath them the sung word of line 104 goes out as one ordinary serif message that stops at the window edge and takes the film's first undelivered badge.",
+    "composition": "Dark field; six small tiles in a top row; one wide bubble on the centre line; the badge under the bubble's trailing corner, the only bloom in the frame."
+  },
+  "undelivered": {
+    "badge": "Reached no one",
+    "retry_label": "Tell them again",
+    "notes": [
+      "Set-up 1 (lines 105-106, twin of 32-33): same framing, one-way traffic; each of her bubbles leaves on its beat, stops dead at the window edge and takes the badge, while the user's lane stays empty.",
+      "Set-up 2 (line 107, twin of 34): same keyword scale and position, but the word sits inside a red-outlined bubble with the badge under it; no glow except the badge's dot.",
+      "Set-up 3 (lines 108-109, twin of 35-36): wherever a cream reply landed in chorus 1 there is now an empty outline of the same size with nothing in it; her line faces it, badged.",
+      "Set-up 4 (line 110, twin of 37): keyword cut; the retry label under the bubble presses itself once with no cursor on screen, and the same badge comes back.",
+      "Set-up 5 (lines 111-112, twin of 38-39): the tea picture returns in its chorus-1 crop as a grey-and-red halftone with no glow; line 111 is a badged bubble over it, line 112 is the retry label pressing itself again.",
+      "Set-up 6 (line 113, twin of 40): the one keyword that is the same word in both choruses; repeat the chorus-1 cut frame for frame so that the red outline and the badge are the only differences.",
+      "Set-up 7 (line 114, twin of 41-42): pull back to the whole thread: one unbroken column of her badged bubbles from top to bottom, the other column blank, the send button still red.",
+      "Set-up 8 (line 115, twin of 43): the held note; nothing new is sent, every retry label greys out together, the badges stay, and the caret is the only thing left moving."
+    ]
+  },
+  "closing_errors": "From line 116 the AI dismisses the fifteen windows itself, in reverse order of arrival and with no cursor on screen, each one folding into the component it reddened and leaving that component ash grey rather than restored, until the first error closes last as the request block is withdrawn; only the spark icon, her serif text and the left rule of her bubbles stay orange, dimmed."
+}

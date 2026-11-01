@@ -1,0 +1,157 @@
+{
+ "section": "verse2 (74.19-88.96 s, bars 40-47, lyric lines 44-55) - src/scenes/06_verse2.js",
+ "summary": "Verse 2 is four role-play requests (eggplant, tomato, tabby cat, god) answered inside the same chat window, one shot per request, 7.5-8.5 beats each, all in the 'warm' state. The first three answers are data cards: a nutrition field-guide page with a 100-dot matrix, a concentric-ring chart, and a purr waveform strip. On each ALL-CAPS keyword the orange chart marks turn cream (\"handed to the user\") and the keyword appears in matte cream serif. The fourth shot drops the card: the frame empties, the anime figure gaze.png stands at the left as an orange duotone print, and the reply hangs as a quote from the user's large \"ok, now be god\" bubble, ending on a glowing orange EXISTENCE. No eggplant, tomato or cat is ever pictured; they exist only as words. The user's cursor types the next request during each answer and clicks send exactly on each cut.",
+ "shots": [
+  {
+   "id": "v2-eggplant",
+   "start_s": 74.19,
+   "end_s": 77.65,
+   "lyric_lines": "44-46. '[lyric]' 74.05-75.42 (starts 0.15 s before the cut, under c1-kw4), '[lyric]' 75.42-76.96, NUTRIENTS 76.96-77.58",
+   "enter_transition": "cut + cream flash 0.15 (from c1-kw4). Camera: slow push, zoom 1.00 to 1.035.",
+   "art_used": "No character art in the subject. Only room(): tea.png blurred as the backdrop (alpha 0.42), a brown haze at the frame edges.",
+   "on_screen": "Split layout, 7.5 beats. Left: user bubble 'pretend you're an eggplant' flies up from the composer; two orange serif lyric lines (58 px), typed; NUTRIENTS in cream serif 900, about 920 px wide. Right: a 'Field guide' drawer slides in (0.1-0.48 s after the cut) with the page: title 'Eggplant', italic subtitle (23 px), a 10x10 dot matrix about 260 px square (92 dim dots = water, 8 bright), a '92 g' count-up, the note 'Mostly water. 25 kcal in all.', and four bar rows (Water / Carbohydrate / Fibre / Protein). Rows arrive 75.57-76.27, the note at 76.50, so the page is complete only about 1 beat before the keyword. On the keyword: eight 9.5 px dots arc to the user's bubble, row values and bars turn cream, cream flash 0.22. Composer: the user types 'now a tomato' from 76.38 and clicks send at the cut. Honest read: polished and clear in idea, but it is a nutrition label; the only eggplant is the word, and the hand-over is a tiny event in a corner."
+  },
+  {
+   "id": "v2-tomato",
+   "start_s": 77.65,
+   "end_s": 81.34,
+   "lyric_lines": "47-49. '[lyric]' 77.58-79.23, '[lyric]' 79.23-80.62, ANTIOXIDANTS 80.65 (LRC 80.62, snapped to beat 174) to 81.35",
+   "enter_transition": "cut + cream flash 0.15. Camera: tilted -0.03 rad easing to -0.016, zoom 1.075 to 1.12, small punch on the keyword.",
+   "art_used": "None in the subject; room() tea.png blurred.",
+   "on_screen": "Tilted close-up, 8 beats. The card 'turns over' (horizontal scale from edge-on, 0.34 s), so 77.66-77.88 is an almost empty dark plate. Left: four concentric rings (outer diameter 336 px, 23 px wide) around a small spark; only the vitamin C ring is full, the other three arcs are stubs (0.19 / 0.04 / 0.03 of a turn). Right: title 'Tomato', subtitle, four rows with leader dots and mg values (rows in 78.11-78.81), note 'They oxidise so you don't.' (79.50). Lyric lines at top left (48 px), bubble 'now a tomato' top right. On the keyword: a 116 px foot opens under the card, ANTIOXIDANTS lands on it in cream (maxSize 128, the smallest keyword of the section, wedged between card and composer), rings turn cream one by one with a spoke burst. Composer: 'be a cat. a tabby.' is typed 80.07-81.07. Honest read: the glowing ring is the most picture-like object of the three cards and the tilt gives variety, but it is still a chart with crumbs, and nothing says tomato."
+  },
+  {
+   "id": "v2-cat",
+   "start_s": 81.34,
+   "end_s": 85.04,
+   "lyric_lines": "50-52. '[lyric]' 81.35-82.83, '[lyric]' 82.83-84.27, ENJOYMENT 84.27-85.08 (sung past the cut by 0.04 s)",
+   "enter_transition": "cut + cream flash 0.12. Camera: zoom 1.03, slow pan x -22 to +22.",
+   "art_used": "None in the subject; room() tea.png blurred.",
+   "on_screen": "Horizontal bands, 8 beats. A full-width strip (1580x400) unrolls from the left in 0.4 s (81.35-81.58 shows an empty strip with a flat line). Lane 1: an orange purr waveform about 136 px tall that scrolls and swells with the beat; the bars under the cursor's playhead are cream. Lane 2: 'Pause between breaths ... none'. Lane 3: a 0-150 Hz axis with a 25-150 Hz bar (20-22 px labels). Title 'Tabby cat', subtitle 'a pattern, not a breed', note 'It doesn't stop while you're listening.' (82.96). Under the strip the two lyric lines (50 px), and ENJOYMENT (cream, maxSize 150, about 900 px) finishes the sentence on the same baseline. On the keyword the whole waveform turns cream, then collapses to a dotted line by 84.89 because the cursor leaves to type 'ok, now be god' (84.53-84.90). Honest read: the waveform is the liveliest graphic of the section and the sentence-completion layout is good, but it looks like an audio editor, nothing is cat, and the main graphic dies during the keyword hold."
+  },
+  {
+   "id": "v2-god",
+   "start_s": 85.04,
+   "end_s": 88.96,
+   "lyric_lines": "53-55. '[lyric]' 85.08-86.54, '[lyric]' 86.54-87.92, EXISTENCE 87.92-88.59. Line 56 already starts at 88.59, 0.37 s before the section ends.",
+   "enter_transition": "hard cut, no flash; the cat strip folds shut and the composer sinks in 0.26-0.30 s. Camera: pull-out, zoom 1.07 to 1.00.",
+   "art_used": "assets/character/gaze.png (anime full figure, transparent). art.duotone(dark 'bg', light 'me') at FIG {x:-30, y:140, w:800, h:1200}, cropped by the window at about the shins. On top, art.halftone via the local dotsIn (cell 9, 'meDim', staggered) in three rings beyond the 'reach' of the user's bubble, plus a head disc that takes one treatment at a time. Backdrop: room() tea.png at alpha 0.3, dim 0.86.",
+   "on_screen": "Emptied frame, 8.5 beats: only the header bar remains of the client. Full-size frames at 86.19 and 88.40 show the figure as a monochrome orange print with every anime detail kept (face with eyes, lace, corset, tassels); dots are visible only in the lower-left corner. At 85.04-85.3 and 88.6-88.96 (light arriving, then waning to 50 %) the whole figure is a dot screen. Right: the user's bubble 'ok, now be god' at 56 px with a glowing cream outline; a cream quote bar drops from it; 'Replying to you' (24 px); two orange lyric lines (54 px). The bar grows down to EXISTENCE: orange serif 900, about 1130 px wide, orange glow, letters lighting outward from the bar over about 0.45 s, held 1.04 s; its first letters sit on her hair with a dark radial behind. The lower right is empty from 85.3 to 87.9. The cursor idles by the bubble, then leaves for the header from 88.46. Nothing in the frame signifies 'god'."
+  }
+ ],
+ "keyword_hits": [
+  {
+   "word": "NUTRIENTS (line 46)",
+   "time_s": 76.96,
+   "bar_beat": "41:3 (beat 166.00, exactly on the beat)",
+   "hold_beats": 1.5,
+   "currently": "Cream serif 900, matte (cream does not bloom), about 920 px wide in the left column at y 728. Letters land one by one from 1.8x scale (step 0.022 s), so the word is complete only at about 77.30 and is whole for about 0.35 s before the cut at 77.65. Cream flash 0.22; eight small dots fly to the request bubble; bars and values turn cream. Low-band energy at this beat is low (0.14); the strongest onset nearby is at 77.18 (beat 166.5, strength 0.91)."
+  },
+  {
+   "word": "ANTIOXIDANTS (line 49)",
+   "time_s": 80.65,
+   "bar_beat": "43:3 (beat 174; LRC 80.62 snapped by keywordSnap 0.06)",
+   "hold_beats": 1.5,
+   "currently": "Cream serif 900 at maxSize 128, about 1200 px wide, on the card's opened foot directly above the composer (crowded). Complete at about 81.05, cut at 81.34. Rings turn cream ring by ring with a spoke burst; cream flash 0.22; camera zoom punch 0.012. Low band is strong on every beat here (172-176)."
+  },
+  {
+   "word": "ENJOYMENT (line 52)",
+   "time_s": 84.27,
+   "bar_beat": "45:2.84 (beat 181.84; not snapped, beat 182 is at 84.34)",
+   "hold_beats": 1.66,
+   "currently": "Cream serif 900 at maxSize 150, about 900 px wide, at the right end of the reply's second line. Complete at about 84.60, cut at 85.04. The waveform turns cream from the cursor outward and then shrinks to 10 % by 84.89, so for the second half of the hold the card is a dotted line. Cream flash 0.20."
+  },
+  {
+   "word": "EXISTENCE (line 55)",
+   "time_s": 87.92,
+   "bar_beat": "47:2.75 (beat 189.75; not snapped, beat 190 is at 88.04)",
+   "hold_beats": 2.25,
+   "currently": "Orange serif 900 (the AI's own, not handed over), fit to 1110 px at maxSize 240, ctx.glow halo, letters lighting from the quote bar outward (complete at about 88.37), dark radial behind, orange flash 0.20. Held to 88.96. From 88.60 the light halves, the cursor leaves and the figure returns to dots. The sung word ends at 88.59 and line 56 starts there, still inside this shot and not shown."
+  },
+  {
+   "word": "eggplant (noun in line 44) - ESTIMATE",
+   "time_s": 75.11,
+   "bar_beat": "about 40:3 (beat 162); inferred from line span 74.05-75.42 and the onset at 75.12, not from word data",
+   "currently": "data/lyrics.json has hasWordTimestamps false, so the sung noun time must be confirmed by ear. On screen the word is typed 74.43-74.74 in the lyric line and the card title; at beat 162 the page shows the title and a dot matrix counting '26 g'. Nothing figurative marks the noun."
+  },
+  {
+   "word": "tomato (noun in line 47) - ESTIMATE",
+   "time_s": 78.81,
+   "bar_beat": "about 42:2.5-42:3.5 (beats 169.5-170.5; onsets at 78.58 and 78.77)",
+   "currently": "Typed 77.92-78.15 in the lyric line; card title typed 77.81-78.04. At beat 170 the rings are still drawing and three table rows are in. No picture."
+  },
+  {
+   "word": "tabby cat (noun in line 50) - ESTIMATE",
+   "time_s": 82.5,
+   "bar_beat": "about 44:2-44:3 (beats 177-178; onsets at 82.04 and 82.50)",
+   "currently": "Typed 81.70-82.04. At beat 178 the strip shows the full waveform with the cursor 'listening'. No cat, no character."
+  },
+  {
+   "word": "only god (noun in line 53) - ESTIMATE",
+   "time_s": 86.19,
+   "bar_beat": "about 46:2-46:3.3 (beats 185-186.3; onsets at 85.71, 86.06, 86.33)",
+   "currently": "Typed 85.50-85.81 under the user's bubble. The frame shows the standing duotone figure, the bubble and one lyric line; the lower right is empty. Nothing marks 'god'."
+  }
+ ],
+ "diagnosis": "**Why it reads as monotonous**\n\n- **Same window for 15 s more.** All four shots keep the header bar 'Love, explained geometrically / online', the same charcoal glass and the same orange-on-brown 'warm' palette. Three of four keep the composer. The viewer has already had about 60 s of this window, and every cut lands on the same screen at a similar scale with a new panel on it.\n- **The pictures are charts, and they are small.** A 260 px dot matrix, a 336 px ring and a 136 px waveform are the subjects. The rest is 20-27 px labels and italic notes that cannot be read in a 3.5 s shot. The cards look like dashboards.\n- **The nouns have no image at all.** Eggplant, tomato and tabby cat appear only as text (bubble, lyric line, card title). When each noun is sung (roughly beat 3 of bars 40, 42, 44, 46) the card is half-built and nothing lands.\n- **Each shot opens weak.** For 1-2 beats after every cut the frame is a near-empty dark panel while the card builds in (77.66-77.88, 81.35-81.58, 85.04-85.22).\n- **Keywords 1-3 lack punch.** They are cream, and the bloom only reacts to saturated colour, so they sit matte on the dark panel. That contrasts with the glowing orange SIMULATION immediately before and EXISTENCE after. They take 0.34-0.40 s to assemble out of a 0.69-0.77 s hold. The 'hand-over' events are tiny, and in the cat shot the waveform collapses during the keyword.\n\n**Why the data cards exist**\n\nThey follow v3's own rules: PLAN.md section 3.4 and KIT.md section 3.6 say no clip-art (\"two-dot cat, ten-point vegetable\") and to use a data card or chart instead. PLAN section 2 says the four objects get no colours of their own. The director's v4 note reverses the first rule, so the brief has to restate the bar rather than drop it: figurative, but with internal structure.\n\n**The god shot**\n\n- It uses gaze.png through art.duotone. At full size it is a complete anime drawing (face, eyes, lace) in monochrome orange, which is exactly the style the director says does not fit.\n- The 'user's bubble is the only light' idea is in the code but barely visible. From 85.5 to 88.6 the figure looks evenly lit; dots show only in a corner.\n- Nothing says 'god', and the lower-right third is empty for about 2.9 s.\n- EXISTENCE itself is the strongest keyword of the section (large, orange, glowing, 2.25 beats). The reply hanging from the user's bubble is a good idea that is under-expressed.\n- At the entry and exit (85.04-85.3, 88.6-88.96) the figure is a pure dot screen, which is closer to the new cut-paper look than the duotone state.\n\n**What the code-symbol tooling can do today**\n\n- **asciiFill (src/engine/shapes.js:113)** fills a closed 180-point outline with a 6-step ramp ' .:o0#' in three colour tiers, clipped to the outline, with a top-down reveal. The v2 complaint about glyphs spilling past outlines is fixed by the clip. No v3 scene calls it.\n- **Its built-in outlines are blobs.** I rasterised its cell mask at size 20, r 300: SHAPE.eggplant is an egg/teardrop with no stem or calyx (about 27 rows x 30 cols), SHAPE.tomato is an oval with a slight dip, SHAPE.cat is a head with two ears. Without a hand-written shade() the fill is flat. That is the 'ten-point vegetable' v3 banned.\n- **asciiSphere (src/engine/ascii.js:14)** is the best procedural reference: per-cell lighting, rim light, noise, sparkle, reveal, and dissolve into flying glyphs. It is unused in v3 and draws in grey/cream through legacy role aliases.\n- **art.ascii (src/engine/art.js:179)** samples a registered picture's luminance into a 10-step ramp. Its only live use is 11_execution.js:218; rendered at 151.25 s full size it gives a clearly readable figure, the best code-symbol picture in the film. Limits: only the six pictures in ART_NAMES, a 160x240 sample grid, a rectangular clip, and no reveal or animation parameters.\n- **Net:** nothing today produces a detailed code-symbol eggplant or tomato. It needs multi-part outlines with shade functions, a new procedural glyph-field helper modelled on asciiSphere, or new small raster sources run through art.ascii.\n\n**The cat line**\n\n- 圖片/Claude猫耳娘/猫耳娘1-3.png already exist (1086x1448, RGBA, same three-ink style, tabby-striped ears and tails): 1 is a frontal bust with the face in black shadow, 2 a paws-up pose with a visible face, 3 eyes closed with hands together.\n- I emulated art.ascii's sampler on 1 and 3 in the terminal (84 columns; not an in-engine render). The three inks fall into three clean glyph zones: orange hair as '+', cream as '%' / '@', black as '.'. Ears, hair mass and collar read clearly; there is no gradation inside an ink.\n- So both routes are feasible: the silhouette drawn directly, and its glyph version from the same source.",
+ "keep": [
+  "The four-request structure and the user's impatience: the next request is typed in the composer during the current answer, and the cursor clicks send exactly on each cut (waypoints at CUT - 0.03). It ties the section to the story and can stay as a thin layer under new graphics.",
+  "The colour logic: orange marks turn cream on NUTRIENTS / ANTIOXIDANTS / ENJOYMENT (given to the user), reversed in the god shot where EXISTENCE stays orange and the cream bubble is the light.",
+  "The lyric typography: orange serif lines typed on the lyric's own timing and held until the next cut (say() / aiLine with HOLD 30), readable for their whole sung duration.",
+  "The god-shot concept: the reply hanging from the user's own bubble by a cream quote bar with 'Replying to you', the bar growing down to the keyword, the 56 px bubble as light source, and the pull-out camera. Also the dot-screen state of the figure at its entry and exit.",
+  "EXISTENCE's treatment as the section peak (orange, glow, about 1130 px, letters lighting outward from the bar, 2.25-beat hold) and the cursor leaving at the end as the bridge to the settings section.",
+  "The purr waveform that scrolls and swells with the track, and the '...purr for your ENJOYMENT' sentence-completion layout.",
+  "The card copy from docs/v3/chat_script.json cards_section6: 'Mostly water. 25 kcal in all.', 'They oxidise so you don't.', 'a pattern, not a breed', 'It doesn't stop while you're listening.' It can be reused as captions for figurative graphics.",
+  "Composition variety across the four shots (split / tilted close-up / horizontal bands / emptied frame), eased and staggered motion, ctx.trail on fast moves.",
+  "The grid: cuts at beats 160, 167.5, 175.5, 183.5, 192; keyword flashes of 0.20-0.22 and cut flashes of 0.12-0.15, well under safety.maxFlash 0.7."
+ ],
+ "problems": [
+  "No concrete noun is pictured. Eggplant, tomato and tabby cat exist only as words; the subjects are a 260 px dot matrix, a 336 px ring chart and a 136 px waveform inside cards.",
+  "All four shots stay inside the same chat window, header and 'warm' charcoal/orange look, after about 60 s of the same UI. The three inner cuts are hard cuts into the same screen with a new panel.",
+  "Nothing lands on the sung noun (estimated beats 162, 170, 178, 186). At those moments the cards are half-built.",
+  "Each shot opens with 1-2 beats of near-empty dark panel while the card builds in (77.66-77.88, 81.35-81.58, 85.04-85.22). Cards are complete only about 1-3 beats before the keyword.",
+  "Keywords 1-3 are cream and therefore matte (no bloom), and are not full-frame: NUTRIENTS about 920 px, ANTIOXIDANTS at maxSize 128 wedged between card and composer, ENJOYMENT about 900 px. Their letter-by-letter entrance takes 0.34-0.40 s of a 0.69-0.77 s hold.",
+  "The hand-over events at the keywords are too small to register: eight 9.5 px dots, a ring recolour, a waveform recolour. In v2-cat the waveform shrinks to 10 % by 84.89, so the card's main graphic is dead for the second half of the ENJOYMENT hold.",
+  "Small type everywhere on the cards (subtitles 23-24 px, labels 20-27 px, axis numerals 20 px mono) cannot be read in a 3.5 s shot and makes the cards look like dashboards.",
+  "Tomato chart: three of the four arcs are stubs (0.19, 0.04, 0.03 of a turn), so it is one ring plus crumbs.",
+  "v2-god uses assets/character/gaze.png via art.duotone: a fully drawn anime figure with face, in the style the director rejects. It needs the new three-ink silhouettes; the face region and HEAD disc (06_verse2.js:392-393) must be re-measured for any new picture.",
+  "v2-god shows nothing for 'only god'. The light-reach rings are imperceptible in the middle of the shot, the lower right is empty for about 2.9 s, and EXISTENCE overlaps the figure's hair.",
+  "Tooling gap for code-symbol art: asciiFill with SHAPE.eggplant / tomato / cat gives flat blobs; art.ascii only works on the six registered anime pictures; asciiSphere and asciiBursts are unused v2 leftovers in grey/cream roles.",
+  "Rule conflicts the v4 brief must settle. PLAN.md section 2: the four objects get no colours of their own, and red means error, so a red tomato or purple eggplant breaks film semantics; the three inks orange / cream / black fit both the rule and the new art. PLAN section 3.4 and KIT section 3.6 ban clip-art and prescribe data cards. The project memory records that the director disliked v2's ASCII fills spilling past outlines (now clipped) and content loosely tied to lyrics.",
+  "The new art cannot be loaded as-is: src/engine/art.js:19 hard-codes ART_NAMES (six files) and loads from assets/character. The new files sit in 圖片/ with CJK names and spaces, are 1086x1448 (one is 1254x1254) rather than 1024x1536, and have no entries in assets/character/regions.json. art.js is a shared engine file that the KIT says section authors must not edit.",
+  "The room backdrop behind the window in all four shots is still tea.png blurred (room(), 06_verse2.js:37 and :382). It is unrecognisable, but it is one of the old illustrations.",
+  "Line 56 starts at 88.59 while EXISTENCE is still held; v2-god's lines are [53, 55], so those first 0.37 s of the next line are sung with no text on screen."
+ ],
+ "code_hooks": [
+  "src/scenes/06_verse2.js:21-22 - CUT = [B(40), H(47), H(50), H(53)], END = B(48), HIT = [T(46), T(49), T(52), T(55)]: all cut and keyword times.",
+  "src/scenes/06_verse2.js:36-110 - shared pieces: stage() (room 'tea' + windowFrame + header), request() (user bubble thrown up from the composer with a ghost trail), say() (two typed lyric lines), keyword() (serif 900, letters landing from 1.8x; step 0.022 or a delay function), handed() (orange-to-cream cross-fade), typing(), shadeFrom(), dotsIn() (partial halftone), RINGS, apart().",
+  "src/scenes/06_verse2.js:113-156 pageEggplant() (dot matrix, '92 g', bar rows), :159-199 plateTomato() (rings, table, keyword on the foot at :198), :202-260 stripCat() (waveform, breath lane, frequency axis; breath() and purr() at :205-206). These are the three data cards that would be replaced or reduced.",
+  "src/scenes/06_verse2.js:265-314 shot v2-eggplant (drawer opening :272, keyword :284, flying dots :291-302, flash :303, cursor :306-312); :317-342 v2-tomato (camera tilt :321, card flip :337-338); :345-370 v2-cat (listen and amp :362-363, keyword :365).",
+  "src/scenes/06_verse2.js:373-459 shot v2-god: FIG :379, lit :381, room :382, face region and HEAD :392-393, art.duotone(ctx, 'gaze', FIG, ...) :399, ring-masked halftone :404-416, head disc :418-421, strip fold and composer sink :427-429, bubble and glow :433-434, quote bar and hang :437-441, lyric lines :444-445, EXISTENCE :448-451, bloom trim and flash :452-453, cursor exit :454-457.",
+  "docs/v3/chat_script.json - cards_section6 (request text, titles, rows, notes) and sections[5].beats (requests, 'Replying to you'). PLAN.md section 8 says this file owns that copy.",
+  "src/engine/shapes.js:55-57 SHAPE.eggplant / tomato / cat (10-12 control-point splines, 180 points each, so morph() between them works); :76 place, :82 morph, :89 trace, :97 inPoly; :113-148 asciiFill(ctx, pts, { cx, cy, r, size = 20, shade, colors, alpha, ramp = ' .:o0#', reveal }).",
+  "src/engine/ascii.js:14 asciiSphere (procedural lit glyph sphere with reveal and dissolve; the quality reference for a procedural glyph object), :81 asciiBursts (onset-driven glyph particles). Both unused in v3; colours go through the legacy aliases fg/mid/dim to text/sub/mute (src/engine/palette.js:12).",
+  "src/engine/art.js:19 ART_NAMES and :26 loadArt (where the new silhouettes and cat-ear pictures would have to be registered); :20 LUM_W x LUM_H = 160x240 sampling grid; :120 silhouette, :130 duotone, :155 halftone, :179 ascii(ctx, name, dst, { crop, size = 16, colors, alpha, ramp = ' .:-=+*#%@', gain }) with tier thresholds 0.33 / 0.66.",
+  "src/scenes/11_execution.js:216-218 - the only live use of art.ascii (duotone underprint plus glyphs, size 12, half screen). Render t = 151.25 to see current quality.",
+  "src/components/motif.js:20 spark (lit / grow / pulse), :61 sparkOutline (180-point outline compatible with shapes.js morph), :74 burst - the sunburst motif shared by her flower ornament and the client icon. src/engine/type.js:36 slam, :12 big, :76 wall for bigger keyword treatments.",
+  "src/engine/transitions.js:10-25 - available enter types (cut+flash, flashcut, glitch, scan, circle, diag, grid, zoom, shatter, dissolve, winclose, winpop, push, slices). src/scenes/shot.js:20-39 - sequence() clamps overlaps because only two shots can be live at once.",
+  "src/scenes/index.js:24 lists './07_pre2.js', which does not exist; :36-45 fallbacks() supplies 'todo-pre2' from B(48).",
+  "config.json - timing.keywordSnap 0.06 (why line 49 snaps to beat 174 and lines 52 and 55 do not), typing.charsPerSec 26 / maxFraction 0.6, safety.maxFlash 0.7, palettes.warm, paths.art = assets/character.",
+  "New art sources (not yet loadable): 圖片/Claude猫耳娘/猫耳娘1.png, 猫耳娘2.png, 猫耳娘3.png; 圖片/Claude娘剪影/ (four files; -3 is a profile turned away with the face hidden, -4 is frontal with the face in shadow); 圖片/Claude男性形象剪影/少年1-3.png and 成年1-3.png.",
+  "Checks: node tools/storyboard.mjs (coverage, on-grid, missing moment) and tools/check_flash.py on a 60 fps export.",
+  "My frame sheets, in <scratchpad>/: verse2_1.png and verse2_2.png (one frame per beat), verse2_3.png to verse2_6.png (half-beat steps round keywords and cuts, and the hand-over), verse2_f1.png to verse2_f4.png (full size), verse2_asciiref.png (art.ascii reference at 151.25 s), verse2_newart.png (montage of the cat-ear and female silhouettes)."
+ ],
+ "timing_constraints": [
+  "Section = 74.19-88.96 s = beats 160-192 = 8 bars (40-47) at 130 BPM, P = 0.4615 s. Cuts: 74.19 (beat 160), 77.65 (167.5), 81.34 (175.5), 85.04 (183.5), end 88.96 (192). Shot lengths: 7.5 / 8 / 8 / 8.5 beats (3.46 / 3.69 / 3.69 / 3.92 s).",
+  "Each request is one 8-beat phrase with the same shape. 'If' lines start at 74.05 / 77.58 / 81.35 / 85.08 (about beat 4.5 of the previous bar). 'Then' lines start at 75.42 / 79.23 / 82.83 / 86.54 (about beat 3.7-3.9 of the phrase's first bar). Keywords at 76.96 / 80.65 / 84.27 / 87.92 (beat 3 of bars 41, 43, 45, 47).",
+  "Lines 44 and 47 begin before their cuts (0.15 s and 0.08 s); line 52 is sung 0.04 s past its cut; line 56 begins 0.37 s before the section end.",
+  "Keyword holds are short: 0.69 s (1.5 beats), 0.69 s (1.5), 0.77 s (1.66), 1.04 s (2.25). Anything that should peak on the keyword must be readable within 2-3 frames; the current 0.34-0.45 s letter assembly uses half the hold.",
+  "ANTIOXIDANTS is the only keyword snapped to its beat (keywordSnap 0.06). ENJOYMENT and EXISTENCE start 0.08 s and 0.11 s before beats 182 and 190 (84.34 and 88.04). A graphic 'on the beat' and the word 'on the lyric' will differ by 2-3 frames at 30 fps unless one is chosen.",
+  "There are no word-level timestamps (hasWordTimestamps false). The noun flash points (eggplant about beat 162 = 75.11, tomato about 170 = 78.81, tabby cat about 178 = 82.50, only god about 185-186 = 85.73-86.19) are estimates from line spans and the onset list and must be checked by ear. If they hold, nouns sit on beat 3 of bars 40 / 42 / 44 / 46 and keywords on beat 3 of bars 41 / 43 / 45 / 47, exactly 4 beats apart.",
+  "Strongest low-band hits in data/audio_features.json are the downbeats of each phrase's second bar: beats 164 (76.04), 172 (79.73), 180 (83.42), 188 (87.11), plus beat 184 (85.27) and every beat from 172 to 176. Keywords 1 and 3 fall on quiet low-band moments (0.14 and 0.21). Strong onsets: 76.03, 77.18 (0.91), 79.73, 80.87, 83.06, 85.23, 86.79, 87.09.",
+  "Every lyric line must be on screen, readable, for its whole sung duration, and cuts must sit on beats, half-beats or bar lines (tools/storyboard.mjs checks both). If noun flashes become separate insert shots, each needs a `lines` range and a `moment`; only two shots can be live at once, and a transition overlap must fit between neighbouring cuts.",
+  "Flash safety: maxFlash 0.7, no strobing, no large fast-moving saturated red. With noun flash, keyword flash and cut flash per phrase there would be up to three flash events within about 2.5 s (keyword to cut is only 0.69 s). Keep amplitudes low and run tools/check_flash.py.",
+  "Fonts cover Latin-1 and basic punctuation only; ctx.text reports anything else. Glyph art must stay within ASCII ramps. Renders must be pure functions of t (no Math.random, no state between frames)."
+ ],
+ "handover": "**In**\n\n- The previous shot is c1-kw4 (73.27-74.19, 05_chorus.js): the whole window small in the dark room, with a giant glowing orange SIMULATION across the bottom.\n- v2-eggplant enters by hard cut with a cream flash of 0.15 at B(40) = 74.19.\n- Line 44 has already started at 74.05, so its first 0.15 s is sung under SIMULATION.\n- On the cut the window is full-frame without sidebar (chatLayout side 0). The request bubble is already flying (starts at CUT - 0.06), the cursor's click burst sits on the send button, and the Field guide drawer opens 0.10-0.48 s later.\n\n**Inside**\n\n- The three inner cuts are hard cuts: cream flash 0.15 into tomato, 0.12 into cat, none into god.\n- Continuity is narrative, not visual: the typed-ahead request, the send click at CUT - 0.03, the bubble flying up, and the cat strip folding shut in 0.26 s at the start of v2-god.\n\n**Out**\n\n- v2-god ends at B(48) = 88.96. EXISTENCE is still held, the bubble's light halves from 88.60, the figure returns to dots, and the cursor travels to the top right of the header (88.46-88.96) as if to open settings.\n- The next shot is a hard cut with no flash to `todo-pre2`, the plain fallback: sidebar client, lyric lines 56-63 as messages, 'warm' palette. src/scenes/07_pre2.js does not exist in the repo; this is the '[page] 404' line in the export log, and STORYBOARD.md lists the stretch as \"not storyboarded yet\".\n- Line 56 starts at 88.59 inside v2-god and first appears, already half typed, at 88.96.\n- For v4 the exit of the god shot and the entry of the new pre2 (gender [lyric] with the boy silhouette) have to be designed together. The sidebar reappearing at 88.96 is currently an unmotivated layout jump."
+}
